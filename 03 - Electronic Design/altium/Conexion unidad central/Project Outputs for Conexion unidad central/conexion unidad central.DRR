@@ -1,0 +1,19 @@
+---------------------------------------------------------------------------
+NCDrill File Report For: conexion unidad central.PcbDoc   19/03/2012  03:59:48 p.m.
+---------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : conexion unidad central.TXT
+EIA File   : conexion unidad central.DRL
+
+Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
+---------------------------------------------------------------------------
+T1        0.7112mm (28mil)         Round          46               258.68 mm (10.18 Inch)
+T2        0.762mm (30mil)          Round          1                0.00 mm (0.00 Inch)
+T3        0.9mm (35.433mil)        Round          16               53.34 mm (2.10 Inch)
+T4        1.09mm (42.913mil)       Round          25               89.15 mm (3.51 Inch)
+T5        3.26mm (128.346mil)      Round          2                47.05 mm (1.85 Inch)
+---------------------------------------------------------------------------
+Totals                                            90               448.21 mm (17.65 Inch)
+
+Total Processing Time (hh:mm:ss) : 00:00:00

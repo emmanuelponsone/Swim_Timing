@@ -1,0 +1,928 @@
+Archive member included because of file (symbol)
+
+D:\Archivos\DropBox\proyectofinal\codigo\workspace\CMSISv1p30_LPC13xx\Debug\libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+                              ./src/cronos_master.o (SystemCoreClock)
+d:/instalacion programas/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(strcpy.o)
+                              ./src/cronos_master.o (strcpy)
+
+Allocating common symbols
+Common symbol       size              file
+
+info                0x70              ./src/cronos_master.o
+USB_AltSetting      0x1               ./src/usbcore.o
+auxiliar            0x4               ./src/cronos_master.o
+EP0Buf              0x40              ./src/usbcore.o
+USB_EndPointMask    0x4               ./src/usbcore.o
+USB_DeviceAddress   0x1               ./src/usbcore.o
+BulkBufOut          0x40              ./src/cdcuser.o
+estado              0x8               ./src/cronos_master.o
+resto               0x4               ./src/cronos_master.o
+USB_EndPointStall   0x4               ./src/usbcore.o
+tiempos             0x7               ./src/cronos_master.o
+UARTBuffer          0x40              ./src/uart.o
+laps                0x1               ./src/cronos_master.o
+aux                 0x1               ./src/cronos_master.o
+NotificationBuf     0xa               ./src/cdcuser.o
+ser_in              0x88              ./src/serial.o
+ser_txRestart       0x4               ./src/serial.o
+BulkBufIn           0x40              ./src/cdcuser.o
+USB_EndPointHalt    0x4               ./src/usbcore.o
+UARTStatus          0x4               ./src/uart.o
+hab_andrv           0x8               ./src/cronos_master.o
+comienzo            0x1               ./src/cronos_master.o
+USB_Configuration   0x1               ./src/usbcore.o
+Buffer              0x40              ./src/cronos_master.o
+ser_lineState       0x2               ./src/serial.o
+SetupPacket         0x8               ./src/usbcore.o
+USB_NumInterfaces   0x1               ./src/usbcore.o
+ser_out             0x88              ./src/serial.o
+start               0x1               ./src/cronos_master.o
+inicializacion      0x1               ./src/cronos_master.o
+EP0Data             0x8               ./src/usbcore.o
+CDC_OutBuf          0x48              ./src/cdcuser.o
+pepe                0x4               ./src/cronos_master.o
+USB_DeviceStatus    0x2               ./src/usbcore.o
+
+Discarded input sections
+
+ .text          0x00000000        0x0 ./src/cdcuser.o
+ .data          0x00000000        0x0 ./src/cdcuser.o
+ .bss           0x00000000        0x0 ./src/cdcuser.o
+ .text          0x00000000        0x0 ./src/cr_startup_lpc13.o
+ .data          0x00000000        0x0 ./src/cr_startup_lpc13.o
+ .bss           0x00000000        0x0 ./src/cr_startup_lpc13.o
+ .text          0x00000000        0x0 ./src/cronos_master.o
+ .data          0x00000000        0x0 ./src/cronos_master.o
+ .bss           0x00000000        0x0 ./src/cronos_master.o
+ .text          0x00000000        0x0 ./src/funciones.o
+ .data          0x00000000        0x0 ./src/funciones.o
+ .bss           0x00000000        0x0 ./src/funciones.o
+ .text          0x00000000        0x0 ./src/gpio.o
+ .data          0x00000000        0x0 ./src/gpio.o
+ .bss           0x00000000        0x0 ./src/gpio.o
+ .rodata.LPC_GPIO
+                0x00000000       0x10 ./src/gpio.o
+ .text          0x00000000        0x0 ./src/lpcxpresso_gpio_int.o
+ .data          0x00000000        0x0 ./src/lpcxpresso_gpio_int.o
+ .bss           0x00000000        0x0 ./src/lpcxpresso_gpio_int.o
+ .bss.gpio2_counter
+                0x00000000        0x4 ./src/lpcxpresso_gpio_int.o
+ .bss.p2_1_counter
+                0x00000000        0x4 ./src/lpcxpresso_gpio_int.o
+ .bss.bocina    0x00000000        0x4 ./src/lpcxpresso_gpio_int.o
+ .text          0x00000000        0x0 ./src/serial.o
+ .data          0x00000000        0x0 ./src/serial.o
+ .bss           0x00000000        0x0 ./src/serial.o
+ .text.ser_Write
+                0x00000000       0xd8 ./src/serial.o
+ .text          0x00000000        0x0 ./src/timer32.o
+ .data          0x00000000        0x0 ./src/timer32.o
+ .bss           0x00000000        0x0 ./src/timer32.o
+ .rodata.LPC_GPIO
+                0x00000000       0x10 ./src/timer32.o
+ .text.delay32Ms
+                0x00000000      0x14c ./src/timer32.o
+ .text.disable_timer32
+                0x00000000       0x38 ./src/timer32.o
+ .text.reset_timer32
+                0x00000000       0x5c ./src/timer32.o
+ .text          0x00000000        0x0 ./src/uart.o
+ .data          0x00000000        0x0 ./src/uart.o
+ .bss           0x00000000        0x0 ./src/uart.o
+ .text          0x00000000        0x0 ./src/usbcore.o
+ .data          0x00000000        0x0 ./src/usbcore.o
+ .bss           0x00000000        0x0 ./src/usbcore.o
+ .text          0x00000000        0x0 ./src/usbdesc.o
+ .data          0x00000000        0x0 ./src/usbdesc.o
+ .bss           0x00000000        0x0 ./src/usbdesc.o
+ .text          0x00000000        0x0 ./src/usbhw.o
+ .data          0x00000000        0x0 ./src/usbhw.o
+ .bss           0x00000000        0x0 ./src/usbhw.o
+ .text.USB_WakeUp
+                0x00000000       0x2c ./src/usbhw.o
+ .text.USB_ClearEPBuf
+                0x00000000       0x20 ./src/usbhw.o
+ .text.USB_GetFrame
+                0x00000000       0x48 ./src/usbhw.o
+ .text          0x00000000        0x0 ./src/usbuser.o
+ .data          0x00000000        0x0 ./src/usbuser.o
+ .bss           0x00000000        0x0 ./src/usbuser.o
+ .text.USB_EndPoint2
+                0x00000000       0x14 ./src/usbuser.o
+ .text          0x00000000        0x0 D:\Archivos\DropBox\proyectofinal\codigo\workspace\CMSISv1p30_LPC13xx\Debug\libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+ .bss           0x00000000        0x0 D:\Archivos\DropBox\proyectofinal\codigo\workspace\CMSISv1p30_LPC13xx\Debug\libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+ .text.SystemCoreClockUpdate
+                0x00000000      0x35c D:\Archivos\DropBox\proyectofinal\codigo\workspace\CMSISv1p30_LPC13xx\Debug\libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+ .text          0x00000000        0x0 d:/instalacion programas/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(strcpy.o)
+ .data          0x00000000        0x0 d:/instalacion programas/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(strcpy.o)
+ .bss           0x00000000        0x0 d:/instalacion programas/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(strcpy.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+MFlash32         0x00000000         0x00008000         xr
+RamLoc8          0x10000000         0x00002000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD ./src/cdcuser.o
+LOAD ./src/cr_startup_lpc13.o
+LOAD ./src/cronos_master.o
+LOAD ./src/funciones.o
+LOAD ./src/gpio.o
+LOAD ./src/lpcxpresso_gpio_int.o
+LOAD ./src/serial.o
+LOAD ./src/timer32.o
+LOAD ./src/uart.o
+LOAD ./src/usbcore.o
+LOAD ./src/usbdesc.o
+LOAD ./src/usbhw.o
+LOAD ./src/usbuser.o
+LOAD D:\Archivos\DropBox\proyectofinal\codigo\workspace\CMSISv1p30_LPC13xx\Debug\libCMSISv1p30_LPC13xx.a
+START GROUP
+LOAD d:/instalacion programas/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a
+LOAD d:/instalacion programas/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a
+END GROUP
+                0x00008000                __top_MFlash32 = 0x8000
+                0x10002000                __top_RamLoc8 = 0x10002000
+
+.text           0x00000000     0x6cbc
+ FILL mask 0xff
+ *(.isr_vector)
+ .isr_vector    0x00000000      0x124 ./src/cr_startup_lpc13.o
+                0x00000000                g_pfnVectors
+                0x00000124                . = ALIGN (0x4)
+                0x00000124                __section_table_start = .
+                0x00000124                __data_section_table = .
+                0x00000124        0x4 LONG 0x6cbc LOADADDR (.data)
+                0x00000128        0x4 LONG 0x10000000 ADDR (.data)
+                0x0000012c        0x4 LONG 0x10 SIZEOF (.data)
+                0x00000130                __data_section_table_end = .
+                0x00000130                __bss_section_table = .
+                0x00000130        0x4 LONG 0x10000010 ADDR (.bss)
+                0x00000134        0x4 LONG 0x3c0 SIZEOF (.bss)
+                0x00000138                __bss_section_table_end = .
+                0x00000138                __section_table_end = .
+ *(.after_vectors*)
+ *(.text*)
+ .text.CDC_RdOutBuf
+                0x00000138       0x7c ./src/cdcuser.o
+                0x00000138                CDC_RdOutBuf
+ .text.CDC_WrOutBuf
+                0x000001b4       0x64 ./src/cdcuser.o
+                0x000001b4                CDC_WrOutBuf
+ .text.CDC_OutBufAvailChar
+                0x00000218       0x38 ./src/cdcuser.o
+                0x00000218                CDC_OutBufAvailChar
+ .text.CDC_Init
+                0x00000250       0x7c ./src/cdcuser.o
+                0x00000250                CDC_Init
+ .text.CDC_SendEncapsulatedCommand
+                0x000002cc       0x10 ./src/cdcuser.o
+                0x000002cc                CDC_SendEncapsulatedCommand
+ .text.CDC_GetEncapsulatedResponse
+                0x000002dc       0x10 ./src/cdcuser.o
+                0x000002dc                CDC_GetEncapsulatedResponse
+ .text.CDC_SetCommFeature
+                0x000002ec       0x1c ./src/cdcuser.o
+                0x000002ec                CDC_SetCommFeature
+ .text.CDC_GetCommFeature
+                0x00000308       0x1c ./src/cdcuser.o
+                0x00000308                CDC_GetCommFeature
+ .text.CDC_ClearCommFeature
+                0x00000324       0x1c ./src/cdcuser.o
+                0x00000324                CDC_ClearCommFeature
+ .text.CDC_SetLineCoding
+                0x00000340       0xcc ./src/cdcuser.o
+                0x00000340                CDC_SetLineCoding
+ .text.CDC_GetLineCoding
+                0x0000040c       0xb0 ./src/cdcuser.o
+                0x0000040c                CDC_GetLineCoding
+ .text.CDC_SetControlLineState
+                0x000004bc       0x1c ./src/cdcuser.o
+                0x000004bc                CDC_SetControlLineState
+ .text.CDC_SendBreak
+                0x000004d8       0x1c ./src/cdcuser.o
+                0x000004d8                CDC_SendBreak
+ .text.CDC_BulkIn
+                0x000004f4       0x54 ./src/cdcuser.o
+                0x000004f4                CDC_BulkIn
+ .text.CDC_BulkOut
+                0x00000548       0x34 ./src/cdcuser.o
+                0x00000548                CDC_BulkOut
+ .text.CDC_GetSerialState
+                0x0000057c      0x130 ./src/cdcuser.o
+                0x0000057c                CDC_GetSerialState
+ .text.CDC_NotificationIn
+                0x000006ac       0xbc ./src/cdcuser.o
+                0x000006ac                CDC_NotificationIn
+ .text.Reset_Handler
+                0x00000768       0x78 ./src/cr_startup_lpc13.o
+                0x00000768                ResetISR
+                0x00000768                Reset_Handler
+ .text.NMI_Handler
+                0x000007e0        0x8 ./src/cr_startup_lpc13.o
+                0x000007e0                NMI_Handler
+ .text.HardFault_Handler
+                0x000007e8        0x8 ./src/cr_startup_lpc13.o
+                0x000007e8                HardFault_Handler
+ .text.MemManage_Handler
+                0x000007f0        0x8 ./src/cr_startup_lpc13.o
+                0x000007f0                MemManage_Handler
+ .text.BusFault_Handler
+                0x000007f8        0x8 ./src/cr_startup_lpc13.o
+                0x000007f8                BusFault_Handler
+ .text.UsageFault_Handler
+                0x00000800        0x8 ./src/cr_startup_lpc13.o
+                0x00000800                UsageFault_Handler
+ .text.SVCall_Handler
+                0x00000808        0x8 ./src/cr_startup_lpc13.o
+                0x00000808                SVCall_Handler
+ .text.DebugMon_Handler
+                0x00000810        0x8 ./src/cr_startup_lpc13.o
+                0x00000810                DebugMon_Handler
+ .text.PendSV_Handler
+                0x00000818        0x8 ./src/cr_startup_lpc13.o
+                0x00000818                PendSV_Handler
+ .text.SysTick_Handler
+                0x00000820        0x8 ./src/cr_startup_lpc13.o
+                0x00000820                SysTick_Handler
+ .text.IntDefaultHandler
+                0x00000828        0x8 ./src/cr_startup_lpc13.o
+                0x00000828                TIMER16_0_IRQHandler
+                0x00000828                PIOINT1_IRQHandler
+                0x00000828                SSP_IRQHandler
+                0x00000828                TIMER16_1_IRQHandler
+                0x00000828                USB_FIQHandler
+                0x00000828                ADC_IRQHandler
+                0x00000828                BOD_IRQHandler
+                0x00000828                WAKEUP_IRQHandler
+                0x00000828                PIOINT0_IRQHandler
+                0x00000828                I2C_IRQHandler
+                0x00000828                WDT_IRQHandler
+                0x00000828                PIOINT3_IRQHandler
+                0x00000828                FMC_IRQHandler
+ .text.GPIOSetValue
+                0x00000830       0x3c ./src/cronos_master.o
+ .text.GPIOSetDir
+                0x0000086c       0x90 ./src/cronos_master.o
+ .text.Actualizar
+                0x000008fc     0x29a8 ./src/cronos_master.o
+                0x000008fc                Actualizar
+ .text.VCOM_Init
+                0x000032a4        0xc ./src/cronos_master.o
+                0x000032a4                VCOM_Init
+ .text.Enviar_Datos_USB
+                0x000032b0       0x54 ./src/cronos_master.o
+                0x000032b0                Enviar_Datos_USB
+ .text.Lee_USB  0x00003304       0xcc ./src/cronos_master.o
+                0x00003304                Lee_USB
+ .text.Ordenar  0x000033d0      0x144 ./src/cronos_master.o
+                0x000033d0                Ordenar
+ .text.main     0x00003514      0x32c ./src/cronos_master.o
+                0x00003514                main
+ .text.NVIC_EnableIRQ
+                0x00003840       0x38 ./src/gpio.o
+ .text.GPIOInit
+                0x00003878       0x44 ./src/gpio.o
+                0x00003878                GPIOInit
+ .text.GPIOSetInterrupt
+                0x000038bc      0x574 ./src/gpio.o
+                0x000038bc                GPIOSetInterrupt
+ .text.GPIOIntEnable
+                0x00003e30      0x104 ./src/gpio.o
+                0x00003e30                GPIOIntEnable
+ .text.GPIOIntDisable
+                0x00003f34      0x114 ./src/gpio.o
+                0x00003f34                GPIOIntDisable
+ .text.GPIOIntStatus
+                0x00004048      0x100 ./src/gpio.o
+                0x00004048                GPIOIntStatus
+ .text.GPIOIntClear
+                0x00004148      0x104 ./src/gpio.o
+                0x00004148                GPIOIntClear
+ .text.GPIOSetValue
+                0x0000424c       0x3c ./src/lpcxpresso_gpio_int.o
+ .text.PIOINT2_IRQHandler
+                0x00004288      0x1c4 ./src/lpcxpresso_gpio_int.o
+                0x00004288                PIOINT2_IRQHandler
+ .text.NVIC_EnableIRQ
+                0x0000444c       0x38 ./src/serial.o
+ .text.NVIC_DisableIRQ
+                0x00004484       0x3c ./src/serial.o
+ .text.ser_OpenPort
+                0x000044c0       0xac ./src/serial.o
+                0x000044c0                ser_OpenPort
+ .text.ser_ClosePort
+                0x0000456c       0x54 ./src/serial.o
+                0x0000456c                ser_ClosePort
+ .text.ser_InitPort
+                0x000045c0      0x1cc ./src/serial.o
+                0x000045c0                ser_InitPort
+ .text.ser_Read
+                0x0000478c       0xa0 ./src/serial.o
+                0x0000478c                ser_Read
+ .text.ser_AvailChar
+                0x0000482c       0x34 ./src/serial.o
+                0x0000482c                ser_AvailChar
+ .text.ser_LineState
+                0x00004860       0x30 ./src/serial.o
+                0x00004860                ser_LineState
+ .text.NVIC_EnableIRQ
+                0x00004890       0x38 ./src/timer32.o
+ .text.TIMER32_0_IRQHandler
+                0x000048c8      0x13c ./src/timer32.o
+                0x000048c8                TIMER32_0_IRQHandler
+ .text.TIMER32_1_IRQHandler
+                0x00004a04       0x30 ./src/timer32.o
+                0x00004a04                TIMER32_1_IRQHandler
+ .text.enable_timer32
+                0x00004a34       0x38 ./src/timer32.o
+                0x00004a34                enable_timer32
+ .text.init_timer32
+                0x00004a6c      0x1cc ./src/timer32.o
+                0x00004a6c                init_timer32
+ .text.NVIC_EnableIRQ
+                0x00004c38       0x38 ./src/uart.o
+ .text.NVIC_DisableIRQ
+                0x00004c70       0x3c ./src/uart.o
+ .text.UART_IRQHandler
+                0x00004cac      0x178 ./src/uart.o
+                0x00004cac                UART_IRQHandler
+ .text.UARTInit
+                0x00004e24      0x1ac ./src/uart.o
+                0x00004e24                UARTInit
+ .text.UARTSend
+                0x00004fd0       0x50 ./src/uart.o
+                0x00004fd0                UARTSend
+ .text.USB_ResetCore
+                0x00005020       0x60 ./src/usbcore.o
+                0x00005020                USB_ResetCore
+ .text.USB_SetupStage
+                0x00005080       0x18 ./src/usbcore.o
+                0x00005080                USB_SetupStage
+ .text.USB_DataInStage
+                0x00005098       0x7c ./src/usbcore.o
+                0x00005098                USB_DataInStage
+ .text.USB_DataOutStage
+                0x00005114       0x58 ./src/usbcore.o
+                0x00005114                USB_DataOutStage
+ .text.USB_StatusInStage
+                0x0000516c       0x18 ./src/usbcore.o
+                0x0000516c                USB_StatusInStage
+ .text.USB_StatusOutStage
+                0x00005184       0x18 ./src/usbcore.o
+                0x00005184                USB_StatusOutStage
+ .text.USB_ReqGetStatus
+                0x0000519c      0x13c ./src/usbcore.o
+                0x0000519c                USB_ReqGetStatus
+ .text.USB_ReqSetClrFeature
+                0x000052d8      0x184 ./src/usbcore.o
+                0x000052d8                USB_ReqSetClrFeature
+ .text.USB_ReqSetAddress
+                0x0000545c       0x44 ./src/usbcore.o
+                0x0000545c                USB_ReqSetAddress
+ .text.USB_ReqGetDescriptor
+                0x000054a0      0x174 ./src/usbcore.o
+                0x000054a0                USB_ReqGetDescriptor
+ .text.USB_ReqGetConfiguration
+                0x00005614       0x3c ./src/usbcore.o
+                0x00005614                USB_ReqGetConfiguration
+ .text.UsbAddPtr
+                0x00005650       0x24 ./src/usbcore.o
+                0x00005650                UsbAddPtr
+ .text.USB_ReqSetConfiguration
+                0x00005674      0x304 ./src/usbcore.o
+                0x00005674                USB_ReqSetConfiguration
+ .text.USB_ReqGetInterface
+                0x00005978       0x78 ./src/usbcore.o
+                0x00005978                USB_ReqGetInterface
+ .text.USB_ReqSetInterface
+                0x000059f0      0x23c ./src/usbcore.o
+                0x000059f0                USB_ReqSetInterface
+ .text.USB_EndPoint0
+                0x00005c2c      0x554 ./src/usbcore.o
+                0x00005c2c                USB_EndPoint0
+ .text.NVIC_EnableIRQ
+                0x00006180       0x38 ./src/usbhw.o
+ .text.USBIOClkConfig
+                0x000061b8       0xd4 ./src/usbhw.o
+                0x000061b8                USBIOClkConfig
+ .text.delay    0x0000628c       0x2c ./src/usbhw.o
+                0x0000628c                delay
+ .text.EPAdr    0x000062b8       0x34 ./src/usbhw.o
+                0x000062b8                EPAdr
+ .text.WrCmd    0x000062ec       0x40 ./src/usbhw.o
+                0x000062ec                WrCmd
+ .text.WrCmdDat
+                0x0000632c       0x20 ./src/usbhw.o
+                0x0000632c                WrCmdDat
+ .text.WrCmdEP  0x0000634c       0x30 ./src/usbhw.o
+                0x0000634c                WrCmdEP
+ .text.RdCmdDat
+                0x0000637c       0x4c ./src/usbhw.o
+                0x0000637c                RdCmdDat
+ .text.USB_Init
+                0x000063c8       0x1c ./src/usbhw.o
+                0x000063c8                USB_Init
+ .text.USB_Connect
+                0x000063e4       0x34 ./src/usbhw.o
+                0x000063e4                USB_Connect
+ .text.USB_Reset
+                0x00006418       0x2c ./src/usbhw.o
+                0x00006418                USB_Reset
+ .text.USB_Suspend
+                0x00006444        0xc ./src/usbhw.o
+                0x00006444                USB_Suspend
+ .text.USB_Resume
+                0x00006450        0xc ./src/usbhw.o
+                0x00006450                USB_Resume
+ .text.USB_WakeUpCfg
+                0x0000645c       0x14 ./src/usbhw.o
+                0x0000645c                USB_WakeUpCfg
+ .text.USB_SetAddress
+                0x00006470       0x48 ./src/usbhw.o
+                0x00006470                USB_SetAddress
+ .text.USB_Configure
+                0x000064b8       0x34 ./src/usbhw.o
+                0x000064b8                USB_Configure
+ .text.USB_ConfigEP
+                0x000064ec       0x14 ./src/usbhw.o
+                0x000064ec                USB_ConfigEP
+ .text.USB_DirCtrlEP
+                0x00006500       0x14 ./src/usbhw.o
+                0x00006500                USB_DirCtrlEP
+ .text.USB_EnableEP
+                0x00006514       0x30 ./src/usbhw.o
+                0x00006514                USB_EnableEP
+ .text.USB_DisableEP
+                0x00006544       0x34 ./src/usbhw.o
+                0x00006544                USB_DisableEP
+ .text.USB_ResetEP
+                0x00006578       0x30 ./src/usbhw.o
+                0x00006578                USB_ResetEP
+ .text.USB_SetStallEP
+                0x000065a8       0x34 ./src/usbhw.o
+                0x000065a8                USB_SetStallEP
+ .text.USB_ClrStallEP
+                0x000065dc       0x30 ./src/usbhw.o
+                0x000065dc                USB_ClrStallEP
+ .text.USB_ReadEP
+                0x0000660c       0xac ./src/usbhw.o
+                0x0000660c                USB_ReadEP
+ .text.USB_WriteEP
+                0x000066b8       0x98 ./src/usbhw.o
+                0x000066b8                USB_WriteEP
+ .text.USB_IRQHandler
+                0x00006750      0x17c ./src/usbhw.o
+                0x00006750                USB_IRQHandler
+ .text.USB_Reset_Event
+                0x000068cc        0xc ./src/usbuser.o
+                0x000068cc                USB_Reset_Event
+ .text.USB_Suspend_Event
+                0x000068d8        0xc ./src/usbuser.o
+                0x000068d8                USB_Suspend_Event
+ .text.USB_Resume_Event
+                0x000068e4        0xc ./src/usbuser.o
+                0x000068e4                USB_Resume_Event
+ .text.USB_Configure_Event
+                0x000068f0        0xc ./src/usbuser.o
+                0x000068f0                USB_Configure_Event
+ .text.USB_EndPoint1
+                0x000068fc       0x44 ./src/usbuser.o
+                0x000068fc                USB_EndPoint1
+ .text.USB_EndPoint3
+                0x00006940       0x28 ./src/usbuser.o
+                0x00006940                USB_EndPoint3
+ .text.__NOP    0x00006968        0xc D:\Archivos\DropBox\proyectofinal\codigo\workspace\CMSISv1p30_LPC13xx\Debug\libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+ .text.SystemInit
+                0x00006974      0x200 D:\Archivos\DropBox\proyectofinal\codigo\workspace\CMSISv1p30_LPC13xx\Debug\libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+                0x00006974                SystemInit
+ .text.strcpy   0x00006b74       0x42 d:/instalacion programas/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(strcpy.o)
+                0x00006b74                strcpy
+ *(.rodata .rodata.*)
+ *fill*         0x00006bb6        0x2 00
+ .rodata.LPC_GPIO
+                0x00006bb8       0x10 ./src/cronos_master.o
+ .rodata        0x00006bc8       0x48 ./src/cronos_master.o
+ .rodata.LPC_GPIO
+                0x00006c10       0x10 ./src/lpcxpresso_gpio_int.o
+ .rodata.USB_DeviceDescriptor
+                0x00006c20       0x14 ./src/usbdesc.o
+                0x00006c20                USB_DeviceDescriptor
+ .rodata.USB_ConfigDescriptor
+                0x00006c34       0x44 ./src/usbdesc.o
+                0x00006c34                USB_ConfigDescriptor
+ .rodata.USB_StringDescriptor
+                0x00006c78       0x30 ./src/usbdesc.o
+                0x00006c78                USB_StringDescriptor
+ .rodata.USB_P_EP
+                0x00006ca8       0x14 ./src/usbuser.o
+                0x00006ca8                USB_P_EP
+                0x00006cbc                . = ALIGN (0x4)
+
+.glue_7         0x00006cbc        0x0
+ .glue_7        0x00000000        0x0 linker stubs
+
+.glue_7t        0x00006cbc        0x0
+ .glue_7t       0x00000000        0x0 linker stubs
+
+.vfp11_veneer   0x00006cbc        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x00006cbc        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x00006cbc                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x00006cbc                __exidx_end = .
+                0x00006cbc                _etext = .
+
+.uninit_RESERVED
+ *(.bss.$RESERVED*)
+
+.data           0x10000000       0x10 load address 0x00006cbc
+ FILL mask 0xff
+                0x10000000                _data = .
+ *(vtable)
+ *(.data*)
+ .data.CDC_LineCoding
+                0x10000000        0x8 ./src/cdcuser.o
+                0x10000000                CDC_LineCoding
+ .data.CDC_DepInEmpty
+                0x10000008        0x2 ./src/cdcuser.o
+                0x10000008                CDC_DepInEmpty
+ .data.UARTTxEmpty
+                0x1000000a        0x1 ./src/uart.o
+                0x1000000a                UARTTxEmpty
+ *fill*         0x1000000b        0x1 00
+ .data          0x1000000c        0x4 D:\Archivos\DropBox\proyectofinal\codigo\workspace\CMSISv1p30_LPC13xx\Debug\libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+                0x1000000c                SystemCoreClock
+                0x10000010                . = ALIGN (0x4)
+                0x10000010                _edata = .
+
+.bss            0x10000010      0x3c0 load address 0x00006ccc
+                0x10000010                _bss = .
+ *(.bss*)
+ .bss.CDC_SerialState
+                0x10000010        0x2 ./src/cdcuser.o
+                0x10000010                CDC_SerialState
+ *fill*         0x10000012        0x2 00
+ .bss.serBuf.1997
+                0x10000014       0x20 ./src/cronos_master.o
+ .bss.contador  0x10000034        0x4 ./src/lpcxpresso_gpio_int.o
+                0x10000034                contador
+ .bss.espera    0x10000038        0x4 ./src/lpcxpresso_gpio_int.o
+                0x10000038                espera
+ .bss.centesimas
+                0x1000003c        0x4 ./src/lpcxpresso_gpio_int.o
+                0x1000003c                centesimas
+ .bss.timer32_0_counter
+                0x10000040        0x4 ./src/timer32.o
+                0x10000040                timer32_0_counter
+ .bss.timer32_1_counter
+                0x10000044        0x4 ./src/timer32.o
+                0x10000044                timer32_1_counter
+ .bss.UARTCount
+                0x10000048        0x4 ./src/uart.o
+                0x10000048                UARTCount
+ .bss.serialState.1235
+                0x1000004c        0x2 ./src/usbuser.o
+ *(COMMON)
+ *fill*         0x1000004e        0x2 00
+ COMMON         0x10000050       0xd4 ./src/cdcuser.o
+                0x10000050                BulkBufOut
+                0x10000090                NotificationBuf
+                0x1000009c                BulkBufIn
+                0x100000dc                CDC_OutBuf
+ COMMON         0x10000124       0xe0 ./src/cronos_master.o
+                0x10000124                info
+                0x10000194                auxiliar
+                0x10000198                estado
+                0x100001a0                resto
+                0x100001a4                tiempos
+                0x100001ab                laps
+                0x100001ac                aux
+                0x100001b0                hab_andrv
+                0x100001b8                comienzo
+                0x100001bc                Buffer
+                0x100001fc                start
+                0x100001fd                inicializacion
+                0x10000200                pepe
+ COMMON         0x10000204      0x118 ./src/serial.o
+                0x10000204                ser_in
+                0x1000028c                ser_txRestart
+                0x10000290                ser_lineState
+                0x10000294                ser_out
+ COMMON         0x1000031c       0x44 ./src/uart.o
+                0x1000031c                UARTBuffer
+                0x1000035c                UARTStatus
+ COMMON         0x10000360       0x6e ./src/usbcore.o
+                0x10000360                USB_AltSetting
+                0x10000364                EP0Buf
+                0x100003a4                USB_EndPointMask
+                0x100003a8                USB_DeviceAddress
+                0x100003ac                USB_EndPointStall
+                0x100003b0                USB_EndPointHalt
+                0x100003b4                USB_Configuration
+                0x100003b8                SetupPacket
+                0x100003c0                USB_NumInterfaces
+                0x100003c4                EP0Data
+                0x100003cc                USB_DeviceStatus
+                0x100003d0                . = ALIGN (0x4)
+ *fill*         0x100003ce        0x2 00
+                0x100003d0                _ebss = .
+                0x100003d0                PROVIDE (end, .)
+                0x100003d0                PROVIDE (_pvHeapStart, .)
+                0x10002000                PROVIDE (_vStackTop, (__top_RamLoc8 - 0x0))
+OUTPUT(cronos_master.axf elf32-littlearm)
+
+.debug_abbrev   0x00000000     0x1498
+ .debug_abbrev  0x00000000      0x1b2 ./src/cdcuser.o
+ .debug_abbrev  0x000001b2       0xd6 ./src/cr_startup_lpc13.o
+ .debug_abbrev  0x00000288      0x2da ./src/cronos_master.o
+ .debug_abbrev  0x00000562       0x16 ./src/funciones.o
+ .debug_abbrev  0x00000578      0x1d0 ./src/gpio.o
+ .debug_abbrev  0x00000748      0x16b ./src/lpcxpresso_gpio_int.o
+ .debug_abbrev  0x000008b3      0x1f0 ./src/serial.o
+ .debug_abbrev  0x00000aa3      0x1e4 ./src/timer32.o
+ .debug_abbrev  0x00000c87      0x1a4 ./src/uart.o
+ .debug_abbrev  0x00000e2b      0x21a ./src/usbcore.o
+ .debug_abbrev  0x00001045       0x63 ./src/usbdesc.o
+ .debug_abbrev  0x000010a8      0x227 ./src/usbhw.o
+ .debug_abbrev  0x000012cf       0xd9 ./src/usbuser.o
+ .debug_abbrev  0x000013a8       0xf0 D:\Archivos\DropBox\proyectofinal\codigo\workspace\CMSISv1p30_LPC13xx\Debug\libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+
+.debug_info     0x00000000     0x7159
+ .debug_info    0x00000000      0x5d3 ./src/cdcuser.o
+ .debug_info    0x000005d3      0x221 ./src/cr_startup_lpc13.o
+ .debug_info    0x000007f4      0xd5b ./src/cronos_master.o
+ .debug_info    0x0000154f       0x29 ./src/funciones.o
+ .debug_info    0x00001578      0xaa4 ./src/gpio.o
+ .debug_info    0x0000201c      0x324 ./src/lpcxpresso_gpio_int.o
+ .debug_info    0x00002340      0xf1f ./src/serial.o
+ .debug_info    0x0000325f      0xed5 ./src/timer32.o
+ .debug_info    0x00004134      0xdd1 ./src/uart.o
+ .debug_info    0x00004f05      0x910 ./src/usbcore.o
+ .debug_info    0x00005815       0xf0 ./src/usbdesc.o
+ .debug_info    0x00005905     0x1111 ./src/usbhw.o
+ .debug_info    0x00006a16      0x1d3 ./src/usbuser.o
+ .debug_info    0x00006be9      0x570 D:\Archivos\DropBox\proyectofinal\codigo\workspace\CMSISv1p30_LPC13xx\Debug\libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+
+.debug_line     0x00000000     0x47a8
+ .debug_line    0x00000000      0x59c ./src/cdcuser.o
+ .debug_line    0x0000059c      0x4b0 ./src/cr_startup_lpc13.o
+ .debug_line    0x00000a4c      0x8ef ./src/cronos_master.o
+ .debug_line    0x0000133b       0x33 ./src/funciones.o
+ .debug_line    0x0000136e      0x524 ./src/gpio.o
+ .debug_line    0x00001892      0x482 ./src/lpcxpresso_gpio_int.o
+ .debug_line    0x00001d14      0x52e ./src/serial.o
+ .debug_line    0x00002242      0x520 ./src/timer32.o
+ .debug_line    0x00002762      0x490 ./src/uart.o
+ .debug_line    0x00002bf2      0x7a6 ./src/usbcore.o
+ .debug_line    0x00003398      0x3db ./src/usbdesc.o
+ .debug_line    0x00003773      0x734 ./src/usbhw.o
+ .debug_line    0x00003ea7      0x46c ./src/usbuser.o
+ .debug_line    0x00004313      0x495 D:\Archivos\DropBox\proyectofinal\codigo\workspace\CMSISv1p30_LPC13xx\Debug\libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+
+.debug_macinfo  0x00000000    0x4f242
+ .debug_macinfo
+                0x00000000     0x4b8a ./src/cdcuser.o
+ .debug_macinfo
+                0x00004b8a     0x312a ./src/cr_startup_lpc13.o
+ .debug_macinfo
+                0x00007cb4     0x883b ./src/cronos_master.o
+ .debug_macinfo
+                0x000104ef     0x16a3 ./src/funciones.o
+ .debug_macinfo
+                0x00011b92     0x69c1 ./src/gpio.o
+ .debug_macinfo
+                0x00018553     0x6ac9 ./src/lpcxpresso_gpio_int.o
+ .debug_macinfo
+                0x0001f01c     0x6b86 ./src/serial.o
+ .debug_macinfo
+                0x00025ba2     0x6b75 ./src/timer32.o
+ .debug_macinfo
+                0x0002c717     0x6b75 ./src/uart.o
+ .debug_macinfo
+                0x0003328c     0x4b9b ./src/usbcore.o
+ .debug_macinfo
+                0x00037e27     0x4a5b ./src/usbdesc.o
+ .debug_macinfo
+                0x0003c882     0x7e21 ./src/usbhw.o
+ .debug_macinfo
+                0x000446a3     0x3e98 ./src/usbuser.o
+ .debug_macinfo
+                0x0004853b     0x6d07 D:\Archivos\DropBox\proyectofinal\codigo\workspace\CMSISv1p30_LPC13xx\Debug\libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+
+.debug_loc      0x00000000     0x18d0
+ .debug_loc     0x00000000      0x370 ./src/cdcuser.o
+ .debug_loc     0x00000370      0x1f0 ./src/cr_startup_lpc13.o
+ .debug_loc     0x00000560      0x1b4 ./src/cronos_master.o
+ .debug_loc     0x00000714      0x17c ./src/gpio.o
+ .debug_loc     0x00000890       0x70 ./src/lpcxpresso_gpio_int.o
+ .debug_loc     0x00000900      0x1e0 ./src/serial.o
+ .debug_loc     0x00000ae0      0x1a8 ./src/timer32.o
+ .debug_loc     0x00000c88      0x118 ./src/uart.o
+ .debug_loc     0x00000da0      0x32c ./src/usbcore.o
+ .debug_loc     0x000010cc      0x610 ./src/usbhw.o
+ .debug_loc     0x000016dc      0x158 ./src/usbuser.o
+ .debug_loc     0x00001834       0x9c D:\Archivos\DropBox\proyectofinal\codigo\workspace\CMSISv1p30_LPC13xx\Debug\libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+
+.debug_pubnames
+                0x00000000      0xc55
+ .debug_pubnames
+                0x00000000      0x201 ./src/cdcuser.o
+ .debug_pubnames
+                0x00000201       0xec ./src/cr_startup_lpc13.o
+ .debug_pubnames
+                0x000002ed       0xf9 ./src/cronos_master.o
+ .debug_pubnames
+                0x000003e6       0x7c ./src/gpio.o
+ .debug_pubnames
+                0x00000462       0x7e ./src/lpcxpresso_gpio_int.o
+ .debug_pubnames
+                0x000004e0       0xc0 ./src/serial.o
+ .debug_pubnames
+                0x000005a0       0xc8 ./src/timer32.o
+ .debug_pubnames
+                0x00000668       0x87 ./src/uart.o
+ .debug_pubnames
+                0x000006ef      0x243 ./src/usbcore.o
+ .debug_pubnames
+                0x00000932       0x5d ./src/usbdesc.o
+ .debug_pubnames
+                0x0000098f      0x1cb ./src/usbhw.o
+ .debug_pubnames
+                0x00000b5a       0xac ./src/usbuser.o
+ .debug_pubnames
+                0x00000c06       0x4f D:\Archivos\DropBox\proyectofinal\codigo\workspace\CMSISv1p30_LPC13xx\Debug\libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+
+.debug_pubtypes
+                0x00000000      0x6e8
+ .debug_pubtypes
+                0x00000000       0x72 ./src/cdcuser.o
+ .debug_pubtypes
+                0x00000072       0x12 ./src/cr_startup_lpc13.o
+ .debug_pubtypes
+                0x00000084       0x8b ./src/cronos_master.o
+ .debug_pubtypes
+                0x0000010f       0x7c ./src/gpio.o
+ .debug_pubtypes
+                0x0000018b       0x34 ./src/lpcxpresso_gpio_int.o
+ .debug_pubtypes
+                0x000001bf       0xb0 ./src/serial.o
+ .debug_pubtypes
+                0x0000026f       0xa6 ./src/timer32.o
+ .debug_pubtypes
+                0x00000315       0x92 ./src/uart.o
+ .debug_pubtypes
+                0x000003a7      0x1de ./src/usbcore.o
+ .debug_pubtypes
+                0x00000585       0x1e ./src/usbdesc.o
+ .debug_pubtypes
+                0x000005a3       0xd7 ./src/usbhw.o
+ .debug_pubtypes
+                0x0000067a       0x38 ./src/usbuser.o
+ .debug_pubtypes
+                0x000006b2       0x36 D:\Archivos\DropBox\proyectofinal\codigo\workspace\CMSISv1p30_LPC13xx\Debug\libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+
+.debug_aranges  0x00000000      0x4f0
+ .debug_aranges
+                0x00000000       0xa0 ./src/cdcuser.o
+ .debug_aranges
+                0x000000a0       0x70 ./src/cr_startup_lpc13.o
+ .debug_aranges
+                0x00000110       0x58 ./src/cronos_master.o
+ .debug_aranges
+                0x00000168       0x50 ./src/gpio.o
+ .debug_aranges
+                0x000001b8       0x28 ./src/lpcxpresso_gpio_int.o
+ .debug_aranges
+                0x000001e0       0x60 ./src/serial.o
+ .debug_aranges
+                0x00000240       0x58 ./src/timer32.o
+ .debug_aranges
+                0x00000298       0x40 ./src/uart.o
+ .debug_aranges
+                0x000002d8       0x98 ./src/usbcore.o
+ .debug_aranges
+                0x00000370      0x100 ./src/usbhw.o
+ .debug_aranges
+                0x00000470       0x50 ./src/usbuser.o
+ .debug_aranges
+                0x000004c0       0x30 D:\Archivos\DropBox\proyectofinal\codigo\workspace\CMSISv1p30_LPC13xx\Debug\libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+
+.debug_ranges   0x00000000      0x430
+ .debug_ranges  0x00000000       0x90 ./src/cdcuser.o
+ .debug_ranges  0x00000090       0x60 ./src/cr_startup_lpc13.o
+ .debug_ranges  0x000000f0       0x48 ./src/cronos_master.o
+ .debug_ranges  0x00000138       0x40 ./src/gpio.o
+ .debug_ranges  0x00000178       0x18 ./src/lpcxpresso_gpio_int.o
+ .debug_ranges  0x00000190       0x50 ./src/serial.o
+ .debug_ranges  0x000001e0       0x48 ./src/timer32.o
+ .debug_ranges  0x00000228       0x30 ./src/uart.o
+ .debug_ranges  0x00000258       0x88 ./src/usbcore.o
+ .debug_ranges  0x000002e0       0xf0 ./src/usbhw.o
+ .debug_ranges  0x000003d0       0x40 ./src/usbuser.o
+ .debug_ranges  0x00000410       0x20 D:\Archivos\DropBox\proyectofinal\codigo\workspace\CMSISv1p30_LPC13xx\Debug\libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+
+.debug_str      0x00000000     0x18d7
+ .debug_str     0x00000000      0x3a3 ./src/cdcuser.o
+                                0x3e9 (size before relaxing)
+ .debug_str     0x000003a3      0x108 ./src/cr_startup_lpc13.o
+                                0x1e6 (size before relaxing)
+ .debug_str     0x000004ab      0x4d8 ./src/cronos_master.o
+                                0x5e8 (size before relaxing)
+ .debug_str     0x00000983       0x13 ./src/funciones.o
+                                 0x66 (size before relaxing)
+ .debug_str     0x00000996      0x41e ./src/gpio.o
+                                0x80b (size before relaxing)
+ .debug_str     0x00000db4       0x6d ./src/lpcxpresso_gpio_int.o
+                                0x1ca (size before relaxing)
+ .debug_str     0x00000e21      0x21e ./src/serial.o
+                                0xa88 (size before relaxing)
+ .debug_str     0x0000103f       0xdf ./src/timer32.o
+                                0xa1f (size before relaxing)
+ .debug_str     0x0000111e       0x69 ./src/uart.o
+                                0x9ce (size before relaxing)
+ .debug_str     0x00001187      0x43a ./src/usbcore.o
+                                0x5e5 (size before relaxing)
+ .debug_str     0x000015c1       0x11 ./src/usbdesc.o
+                                0x124 (size before relaxing)
+ .debug_str     0x000015d2      0x1e4 ./src/usbhw.o
+                                0xb69 (size before relaxing)
+ .debug_str     0x000017b6       0x8e ./src/usbuser.o
+                                0x19a (size before relaxing)
+ .debug_str     0x00001844       0x93 D:\Archivos\DropBox\proyectofinal\codigo\workspace\CMSISv1p30_LPC13xx\Debug\libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+                                0x3ff (size before relaxing)
+
+.comment        0x00000000       0x2a
+ .comment       0x00000000       0x2a ./src/cdcuser.o
+                                 0x2b (size before relaxing)
+ .comment       0x00000000       0x2b ./src/cr_startup_lpc13.o
+ .comment       0x00000000       0x2b ./src/cronos_master.o
+ .comment       0x00000000       0x2b ./src/funciones.o
+ .comment       0x00000000       0x2b ./src/gpio.o
+ .comment       0x00000000       0x2b ./src/lpcxpresso_gpio_int.o
+ .comment       0x00000000       0x2b ./src/serial.o
+ .comment       0x00000000       0x2b ./src/timer32.o
+ .comment       0x00000000       0x2b ./src/uart.o
+ .comment       0x00000000       0x2b ./src/usbcore.o
+ .comment       0x00000000       0x2b ./src/usbdesc.o
+ .comment       0x00000000       0x2b ./src/usbhw.o
+ .comment       0x00000000       0x2b ./src/usbuser.o
+ .comment       0x00000000       0x2b D:\Archivos\DropBox\proyectofinal\codigo\workspace\CMSISv1p30_LPC13xx\Debug\libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+ .comment       0x00000000       0x2b d:/instalacion programas/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(strcpy.o)
+
+.ARM.attributes
+                0x00000000       0x31
+ .ARM.attributes
+                0x00000000       0x31 ./src/cdcuser.o
+ .ARM.attributes
+                0x00000031       0x31 ./src/cr_startup_lpc13.o
+ .ARM.attributes
+                0x00000062       0x31 ./src/cronos_master.o
+ .ARM.attributes
+                0x00000093       0x31 ./src/funciones.o
+ .ARM.attributes
+                0x000000c4       0x31 ./src/gpio.o
+ .ARM.attributes
+                0x000000f5       0x31 ./src/lpcxpresso_gpio_int.o
+ .ARM.attributes
+                0x00000126       0x31 ./src/serial.o
+ .ARM.attributes
+                0x00000157       0x31 ./src/timer32.o
+ .ARM.attributes
+                0x00000188       0x31 ./src/uart.o
+ .ARM.attributes
+                0x000001b9       0x31 ./src/usbcore.o
+ .ARM.attributes
+                0x000001ea       0x31 ./src/usbdesc.o
+ .ARM.attributes
+                0x0000021b       0x31 ./src/usbhw.o
+ .ARM.attributes
+                0x0000024c       0x31 ./src/usbuser.o
+ .ARM.attributes
+                0x0000027d       0x31 D:\Archivos\DropBox\proyectofinal\codigo\workspace\CMSISv1p30_LPC13xx\Debug\libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+ .ARM.attributes
+                0x000002ae       0x31 d:/instalacion programas/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a(strcpy.o)
+
+.debug_frame    0x00000000      0xe40
+ .debug_frame   0x00000000      0x1ec ./src/cdcuser.o
+ .debug_frame   0x000001ec      0x120 ./src/cr_startup_lpc13.o
+ .debug_frame   0x0000030c      0x100 ./src/cronos_master.o
+ .debug_frame   0x0000040c       0xd4 ./src/gpio.o
+ .debug_frame   0x000004e0       0x4c ./src/lpcxpresso_gpio_int.o
+ .debug_frame   0x0000052c      0x110 ./src/serial.o
+ .debug_frame   0x0000063c       0xf0 ./src/timer32.o
+ .debug_frame   0x0000072c       0xa0 ./src/uart.o
+ .debug_frame   0x000007cc      0x1d8 ./src/usbcore.o
+ .debug_frame   0x000009a4      0x368 ./src/usbhw.o
+ .debug_frame   0x00000d0c       0xd0 ./src/usbuser.o
+ .debug_frame   0x00000ddc       0x64 D:\Archivos\DropBox\proyectofinal\codigo\workspace\CMSISv1p30_LPC13xx\Debug\libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)

@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=10KHZ Pin=U7-11
+Removed Pin From Net: NetName=AND6 Pin=U7-12
+Removed Pin From Net: NetName=AND9 Pin=U7-13
+Removed Pin From Net: NetName=Netfout_1 Pin=U9-11
+Removed Pin From Net: NetName=10KHZ Pin=U9-12
+Removed Pin From Net: NetName=Netjumper 1_2 Pin=U9-13
+Added Pin To Net: NetName=Netfout_1 Pin=U7-11
+Added Pin To Net: NetName=10KHZ Pin=U7-12
+Added Pin To Net: NetName=Netjumper 1_2 Pin=U7-13
+Added Pin To Net: NetName=10KHZ Pin=U9-11
+Added Pin To Net: NetName=AND6 Pin=U9-12
+Added Pin To Net: NetName=AND9 Pin=U9-13

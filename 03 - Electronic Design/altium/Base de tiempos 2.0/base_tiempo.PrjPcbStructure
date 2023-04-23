@@ -1,0 +1,3 @@
+Record=SheetSymbol|SourceDocument=base_tiempo.SchDoc|Designator=AND_10_Entradas|SchDesignator=AND_10_Entradas|FileName=AND_5_entradas.SchDoc|SymbolType=Normal|RawFileName=AND_5_entradas.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol
+Record=SheetSymbol|SourceDocument=base_tiempo.SchDoc|Designator=Buffer_5Bits|SchDesignator=Buffer_5Bits|FileName=buffers_5bits.SchDoc|SymbolType=Normal|RawFileName=buffers_5bits.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol
+Record=TopLevelDocument|FileName=base_tiempo.SchDoc

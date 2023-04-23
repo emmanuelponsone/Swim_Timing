@@ -1,0 +1,18 @@
+Removed Pin From Net: NetName=PT1_P Pin=R3-1
+Removed Pin From Net: NetName=PT1_N Pin=R3-2
+Added Component: Designator=R1(2012[0805])
+Added Component: Designator=R2(2012[0805])
+Added Component: Designator=R11(2012[0805])
+Added Component: Designator=R12(2012[0805])
+Added Pin To Net: NetName=PT1_P Pin=R1-1
+Added Pin To Net: NetName=PT1_N Pin=R1-2
+Added Pin To Net: NetName=PT3_P Pin=R3-1
+Added Pin To Net: NetName=PT3_N Pin=R3-2
+Added Pin To Net: NetName=PM4_N Pin=R11-1
+Added Pin To Net: NetName=PM4_P Pin=R11-2
+Added Pin To Net: NetName=PT4_P Pin=R12-1
+Added Pin To Net: NetName=PT4_N Pin=R12-2
+Added Member To Class: ClassName=drivers Member=Component R1 Res Semi
+Added Member To Class: ClassName=drivers Member=Component R2 Res Semi
+Added Member To Class: ClassName=drivers Member=Component R11 Res Semi
+Added Member To Class: ClassName=drivers Member=Component R12 Res Semi

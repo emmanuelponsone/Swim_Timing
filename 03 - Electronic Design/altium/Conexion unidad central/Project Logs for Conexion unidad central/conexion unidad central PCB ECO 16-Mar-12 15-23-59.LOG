@@ -1,0 +1,19 @@
+Added Component: Designator=Ci(C0805)
+Added Component: Designator=Co(C0805)
+Added Component: Designator=reg(MP04A_N)
+Added Component: Designator=Rreg(2012[0805])
+Added Pin To Net: NetName=VCC_ISO Pin=Ci-1
+Added Pin To Net: NetName=GND_ISO Pin=Ci-2
+Added Pin To Net: NetName=VCC Pin=Co-1
+Added Pin To Net: NetName=GND_ISO Pin=Co-2
+Added Pin To Net: NetName=VCC_ISO Pin=reg-1
+Added Pin To Net: NetName=GND_ISO Pin=reg-2
+Added Pin To Net: NetName=VCC Pin=reg-3
+Added Pin To Net: NetName=GND_ISO Pin=reg-4
+Added Pin To Net: NetName=GND_ISO Pin=Rreg-1
+Added Pin To Net: NetName=VCC Pin=Rreg-2
+Added Class: Name=regulador
+Added Member To Class: ClassName=drivers Member=Component P1 FIN1001
+Added Member To Class: ClassName=drivers Member=Component R3 Res Semi
+Added Member To Class: ClassName=drivers Member=Component u1 SNlvdt33d
+Added Room: Name=regulador

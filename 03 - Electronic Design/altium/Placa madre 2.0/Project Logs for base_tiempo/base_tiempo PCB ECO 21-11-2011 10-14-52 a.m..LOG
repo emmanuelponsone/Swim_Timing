@@ -1,0 +1,5 @@
+Change Component Designator: OldDesignator=J8 NewDesignator=Start
+Added Component: Designator=BOCINA(RCA/4.5-H2)
+Added Pin To Net: NetName=GND Pin=BOCINA-1A
+Added Pin To Net: NetName=12_UC Pin=BOCINA-2B
+Added Member To Class: ClassName=placa_madre Member=Component BOCINA RCA

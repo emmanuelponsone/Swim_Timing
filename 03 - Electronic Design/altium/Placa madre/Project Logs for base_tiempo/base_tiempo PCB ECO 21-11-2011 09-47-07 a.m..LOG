@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=1_UC Pin=J8-2B
+Added Component: Designator=Con_Leds(HDR2X17)
+Added Pin To Net: NetName=12_UI_A Pin=J8-2B
+Added Member To Class: ClassName=placa_madre Member=Component Con_Leds Header 17X2

@@ -1,0 +1,249 @@
+// Code based on content of NXP gpio.c, to be found in LPC13xx_Lib project.
+// Interrupts handlers have been extracted to this file so that the library
+// project is then application independent.
+
+#include "LPC13xx.h"			/* LPC13xx Peripheral Registers */
+#include "gpio.h"
+#include "config.h"
+
+#define INTERVALO 	10		//Para fosc= 10KHz. Divisor = 10
+#define	ON	 		1
+#define	OFF			0
+#define MAX_LAPS	50
+#define A			0
+#define B			1
+#define FHC			5000
+#define SHC			10000
+
+
+// CodeRed
+unsigned int LEDvalue = LED_OFF;
+extern volatile uint32_t centesimas,lap[MAX_LAPS],n_laps,cont_laps,lado,ultimo;
+
+volatile uint32_t gpio2_counter = 0;
+volatile uint32_t p2_1_counter  = 0, cuentas_calibracion=0;
+volatile uint32_t contador  = 0;
+unsigned int start=0,PM_A=0;PM_B=0,esperar_PT_A=0,esperar_PT_B=0,fin=0, Led_PT=0, Led_PM=0, incert=0, led=0;
+
+/*****************************************************************************
+** Function name:		PIOINT2_IRQHandler
+**
+** Descriptions:		Use one GPIO pin(port2 pin1) as interrupt source
+**
+** parameters:			None
+** Returned value:		None
+** 
+*****************************************************************************/
+void PIOINT2_IRQHandler(void)
+{
+uint32_t regVal;
+
+//BOTON DE START PULSADO
+regVal=0;
+regVal = GPIOIntStatus( PORT2, 0 );
+if ( regVal )
+	{
+	GPIOIntClear( PORT2, 0 );				//limpio int boton start
+	GPIOIntDisable( PORT2, 0 );				//deshabilito boton start
+	start=ON;								//
+	//GPIOIntEnable( PORT2, 1 );				//Habilita las interrupciones de la base de tiempos
+
+	GPIOIntClear( PORT2, 4 );				//limpio int
+	GPIOIntClear( PORT2, 5 );				//limpio int
+
+	GPIOIntEnable( PORT2, 4 );				//Habilita las interrupciones de placa de toque B
+	GPIOIntEnable( PORT2, 5 );				//Habilita las interrupciones de placa manual B
+
+	}
+//Base de tiempos
+regVal = GPIOIntStatus( PORT2, 1 );	//Chequea que P2.1 sea la que genero la int.
+if ( regVal )
+{
+GPIOIntDisable( PORT2, 1 );				//deshabilito boton start
+//p2_1_counter++;
+cuentas_calibracion++;
+if(start==ON)
+{
+	p2_1_counter++;
+	if(p2_1_counter==INTERVALO)
+	  {
+		p2_1_counter=0;
+		centesimas++;
+	  }
+}
+if(cuentas_calibracion==FHC)
+	{
+	GPIOSetValue( LED_PORT, LED_BIT, LED_OFF );
+	}
+if(cuentas_calibracion==SHC)
+	{
+	GPIOSetValue( LED_PORT, LED_BIT, LED_ON );
+	cuentas_calibracion=0;
+	}
+GPIOIntClear( PORT2, 1 );
+GPIOIntEnable( PORT2, 1 );				//Habilita las interrupciones de placa manual B
+
+}
+/***********************************************************************/
+
+//P2.2: Placa de toque A
+
+
+regVal=0;
+regVal = GPIOIntStatus( PORT2, 2 );
+
+if ( regVal )
+	{
+	GPIOIntDisable( PORT2, 2 );	//Deshabilito las interrupciones de la placa.
+	GPIOIntClear( PORT2, 2 );
+	if(start==ON && lado==A)
+		{
+		lado=B;
+		GPIOIntDisable( PORT2, 3 );	//Deshabilito las interrupciones del pulsador manual.
+		GPIOIntClear( PORT2, 3 );
+		GPIOSetValue( PORT2, 6, 1 );	//Enciendo led placa de toque
+		Led_PT=ON;
+
+		lap[cont_laps]=centesimas;
+		ultimo=lap[cont_laps];
+		cont_laps++;
+
+		GPIOIntClear( PORT2, 4 );
+		GPIOIntClear( PORT2, 5 );
+		GPIOIntEnable( PORT2, 4 );	//Habilita las interrupciones de los pulsadores del otro lado de la pileta
+		GPIOIntEnable( PORT2, 5 );
+		if(cont_laps==n_laps)
+			{
+			fin=ON;
+			start=OFF;
+			}
+		if(PM_A==ON)				//Se activó antes el pulsador manual que la placa de toque
+			{
+			PM_A=OFF;				//Se reinician ambos flags
+			esperar_PT_A=OFF;			//Deja de esperar a la placa de toque
+			contador=0;				//Reinicia el contador de espera
+			}
+		}
+	}
+
+/***********************************************************************/
+
+//P2.3: Pulsador Manual A. La unica forma de que entre aqui es si se pulsa antes de que se accione la PT_A
+regVal=0;
+regVal = GPIOIntStatus( PORT2, 3 );
+
+if ( regVal )
+	{
+	GPIOIntClear( PORT2, 3 );
+	GPIOIntDisable( PORT2, 3 );	//Deshabilito las interrupciones de la placa.
+
+	if(start==ON & lado==A)
+		{
+		PM_A=ON;		//Indica que el pulsador manual se accionó correctamente.
+		lap[cont_laps]=centesimas;
+		esperar_PT_A=ON;	//Comienza a correr el tiempo para esperar a la placa de toque
+		GPIOSetValue( PORT2, 7, 1 );	//Enciendo led placa Manual
+		Led_PM=ON;
+		}
+	}
+
+
+/***********************************************************************/
+
+//P2.4: Placa de toque B
+regVal=0;
+regVal = GPIOIntStatus( PORT2, 4 );
+
+if ( regVal )
+	{
+	GPIOIntClear( PORT2, 4 );
+	GPIOIntDisable( PORT2, 4 );	//Deshabilito las interrupciones de la placa.
+
+
+	if(start==ON & lado==B)
+		{
+		lado=A;
+		GPIOIntDisable( PORT2, 5 );	//Deshabilito las interrupciones del pulsador manual.
+		GPIOIntClear( PORT2, 5 );
+		GPIOSetValue( PORT2, 6, 1 );	//Enciendo led placa de toque
+		Led_PT=ON;
+		lap[cont_laps]=centesimas;
+		ultimo=lap[cont_laps];
+		cont_laps++;
+
+		GPIOIntClear( PORT2, 2 );
+		GPIOIntClear( PORT2, 3 );
+		GPIOIntEnable( PORT2, 2 );	//Habilita las interrupciones de los pulsadores del otro lado de la pileta
+		GPIOIntEnable( PORT2, 3 );
+		if(cont_laps==n_laps)
+			{
+			fin=ON;
+			start=OFF;
+			}
+		if(PM_B==ON)				//Se activó antes el pulsador manual que la placa de toque
+			{
+			PM_B=OFF;				//Se reinician ambos flags
+			esperar_PT_B=OFF;		//Deja de esperar a la placa de toque
+			contador=0;				//Reinicia el contador de espera
+			}
+		}
+	}
+
+/***********************************************************************/
+
+//P2.5: Pulsador manual B
+regVal=0;
+regVal = GPIOIntStatus( PORT2, 5 );
+
+if ( regVal )
+	{
+	GPIOIntDisable( PORT2, 5 );
+	GPIOIntClear( PORT2, 5 );
+	if(start==ON & lado==B)
+		{
+		GPIOIntDisable( PORT2, 5 );
+		PM_B=ON;		//Indica que el pulsador manual se accionó correctamente.
+		lap[cont_laps]=centesimas;
+		esperar_PT_B=ON;
+		GPIOSetValue( PORT2, 7, 1 );	//Enciendo led placa de toque
+		Led_PM=ON;
+		}
+	}
+
+
+/***********************************************************************/
+
+//P2.10: RESET
+regVal=0;
+regVal = GPIOIntStatus( PORT2, 10 );
+
+if ( regVal )
+	{
+	GPIOIntDisable( PORT2, 10 );
+	GPIOIntClear( PORT2, 10 );
+	start=0;
+	PM_A=0;
+	PM_B=0;
+	esperar_PT_A=0;
+	esperar_PT_B=0;
+	for(contador=0;contador<n_laps;contador++)
+	{
+		lap[contador]=0;
+	}
+	contador=0;
+	n_laps=0;
+	cont_laps=0;
+	lado=B;
+	centesimas=0;
+	fin=0;										//
+	ultimo=0;
+	GPIOIntDisable( PORT2, 1 );					//deshabilita las interrupciones de la base de tiempos
+	}
+/***********************************************************************/
+  // CodeRed - extend original interrupt handler so as to toggle the LED state
+
+  //GPIOSetValue( LED_PORT, LED_BIT, LEDvalue );
+
+  return;
+}
+

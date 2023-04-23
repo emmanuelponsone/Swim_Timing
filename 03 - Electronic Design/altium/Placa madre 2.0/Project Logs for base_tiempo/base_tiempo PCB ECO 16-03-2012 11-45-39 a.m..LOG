@@ -1,0 +1,8 @@
+Removed Member From Class: ClassName=placa_madre Member=*
+Added Pin To Net: NetName=VCC Pin=J_1-1
+Added Pin To Net: NetName=NetJ_2_1 Pin=J_2-1
+Added Pin To Net: NetName=GND Pin=J_3-1
+Added Pin To Net: NetName=NetJ_4_1 Pin=J_4-1
+Added Pin To Net: NetName=VCC_ISO Pin=J_5-1
+Added Pin To Net: NetName=NetJ_6_1 Pin=J_6-1
+Added Pin To Net: NetName=GND_ISO Pin=J_7-1

@@ -1,0 +1,3 @@
+Added Component: Designator=GND1(PIN1)
+Added Pin To Net: NetName=GND Pin=GND1-1
+Added Member To Class: ClassName=Base de Tiempos Member=Component GND1 Socket

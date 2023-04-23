@@ -1,0 +1,21 @@
+---------------------------------------------------------------------------
+NCDrill File Report For: caja conexion.PcbDoc   28-Mar-12  04:51:22
+---------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : caja conexion.TXT
+EIA File   : caja conexion.DRL
+
+Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
+---------------------------------------------------------------------------
+T1        0.7112mm (28mil)         Round          27               7724.77 mm (304.12 Inch)
+T2        0.75mm (29.528mil)       Round          10               7676.02 mm (302.21 Inch)
+T3        0.8mm (31.496mil)        Round          20               7789.71 mm (306.68 Inch)
+T4        0.85mm (33.465mil)       Round          30               7624.87 mm (300.19 Inch)
+T5        0.9mm (35.433mil)        Round          85               7968.85 mm (313.73 Inch)
+T6        1.2mm (47.244mil)        Round          18               7485.36 mm (294.70 Inch)
+T7        3.81mm (150mil)          Round          4                7701.32 mm (303.20 Inch)
+---------------------------------------------------------------------------
+Totals                                            194              53970.90 mm (2124.84 Inch)
+
+Total Processing Time (hh:mm:ss) : 00:00:00

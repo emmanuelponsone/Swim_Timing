@@ -1,0 +1,93 @@
+Removed Pin From Net: NetName=NetU4_2 Pin=U4-2
+Removed Pin From Net: NetName=NetU4_4 Pin=U4-4
+Removed Pin From Net: NetName=NetU4_6 Pin=U4-6
+Removed Pin From Net: NetName=NetU4_10 Pin=U4-10
+Removed Pin From Net: NetName=NetU4_12 Pin=U4-12
+Removed Pin From Net: NetName=NetU5_2 Pin=U5-2
+Removed Pin From Net: NetName=NetU5_4 Pin=U5-4
+Removed Pin From Net: NetName=NetU5_6 Pin=U5-6
+Removed Pin From Net: NetName=NetU5_10 Pin=U5-10
+Removed Pin From Net: NetName=NetU5_12 Pin=U5-12
+Change Component Designator: OldDesignator=U4 NewDesignator=U2
+Change Component Designator: OldDesignator=U5 NewDesignator=U3
+Added Component: Designator=R1(2012[0805])
+Added Component: Designator=R2(2012[0805])
+Added Component: Designator=R3(2012[0805])
+Added Component: Designator=R4(2012[0805])
+Added Component: Designator=R5(2012[0805])
+Added Component: Designator=R6(2012[0805])
+Added Component: Designator=R7(2012[0805])
+Added Component: Designator=R8(2012[0805])
+Added Component: Designator=R9(2012[0805])
+Added Component: Designator=R10(2012[0805])
+Added Component: Designator=S1(N10A)
+Added Component: Designator=S2(N10A)
+Added Pin To Net: NetName=GND Pin=R1-1
+Added Pin To Net: NetName=NetU4_2 Pin=R1-2
+Added Pin To Net: NetName=GND Pin=R2-1
+Added Pin To Net: NetName=NetU4_4 Pin=R2-2
+Added Pin To Net: NetName=GND Pin=R3-1
+Added Pin To Net: NetName=NetU4_6 Pin=R3-2
+Added Pin To Net: NetName=GND Pin=R4-1
+Added Pin To Net: NetName=NetU4_10 Pin=R4-2
+Added Pin To Net: NetName=GND Pin=R5-1
+Added Pin To Net: NetName=NetU4_12 Pin=R5-2
+Added Pin To Net: NetName=GND Pin=R6-1
+Added Pin To Net: NetName=GND Pin=R7-1
+Added Pin To Net: NetName=GND Pin=R8-1
+Added Pin To Net: NetName=GND Pin=R9-1
+Added Pin To Net: NetName=GND Pin=R10-1
+Added Pin To Net: NetName=NetU5_12 Pin=S1-6
+Added Pin To Net: NetName=NetU5_10 Pin=S1-7
+Added Pin To Net: NetName=NetU5_6 Pin=S1-8
+Added Pin To Net: NetName=NetU5_4 Pin=S1-9
+Added Pin To Net: NetName=NetU5_2 Pin=S1-10
+Added Pin To Net: NetName=NetU4_2 Pin=S2-1
+Added Pin To Net: NetName=NetU4_4 Pin=S2-2
+Added Pin To Net: NetName=NetU4_6 Pin=S2-3
+Added Pin To Net: NetName=NetU4_10 Pin=S2-4
+Added Pin To Net: NetName=NetU4_12 Pin=S2-5
+Added Pin To Net: NetName=NetU5_12 Pin=S2-6
+Added Pin To Net: NetName=NetU5_10 Pin=S2-7
+Added Pin To Net: NetName=NetU5_6 Pin=S2-8
+Added Pin To Net: NetName=NetU5_4 Pin=S2-9
+Added Pin To Net: NetName=NetU5_2 Pin=S2-10
+Added Pin To Net: NetName=NetU4_2 Pin=U3-2
+Added Pin To Net: NetName=NetU4_4 Pin=U3-4
+Added Pin To Net: NetName=NetU4_6 Pin=U3-6
+Added Pin To Net: NetName=NetU4_10 Pin=U3-10
+Added Pin To Net: NetName=NetU4_12 Pin=U3-12
+Change Net Name : Old Net Name=NetU4_2 New Net Name=/SEL_B_0
+Change Net Name : Old Net Name=NetU4_4 New Net Name=/SEL_B_1
+Change Net Name : Old Net Name=NetU4_6 New Net Name=/SEL_B_2
+Change Net Name : Old Net Name=NetU4_10 New Net Name=/SEL_B_3
+Change Net Name : Old Net Name=NetU4_12 New Net Name=/SEL_B_4
+Change Net Name : Old Net Name=NetU5_2 New Net Name=O_0
+Change Net Name : Old Net Name=NetU5_4 New Net Name=O_1
+Change Net Name : Old Net Name=NetU5_6 New Net Name=O_2
+Change Net Name : Old Net Name=NetU5_10 New Net Name=O_3
+Change Net Name : Old Net Name=NetU5_12 New Net Name=O_4
+Added Pin To Net: NetName=SEL_B_0 Pin=R6-2
+Added Pin To Net: NetName=SEL_B_0 Pin=S1-1
+Added Pin To Net: NetName=SEL_B_0 Pin=U2-2
+Added Net: Name=SEL_B_0
+Added Pin To Net: NetName=SEL_B_1 Pin=R7-2
+Added Pin To Net: NetName=SEL_B_1 Pin=S1-2
+Added Pin To Net: NetName=SEL_B_1 Pin=U2-4
+Added Net: Name=SEL_B_1
+Added Pin To Net: NetName=SEL_B_2 Pin=R8-2
+Added Pin To Net: NetName=SEL_B_2 Pin=S1-3
+Added Pin To Net: NetName=SEL_B_2 Pin=U2-6
+Added Net: Name=SEL_B_2
+Added Pin To Net: NetName=SEL_B_3 Pin=R9-2
+Added Pin To Net: NetName=SEL_B_3 Pin=S1-4
+Added Pin To Net: NetName=SEL_B_3 Pin=U2-10
+Added Net: Name=SEL_B_3
+Added Pin To Net: NetName=SEL_B_4 Pin=R10-2
+Added Pin To Net: NetName=SEL_B_4 Pin=S1-5
+Added Pin To Net: NetName=SEL_B_4 Pin=U2-12
+Added Net: Name=SEL_B_4
+Change Class Name : Old Net Name=Designator New Net Name=Buffer_5Bits
+Added Class: Name=Selector
+Added Room: Name=Buffer_5Bits
+Added Room: Name=Selector

@@ -1,0 +1,34 @@
+Added Component: Designator=*(R-16)
+Added Component: Designator=P?(SOT-23-5)
+Added Component: Designator=U?(PA8)
+Added Component: Designator=U?(PA8)
+Added Component: Designator=U?(PA8)
+Added Component: Designator=U?(PA8)
+Added Component: Designator=U?(RW-16)
+Added Component: Designator=U?(RW-16)
+Added Component: Designator=U?(PA8)
+Added Component: Designator=U?(RW-16)
+Added Component: Designator=U?(PA8)
+Added Component: Designator=U?(RW-16)
+Added Component: Designator=U?(PA8)
+Added Component: Designator=U?(PA8)
+Added Pin To Net: NetName=GND Pin=U?-5
+Added Pin To Net: NetName=GND Pin=U?-5
+Added Pin To Net: NetName=GND Pin=U?-5
+Added Pin To Net: NetName=GND Pin=U?-5
+Added Pin To Net: NetName=GND Pin=U?-5
+Added Pin To Net: NetName=GND Pin=U?-5
+Added Pin To Net: NetName=GND Pin=U?-5
+Added Pin To Net: NetName=GND Pin=U?-5
+Added Net: Name=GND
+Added Pin To Net: NetName=VCC Pin=U?-8
+Added Pin To Net: NetName=VCC Pin=U?-8
+Added Pin To Net: NetName=VCC Pin=U?-8
+Added Pin To Net: NetName=VCC Pin=U?-8
+Added Pin To Net: NetName=VCC Pin=U?-8
+Added Pin To Net: NetName=VCC Pin=U?-8
+Added Pin To Net: NetName=VCC Pin=U?-8
+Added Pin To Net: NetName=VCC Pin=U?-8
+Added Net: Name=VCC
+Added Class: Name=drivers
+Added Room: Name=drivers

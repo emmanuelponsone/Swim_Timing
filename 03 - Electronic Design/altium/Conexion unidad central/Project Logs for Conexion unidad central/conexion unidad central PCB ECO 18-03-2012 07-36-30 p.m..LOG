@@ -1,0 +1,14 @@
+Removed Pin From Net: NetName=VCC Pin=P1-1
+Removed Pin From Net: NetName=GND_ISO Pin=P1-2
+Removed Pin From Net: NetName=VCC Pin=P3-17
+Removed Pin From Net: NetName=GND_ISO Pin=P3-18
+Removed Pin From Net: NetName=VCC Pin=P3-19
+Removed Pin From Net: NetName=GND_ISO Pin=P3-20
+Removed Pin From Net: NetName=VCC Pin=P4-17
+Removed Pin From Net: NetName=GND_ISO Pin=P4-18
+Removed Pin From Net: NetName=VCC Pin=P4-19
+Removed Pin From Net: NetName=GND_ISO Pin=P4-20
+Removed Pin From Net: NetName=GND_ISO Pin=PM1-1
+Removed Pin From Net: NetName=GND_ISO Pin=PT1-1
+Removed Pin From Net: NetName=VCC Pin=R1-2
+Removed Pin From Net: NetName=VCC Pin=R2-2

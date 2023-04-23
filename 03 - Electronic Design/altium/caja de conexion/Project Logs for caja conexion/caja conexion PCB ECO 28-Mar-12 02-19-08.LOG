@@ -1,0 +1,5 @@
+Change Component Designator: OldDesignator=C? NewDesignator=CFIN1
+Change Component Designator: OldDesignator=C? NewDesignator=CFIN2
+Added Pin To Net: NetName=3.3V Pin=CFIN2-1
+Added Pin To Net: NetName=GND_ISO Pin=CFIN2-2
+Added Member To Class: ClassName=conexion Member=Component CFIN1 Cap Pol3

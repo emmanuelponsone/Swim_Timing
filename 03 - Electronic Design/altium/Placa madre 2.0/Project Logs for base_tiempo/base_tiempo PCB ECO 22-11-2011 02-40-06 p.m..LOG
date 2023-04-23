@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=VCC Pin=U7-1
+Removed Pin From Net: NetName=GND Pin=U7-2
+Removed Pin From Net: NetName=+3.3V Pin=U7-3
+Removed Pin From Net: NetName=GND Pin=U7-4
+Added Pin To Net: NetName=52_UC Pin=P6_UI_A-3
+Added Pin To Net: NetName=52_UC Pin=P6_UI_B-3
+Added Pin To Net: NetName=52_UC Pin=P6_UI_C-3
+Added Pin To Net: NetName=52_UC Pin=P6_UI_D-3
+Added Pin To Net: NetName=52_UC Pin=P6_UI_E-3
+Added Pin To Net: NetName=52_UC Pin=P6_UI_F-3
+Added Pin To Net: NetName=52_UC Pin=P6_UI_G-3
+Added Pin To Net: NetName=52_UC Pin=P6_UI_H-3

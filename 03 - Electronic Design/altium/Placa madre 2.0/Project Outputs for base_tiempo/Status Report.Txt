@@ -1,0 +1,13 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [base_tiempo.PrjPcb]
+   Generated File[base_tiempo.GBL]
+   Generated File[base_tiempo.RUL]
+   Generated File[base_tiempo.EXTREP]
+   Generated File[base_tiempo.REP]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 03:56:19 p.m. On 26/03/2012

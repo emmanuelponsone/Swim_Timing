@@ -1,0 +1,18 @@
+---------------------------------------------------------------------------
+NCDrill File Report For: base_tiempo.PcbDoc   26/03/2012  10:40:47 a.m.
+---------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : base_tiempo.TXT
+EIA File   : base_tiempo.DRL
+
+Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
+---------------------------------------------------------------------------
+T1        0.7112mm (28mil)         Round          62               511.55 mm (20.14 Inch)
+T2        0.9mm (35.433mil)        Round          9                194.03 mm (7.64 Inch)
+T3        1.016mm (40mil)          Round          16               43.18 mm (1.70 Inch)
+T4        1.5mm (59.055mil)        Round          5                18.54 mm (0.73 Inch)
+---------------------------------------------------------------------------
+Totals                                            92               767.29 mm (30.21 Inch)
+
+Total Processing Time (hh:mm:ss) : 00:00:00

@@ -1,0 +1,114 @@
+Removed Pin From Net: NetName=14_UI_A Pin=*-1
+Removed Pin From Net: NetName=45_UI_A Pin=*-2
+Removed Pin From Net: NetName=14_UI_B Pin=*-3
+Removed Pin From Net: NetName=45_UI_B Pin=*-4
+Removed Pin From Net: NetName=14_UI_C Pin=*-5
+Removed Pin From Net: NetName=45_UI_C Pin=*-6
+Removed Pin From Net: NetName=14_UI_D Pin=*-7
+Removed Pin From Net: NetName=45_UI_D Pin=*-8
+Removed Pin From Net: NetName=14_UI_F Pin=Lado A-Linea  5-8-2
+Removed Pin From Net: NetName=14_UI_G Pin=Lado A-Linea  5-8-3
+Removed Pin From Net: NetName=14_UI_H Pin=Lado A-Linea  5-8-4
+Removed Pin From Net: NetName=GND Pin=Lado A-Linea  5-8-5
+Removed Pin From Net: NetName=45_UI_E Pin=Lado A-Linea  5-8-6
+Removed Pin From Net: NetName=45_UI_F Pin=Lado A-Linea  5-8-7
+Removed Pin From Net: NetName=45_UI_G Pin=Lado A-Linea  5-8-8
+Removed Pin From Net: NetName=45_UI_H Pin=Lado A-Linea  5-8-9
+Removed Pin From Net: NetName=GND Pin=Lado A-Linea  5-8-10
+Removed Pin From Net: NetName=GND Pin=Lado A-Linea  5-8-11
+Removed Pin From Net: NetName=46_UI_B Pin=Lado B-Linea  1-4-2
+Removed Pin From Net: NetName=46_UI_C Pin=Lado B-Linea  1-4-3
+Removed Pin From Net: NetName=46_UI_D Pin=Lado B-Linea  1-4-4
+Removed Pin From Net: NetName=GND Pin=Lado B-Linea  1-4-5
+Removed Pin From Net: NetName=47_UI_A Pin=Lado B-Linea  1-4-6
+Removed Pin From Net: NetName=47_UI_B Pin=Lado B-Linea  1-4-7
+Removed Pin From Net: NetName=47_UI_C Pin=Lado B-Linea  1-4-8
+Removed Pin From Net: NetName=47_UI_D Pin=Lado B-Linea  1-4-9
+Removed Pin From Net: NetName=GND Pin=Lado B-Linea  1-4-10
+Removed Pin From Net: NetName=GND Pin=Lado B-Linea  1-4-11
+Removed Pin From Net: NetName=46_UI_F Pin=Lado B-Linea  5-8-2
+Removed Pin From Net: NetName=46_UI_G Pin=Lado B-Linea  5-8-3
+Removed Pin From Net: NetName=46_UI_H Pin=Lado B-Linea  5-8-4
+Removed Pin From Net: NetName=GND Pin=Lado B-Linea  5-8-5
+Removed Pin From Net: NetName=47_UI_E Pin=Lado B-Linea  5-8-6
+Removed Pin From Net: NetName=47_UI_F Pin=Lado B-Linea  5-8-7
+Removed Pin From Net: NetName=47_UI_G Pin=Lado B-Linea  5-8-8
+Removed Pin From Net: NetName=47_UI_H Pin=Lado B-Linea  5-8-9
+Removed Pin From Net: NetName=GND Pin=Lado B-Linea  5-8-10
+Removed Pin From Net: NetName=GND Pin=Lado B-Linea  5-8-11
+Removed Member From Class: ClassName=placa_madre Member=*
+Change Component Footprint: Designator=Lado A-Linea  5-8 Old Footprint=DSUB1.385-2H9 New Footprint=Conector Sub d15
+Change Component Footprint: Designator=Lado B-Linea  1-4 Old Footprint=DSUB1.385-2H9 New Footprint=Conector Sub d15
+Change Component Footprint: Designator=Lado B-Linea  5-8 Old Footprint=DSUB1.385-2H9 New Footprint=Conector Sub d15
+Change Component Comment : Designator=Lado B-Linea  5-8 Old Comment=D Connector 9 New Comment=Conector Sub D 15
+Change Component Comment : Designator=Lado B-Linea  1-4 Old Comment=D Connector 9 New Comment=Conector Sub D 15
+Change Component Comment : Designator=Lado A-Linea  5-8 Old Comment=D Connector 9 New Comment=Conector Sub D 15
+Added Component: Designator=J?(DSUB1.385-2H15)
+Added Component: Designator=Lado A-Linea 1-4(Conector Sub d15)
+Added Pin To Net: NetName=14_UI_A Pin=Lado A-Linea 1-4-1
+Added Pin To Net: NetName=45_UI_A Pin=Lado A-Linea 1-4-2
+Added Pin To Net: NetName=14_UI_B Pin=Lado A-Linea 1-4-3
+Added Pin To Net: NetName=45_UI_B Pin=Lado A-Linea 1-4-4
+Added Pin To Net: NetName=14_UI_C Pin=Lado A-Linea 1-4-5
+Added Pin To Net: NetName=45_UI_C Pin=Lado A-Linea 1-4-6
+Added Pin To Net: NetName=14_UI_D Pin=Lado A-Linea 1-4-7
+Added Pin To Net: NetName=45_UI_D Pin=Lado A-Linea 1-4-8
+Added Pin To Net: NetName=VCC_ISO Pin=Lado A-Linea 1-4-9
+Added Pin To Net: NetName=VCC_ISO Pin=Lado A-Linea 1-4-10
+Added Pin To Net: NetName=VCC_ISO Pin=Lado A-Linea 1-4-11
+Added Pin To Net: NetName=GND_ISO Pin=Lado A-Linea 1-4-12
+Added Pin To Net: NetName=GND_ISO Pin=Lado A-Linea 1-4-13
+Added Pin To Net: NetName=GND_ISO Pin=Lado A-Linea 1-4-14
+Added Pin To Net: NetName=GND_ISO Pin=Lado A-Linea 1-4-15
+Added Pin To Net: NetName=GND Pin=Lado A-Linea 1-4-16
+Added Pin To Net: NetName=GND Pin=Lado A-Linea 1-4-17
+Added Pin To Net: NetName=45_UI_E Pin=Lado A-Linea  5-8-2
+Added Pin To Net: NetName=14_UI_F Pin=Lado A-Linea  5-8-3
+Added Pin To Net: NetName=45_UI_F Pin=Lado A-Linea  5-8-4
+Added Pin To Net: NetName=14_UI_G Pin=Lado A-Linea  5-8-5
+Added Pin To Net: NetName=45_UI_G Pin=Lado A-Linea  5-8-6
+Added Pin To Net: NetName=14_UI_H Pin=Lado A-Linea  5-8-7
+Added Pin To Net: NetName=45_UI_H Pin=Lado A-Linea  5-8-8
+Added Pin To Net: NetName=VCC_ISO Pin=Lado A-Linea  5-8-9
+Added Pin To Net: NetName=VCC_ISO Pin=Lado A-Linea  5-8-10
+Added Pin To Net: NetName=VCC_ISO Pin=Lado A-Linea  5-8-11
+Added Pin To Net: NetName=GND_ISO Pin=Lado A-Linea  5-8-12
+Added Pin To Net: NetName=GND_ISO Pin=Lado A-Linea  5-8-13
+Added Pin To Net: NetName=GND_ISO Pin=Lado A-Linea  5-8-14
+Added Pin To Net: NetName=GND_ISO Pin=Lado A-Linea  5-8-15
+Added Pin To Net: NetName=GND Pin=Lado A-Linea  5-8-16
+Added Pin To Net: NetName=GND Pin=Lado A-Linea  5-8-17
+Added Pin To Net: NetName=47_UI_A Pin=Lado B-Linea  1-4-2
+Added Pin To Net: NetName=46_UI_B Pin=Lado B-Linea  1-4-3
+Added Pin To Net: NetName=47_UI_B Pin=Lado B-Linea  1-4-4
+Added Pin To Net: NetName=46_UI_C Pin=Lado B-Linea  1-4-5
+Added Pin To Net: NetName=47_UI_C Pin=Lado B-Linea  1-4-6
+Added Pin To Net: NetName=46_UI_D Pin=Lado B-Linea  1-4-7
+Added Pin To Net: NetName=47_UI_D Pin=Lado B-Linea  1-4-8
+Added Pin To Net: NetName=VCC_ISO Pin=Lado B-Linea  1-4-9
+Added Pin To Net: NetName=VCC_ISO Pin=Lado B-Linea  1-4-10
+Added Pin To Net: NetName=VCC_ISO Pin=Lado B-Linea  1-4-11
+Added Pin To Net: NetName=GND_ISO Pin=Lado B-Linea  1-4-12
+Added Pin To Net: NetName=GND_ISO Pin=Lado B-Linea  1-4-13
+Added Pin To Net: NetName=GND_ISO Pin=Lado B-Linea  1-4-14
+Added Pin To Net: NetName=GND_ISO Pin=Lado B-Linea  1-4-15
+Added Pin To Net: NetName=GND Pin=Lado B-Linea  1-4-16
+Added Pin To Net: NetName=GND Pin=Lado B-Linea  1-4-17
+Added Pin To Net: NetName=47_UI_E Pin=Lado B-Linea  5-8-2
+Added Pin To Net: NetName=46_UI_F Pin=Lado B-Linea  5-8-3
+Added Pin To Net: NetName=47_UI_F Pin=Lado B-Linea  5-8-4
+Added Pin To Net: NetName=46_UI_G Pin=Lado B-Linea  5-8-5
+Added Pin To Net: NetName=47_UI_G Pin=Lado B-Linea  5-8-6
+Added Pin To Net: NetName=46_UI_H Pin=Lado B-Linea  5-8-7
+Added Pin To Net: NetName=47_UI_H Pin=Lado B-Linea  5-8-8
+Added Pin To Net: NetName=VCC_ISO Pin=Lado B-Linea  5-8-9
+Added Pin To Net: NetName=VCC_ISO Pin=Lado B-Linea  5-8-10
+Added Pin To Net: NetName=VCC_ISO Pin=Lado B-Linea  5-8-11
+Added Pin To Net: NetName=GND_ISO Pin=Lado B-Linea  5-8-12
+Added Pin To Net: NetName=GND_ISO Pin=Lado B-Linea  5-8-13
+Added Pin To Net: NetName=GND_ISO Pin=Lado B-Linea  5-8-14
+Added Pin To Net: NetName=GND_ISO Pin=Lado B-Linea  5-8-15
+Added Pin To Net: NetName=GND Pin=Lado B-Linea  5-8-16
+Added Pin To Net: NetName=GND Pin=Lado B-Linea  5-8-17
+Added Member To Class: ClassName=placa_madre Member=Component J? D Connector 15
+Added Member To Class: ClassName=placa_madre Member=Component Lado A-Linea 1-4 Conector Sub D 15

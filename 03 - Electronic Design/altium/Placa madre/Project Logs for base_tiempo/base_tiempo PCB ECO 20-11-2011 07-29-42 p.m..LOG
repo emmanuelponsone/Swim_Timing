@@ -1,0 +1,5 @@
+Added Component: Designator=U7(MP04A_N)
+Added Pin To Net: NetName=VCC Pin=U7-1
+Added Pin To Net: NetName=1_UC Pin=U7-2
+Added Pin To Net: NetName=28_UC Pin=U7-3
+Added Pin To Net: NetName=1_UC Pin=U7-4

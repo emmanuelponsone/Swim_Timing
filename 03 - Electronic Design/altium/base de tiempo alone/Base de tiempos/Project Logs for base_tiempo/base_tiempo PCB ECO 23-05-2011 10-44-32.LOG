@@ -1,0 +1,70 @@
+Added Component: Designator=U1(N016)
+Added Component: Designator=U3(N016)
+Added Component: Designator=U4(DIP16)
+Added Component: Designator=U5(DIP16)
+Added Pin To Net: NetName=GND Pin=U1-8
+Added Pin To Net: NetName=GND Pin=U4-8
+Added Pin To Net: NetName=GND Pin=U5-8
+Added Net: Name=GND
+Added Pin To Net: NetName=NetU4_2 Pin=U4-2
+Added Net: Name=NetU4_2
+Added Pin To Net: NetName=NetU4_4 Pin=U4-4
+Added Net: Name=NetU4_4
+Added Pin To Net: NetName=NetU4_6 Pin=U4-6
+Added Net: Name=NetU4_6
+Added Pin To Net: NetName=NetU4_10 Pin=U4-10
+Added Net: Name=NetU4_10
+Added Pin To Net: NetName=NetU4_12 Pin=U4-12
+Added Net: Name=NetU4_12
+Added Pin To Net: NetName=NetU5_2 Pin=U5-2
+Added Net: Name=NetU5_2
+Added Pin To Net: NetName=NetU5_4 Pin=U5-4
+Added Net: Name=NetU5_4
+Added Pin To Net: NetName=NetU5_6 Pin=U5-6
+Added Net: Name=NetU5_6
+Added Pin To Net: NetName=NetU5_10 Pin=U5-10
+Added Net: Name=NetU5_10
+Added Pin To Net: NetName=NetU5_12 Pin=U5-12
+Added Net: Name=NetU5_12
+Added Pin To Net: NetName=Q0 Pin=U1-9
+Added Pin To Net: NetName=Q0 Pin=U4-3
+Added Pin To Net: NetName=Q0 Pin=U5-3
+Added Net: Name=Q0
+Added Pin To Net: NetName=Q1 Pin=U1-7
+Added Pin To Net: NetName=Q1 Pin=U4-5
+Added Pin To Net: NetName=Q1 Pin=U5-5
+Added Net: Name=Q1
+Added Pin To Net: NetName=Q2 Pin=U1-6
+Added Pin To Net: NetName=Q2 Pin=U4-7
+Added Pin To Net: NetName=Q2 Pin=U5-7
+Added Net: Name=Q2
+Added Pin To Net: NetName=Q3 Pin=U1-5
+Added Pin To Net: NetName=Q3 Pin=U4-9
+Added Pin To Net: NetName=Q3 Pin=U5-9
+Added Net: Name=Q3
+Added Pin To Net: NetName=Q4 Pin=U1-3
+Added Pin To Net: NetName=Q4 Pin=U4-11
+Added Pin To Net: NetName=Q4 Pin=U5-11
+Added Net: Name=Q4
+Added Pin To Net: NetName=Q5 Pin=U1-2
+Added Net: Name=Q5
+Added Pin To Net: NetName=Q6 Pin=U1-4
+Added Net: Name=Q6
+Added Pin To Net: NetName=Q7 Pin=U1-13
+Added Net: Name=Q7
+Added Pin To Net: NetName=Q8 Pin=U1-12
+Added Net: Name=Q8
+Added Pin To Net: NetName=Q9 Pin=U1-14
+Added Net: Name=Q9
+Added Pin To Net: NetName=Q10 Pin=U1-15
+Added Net: Name=Q10
+Added Pin To Net: NetName=Q11 Pin=U1-1
+Added Net: Name=Q11
+Added Pin To Net: NetName=VCC Pin=U1-16
+Added Pin To Net: NetName=VCC Pin=U4-1
+Added Pin To Net: NetName=VCC Pin=U5-1
+Added Net: Name=VCC
+Added Class: Name=base_tiempo
+Added Class: Name=Designator
+Added Room: Name=base_tiempo
+Added Room: Name=Designator

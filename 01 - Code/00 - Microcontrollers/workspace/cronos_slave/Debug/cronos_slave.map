@@ -1,0 +1,518 @@
+Archive member included because of file (symbol)
+
+D:\Archivos\DropBox\proyectofinal\codigo\workspace\CMSISv1p30_LPC13xx\Debug\libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+                              ./src/cronos_slave.o (SystemCoreClock)
+
+Allocating common symbols
+Common symbol       size              file
+
+estado              0x1               ./src/cronos_slave.o
+ultimo              0x4               ./src/cronos_slave.o
+UARTBuffer          0x40              ./src/uart.o
+aux                 0x1               ./src/cronos_slave.o
+lap                 0xc8              ./src/cronos_slave.o
+UARTStatus          0x4               ./src/uart.o
+cuentas             0x4               ./src/cronos_slave.o
+Buffer              0x40              ./src/cronos_slave.o
+pepe                0x4               ./src/cronos_slave.o
+
+Discarded input sections
+
+ .text          0x00000000        0x0 ./src/clkconfig.o
+ .data          0x00000000        0x0 ./src/clkconfig.o
+ .bss           0x00000000        0x0 ./src/clkconfig.o
+ .text.WDT_CLK_Setup
+                0x00000000       0xa0 ./src/clkconfig.o
+ .text.CLKOUT_Setup
+                0x00000000       0x78 ./src/clkconfig.o
+ .text          0x00000000        0x0 ./src/cr_startup_lpc13.o
+ .data          0x00000000        0x0 ./src/cr_startup_lpc13.o
+ .bss           0x00000000        0x0 ./src/cr_startup_lpc13.o
+ .text          0x00000000        0x0 ./src/cronos_slave.o
+ .data          0x00000000        0x0 ./src/cronos_slave.o
+ .bss           0x00000000        0x0 ./src/cronos_slave.o
+ .text          0x00000000        0x0 ./src/gpio.o
+ .data          0x00000000        0x0 ./src/gpio.o
+ .bss           0x00000000        0x0 ./src/gpio.o
+ .rodata.LPC_GPIO
+                0x00000000       0x10 ./src/gpio.o
+ .text          0x00000000        0x0 ./src/lpcxpresso_gpio_int.o
+ .data          0x00000000        0x0 ./src/lpcxpresso_gpio_int.o
+ .bss           0x00000000        0x0 ./src/lpcxpresso_gpio_int.o
+ .bss.LEDvalue  0x00000000        0x4 ./src/lpcxpresso_gpio_int.o
+ .bss.gpio2_counter
+                0x00000000        0x4 ./src/lpcxpresso_gpio_int.o
+ .bss.incert    0x00000000        0x4 ./src/lpcxpresso_gpio_int.o
+ .bss.led       0x00000000        0x4 ./src/lpcxpresso_gpio_int.o
+ .text          0x00000000        0x0 ./src/timer32.o
+ .data          0x00000000        0x0 ./src/timer32.o
+ .bss           0x00000000        0x0 ./src/timer32.o
+ .text.delay32Ms
+                0x00000000      0x14c ./src/timer32.o
+ .text.disable_timer32
+                0x00000000       0x38 ./src/timer32.o
+ .text.reset_timer32
+                0x00000000       0x5c ./src/timer32.o
+ .text          0x00000000        0x0 ./src/uart.o
+ .data          0x00000000        0x0 ./src/uart.o
+ .bss           0x00000000        0x0 ./src/uart.o
+ .text          0x00000000        0x0 D:\Archivos\DropBox\proyectofinal\codigo\workspace\CMSISv1p30_LPC13xx\Debug\libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+ .bss           0x00000000        0x0 D:\Archivos\DropBox\proyectofinal\codigo\workspace\CMSISv1p30_LPC13xx\Debug\libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+ .text.SystemCoreClockUpdate
+                0x00000000      0x35c D:\Archivos\DropBox\proyectofinal\codigo\workspace\CMSISv1p30_LPC13xx\Debug\libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+MFlash32         0x00000000         0x00008000         xr
+RamLoc8          0x10000000         0x00002000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD ./src/clkconfig.o
+LOAD ./src/cr_startup_lpc13.o
+LOAD ./src/cronos_slave.o
+LOAD ./src/gpio.o
+LOAD ./src/lpcxpresso_gpio_int.o
+LOAD ./src/timer32.o
+LOAD ./src/uart.o
+LOAD D:\Archivos\DropBox\proyectofinal\codigo\workspace\CMSISv1p30_LPC13xx\Debug\libCMSISv1p30_LPC13xx.a
+START GROUP
+LOAD d:/instalacion programas/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib/thumb2\libcr_c.a
+LOAD d:/instalacion programas/lpcxpresso_4.1.5_219/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/thumb2\libcr_eabihelpers.a
+END GROUP
+                0x00008000                __top_MFlash32 = 0x8000
+                0x10002000                __top_RamLoc8 = 0x10002000
+
+.text           0x00000000     0x25fc
+ FILL mask 0xff
+ *(.isr_vector)
+ .isr_vector    0x00000000      0x124 ./src/cr_startup_lpc13.o
+                0x00000000                g_pfnVectors
+                0x00000124                . = ALIGN (0x4)
+                0x00000124                __section_table_start = .
+                0x00000124                __data_section_table = .
+                0x00000124        0x4 LONG 0x25fc LOADADDR (.data)
+                0x00000128        0x4 LONG 0x10000000 ADDR (.data)
+                0x0000012c        0x4 LONG 0xc SIZEOF (.data)
+                0x00000130                __data_section_table_end = .
+                0x00000130                __bss_section_table = .
+                0x00000130        0x4 LONG 0x1000000c ADDR (.bss)
+                0x00000134        0x4 LONG 0x1ac SIZEOF (.bss)
+                0x00000138                __bss_section_table_end = .
+                0x00000138                __section_table_end = .
+ *(.after_vectors*)
+ *(.text*)
+ .text.NMI_Handler
+                0x00000138        0x2 ./src/cr_startup_lpc13.o
+                0x00000138                NMI_Handler
+ .text.HardFault_Handler
+                0x0000013a        0x2 ./src/cr_startup_lpc13.o
+                0x0000013a                HardFault_Handler
+ .text.MemManage_Handler
+                0x0000013c        0x2 ./src/cr_startup_lpc13.o
+                0x0000013c                MemManage_Handler
+ .text.BusFault_Handler
+                0x0000013e        0x2 ./src/cr_startup_lpc13.o
+                0x0000013e                BusFault_Handler
+ .text.UsageFault_Handler
+                0x00000140        0x2 ./src/cr_startup_lpc13.o
+                0x00000140                UsageFault_Handler
+ .text.SVCall_Handler
+                0x00000142        0x2 ./src/cr_startup_lpc13.o
+                0x00000142                SVCall_Handler
+ .text.DebugMon_Handler
+                0x00000144        0x2 ./src/cr_startup_lpc13.o
+                0x00000144                DebugMon_Handler
+ .text.PendSV_Handler
+                0x00000146        0x2 ./src/cr_startup_lpc13.o
+                0x00000146                PendSV_Handler
+ .text.SysTick_Handler
+                0x00000148        0x2 ./src/cr_startup_lpc13.o
+                0x00000148                SysTick_Handler
+ *fill*         0x0000014a        0x2 00
+ .text.Reset_Handler
+                0x0000014c       0x54 ./src/cr_startup_lpc13.o
+                0x0000014c                ResetISR
+                0x0000014c                Reset_Handler
+ .text.IntDefaultHandler
+                0x000001a0        0x2 ./src/cr_startup_lpc13.o
+                0x000001a0                TIMER16_0_IRQHandler
+                0x000001a0                PIOINT1_IRQHandler
+                0x000001a0                SSP_IRQHandler
+                0x000001a0                TIMER16_1_IRQHandler
+                0x000001a0                USB_FIQHandler
+                0x000001a0                ADC_IRQHandler
+                0x000001a0                USB_IRQHandler
+                0x000001a0                BOD_IRQHandler
+                0x000001a0                WAKEUP_IRQHandler
+                0x000001a0                PIOINT0_IRQHandler
+                0x000001a0                I2C_IRQHandler
+                0x000001a0                WDT_IRQHandler
+                0x000001a0                PIOINT3_IRQHandler
+                0x000001a0                FMC_IRQHandler
+ *fill*         0x000001a2        0x2 00
+ .text.GPIOSetValue
+                0x000001a4       0x3c ./src/cronos_slave.o
+ .text.GPIOSetDir
+                0x000001e0       0x90 ./src/cronos_slave.o
+ .text.main     0x00000270      0x5dc ./src/cronos_slave.o
+                0x00000270                main
+ .text.NVIC_EnableIRQ
+                0x0000084c       0x38 ./src/gpio.o
+ .text.GPIOInit
+                0x00000884       0x44 ./src/gpio.o
+                0x00000884                GPIOInit
+ .text.GPIOSetInterrupt
+                0x000008c8      0x574 ./src/gpio.o
+                0x000008c8                GPIOSetInterrupt
+ .text.GPIOIntEnable
+                0x00000e3c      0x104 ./src/gpio.o
+                0x00000e3c                GPIOIntEnable
+ .text.GPIOIntDisable
+                0x00000f40      0x114 ./src/gpio.o
+                0x00000f40                GPIOIntDisable
+ .text.GPIOIntStatus
+                0x00001054      0x100 ./src/gpio.o
+                0x00001054                GPIOIntStatus
+ .text.GPIOIntClear
+                0x00001154      0x104 ./src/gpio.o
+                0x00001154                GPIOIntClear
+ .text.GPIOSetValue
+                0x00001258       0x3c ./src/lpcxpresso_gpio_int.o
+ .text.PIOINT2_IRQHandler
+                0x00001294      0x774 ./src/lpcxpresso_gpio_int.o
+                0x00001294                PIOINT2_IRQHandler
+ .text.NVIC_EnableIRQ
+                0x00001a08       0x38 ./src/timer32.o
+ .text.GPIOSetValue
+                0x00001a40       0x3c ./src/timer32.o
+ .text.TIMER32_0_IRQHandler
+                0x00001a7c      0x328 ./src/timer32.o
+                0x00001a7c                TIMER32_0_IRQHandler
+ .text.TIMER32_1_IRQHandler
+                0x00001da4       0x30 ./src/timer32.o
+                0x00001da4                TIMER32_1_IRQHandler
+ .text.enable_timer32
+                0x00001dd4       0x38 ./src/timer32.o
+                0x00001dd4                enable_timer32
+ .text.init_timer32
+                0x00001e0c      0x1cc ./src/timer32.o
+                0x00001e0c                init_timer32
+ .text.NVIC_EnableIRQ
+                0x00001fd8       0x38 ./src/uart.o
+ .text.NVIC_DisableIRQ
+                0x00002010       0x3c ./src/uart.o
+ .text.UART_IRQHandler
+                0x0000204c      0x178 ./src/uart.o
+                0x0000204c                UART_IRQHandler
+ .text.UARTInit
+                0x000021c4      0x1ac ./src/uart.o
+                0x000021c4                UARTInit
+ .text.UARTSend
+                0x00002370       0x50 ./src/uart.o
+                0x00002370                UARTSend
+ .text.__NOP    0x000023c0        0xc D:\Archivos\DropBox\proyectofinal\codigo\workspace\CMSISv1p30_LPC13xx\Debug\libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+ .text.SystemInit
+                0x000023cc      0x200 D:\Archivos\DropBox\proyectofinal\codigo\workspace\CMSISv1p30_LPC13xx\Debug\libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+                0x000023cc                SystemInit
+ *(.rodata .rodata.*)
+ .rodata.LPC_GPIO
+                0x000025cc       0x10 ./src/cronos_slave.o
+ .rodata.LPC_GPIO
+                0x000025dc       0x10 ./src/lpcxpresso_gpio_int.o
+ .rodata.LPC_GPIO
+                0x000025ec       0x10 ./src/timer32.o
+                0x000025fc                . = ALIGN (0x4)
+
+.glue_7         0x000025fc        0x0
+ .glue_7        0x00000000        0x0 linker stubs
+
+.glue_7t        0x000025fc        0x0
+ .glue_7t       0x00000000        0x0 linker stubs
+
+.vfp11_veneer   0x000025fc        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x000025fc        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x000025fc                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x000025fc                __exidx_end = .
+                0x000025fc                _etext = .
+
+.uninit_RESERVED
+ *(.bss.$RESERVED*)
+
+.data           0x10000000        0xc load address 0x000025fc
+ FILL mask 0xff
+                0x10000000                _data = .
+ *(vtable)
+ *(.data*)
+ .data.lado     0x10000000        0x4 ./src/cronos_slave.o
+                0x10000000                lado
+ .data.UARTTxEmpty
+                0x10000004        0x1 ./src/uart.o
+                0x10000004                UARTTxEmpty
+ *fill*         0x10000005        0x3 00
+ .data          0x10000008        0x4 D:\Archivos\DropBox\proyectofinal\codigo\workspace\CMSISv1p30_LPC13xx\Debug\libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+                0x10000008                SystemCoreClock
+                0x1000000c                . = ALIGN (0x4)
+                0x1000000c                _edata = .
+
+.bss            0x1000000c      0x1ac load address 0x00002608
+                0x1000000c                _bss = .
+ *(.bss*)
+ .bss.centesimas
+                0x1000000c        0x4 ./src/cronos_slave.o
+                0x1000000c                centesimas
+ .bss.n_laps    0x10000010        0x4 ./src/cronos_slave.o
+                0x10000010                n_laps
+ .bss.cont_laps
+                0x10000014        0x4 ./src/cronos_slave.o
+                0x10000014                cont_laps
+ .bss.p2_1_counter
+                0x10000018        0x4 ./src/lpcxpresso_gpio_int.o
+                0x10000018                p2_1_counter
+ .bss.cuentas_calibracion
+                0x1000001c        0x4 ./src/lpcxpresso_gpio_int.o
+                0x1000001c                cuentas_calibracion
+ .bss.contador  0x10000020        0x4 ./src/lpcxpresso_gpio_int.o
+                0x10000020                contador
+ .bss.start     0x10000024        0x4 ./src/lpcxpresso_gpio_int.o
+                0x10000024                start
+ .bss.PM_A      0x10000028        0x4 ./src/lpcxpresso_gpio_int.o
+                0x10000028                PM_A
+ .bss.PM_B      0x1000002c        0x4 ./src/lpcxpresso_gpio_int.o
+                0x1000002c                PM_B
+ .bss.esperar_PT_A
+                0x10000030        0x4 ./src/lpcxpresso_gpio_int.o
+                0x10000030                esperar_PT_A
+ .bss.esperar_PT_B
+                0x10000034        0x4 ./src/lpcxpresso_gpio_int.o
+                0x10000034                esperar_PT_B
+ .bss.fin       0x10000038        0x4 ./src/lpcxpresso_gpio_int.o
+                0x10000038                fin
+ .bss.Led_PT    0x1000003c        0x4 ./src/lpcxpresso_gpio_int.o
+                0x1000003c                Led_PT
+ .bss.Led_PM    0x10000040        0x4 ./src/lpcxpresso_gpio_int.o
+                0x10000040                Led_PM
+ .bss.timer32_0_counter
+                0x10000044        0x4 ./src/timer32.o
+                0x10000044                timer32_0_counter
+ .bss.timer32_1_counter
+                0x10000048        0x4 ./src/timer32.o
+                0x10000048                timer32_1_counter
+ .bss.leds_m    0x1000004c        0x4 ./src/timer32.o
+                0x1000004c                leds_m
+ .bss.leds_p    0x10000050        0x4 ./src/timer32.o
+                0x10000050                leds_p
+ .bss.UARTCount
+                0x10000054        0x4 ./src/uart.o
+                0x10000054                UARTCount
+ *(COMMON)
+ COMMON         0x10000058      0x11c ./src/cronos_slave.o
+                0x10000058                estado
+                0x1000005c                ultimo
+                0x10000060                aux
+                0x10000064                lap
+                0x1000012c                cuentas
+                0x10000130                Buffer
+                0x10000170                pepe
+ COMMON         0x10000174       0x44 ./src/uart.o
+                0x10000174                UARTBuffer
+                0x100001b4                UARTStatus
+                0x100001b8                . = ALIGN (0x4)
+                0x100001b8                _ebss = .
+                0x100001b8                PROVIDE (end, .)
+                0x100001b8                PROVIDE (_pvHeapStart, .)
+                0x10002000                PROVIDE (_vStackTop, (__top_RamLoc8 - 0x0))
+OUTPUT(cronos_slave.axf elf32-littlearm)
+
+.debug_abbrev   0x00000000      0xb69
+ .debug_abbrev  0x00000000       0xae ./src/clkconfig.o
+ .debug_abbrev  0x000000ae       0xe3 ./src/cr_startup_lpc13.o
+ .debug_abbrev  0x00000191      0x1ed ./src/cronos_slave.o
+ .debug_abbrev  0x0000037e      0x1d0 ./src/gpio.o
+ .debug_abbrev  0x0000054e      0x16e ./src/lpcxpresso_gpio_int.o
+ .debug_abbrev  0x000006bc      0x219 ./src/timer32.o
+ .debug_abbrev  0x000008d5      0x1a4 ./src/uart.o
+ .debug_abbrev  0x00000a79       0xf0 D:\Archivos\DropBox\proyectofinal\codigo\workspace\CMSISv1p30_LPC13xx\Debug\libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+
+.debug_info     0x00000000     0x4563
+ .debug_info    0x00000000      0x53a ./src/clkconfig.o
+ .debug_info    0x0000053a      0x215 ./src/cr_startup_lpc13.o
+ .debug_info    0x0000074f      0xb3d ./src/cronos_slave.o
+ .debug_info    0x0000128c      0xaa4 ./src/gpio.o
+ .debug_info    0x00001d30      0x4b1 ./src/lpcxpresso_gpio_int.o
+ .debug_info    0x000021e1     0x1041 ./src/timer32.o
+ .debug_info    0x00003222      0xdd1 ./src/uart.o
+ .debug_info    0x00003ff3      0x570 D:\Archivos\DropBox\proyectofinal\codigo\workspace\CMSISv1p30_LPC13xx\Debug\libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+
+.debug_line     0x00000000     0x26b1
+ .debug_line    0x00000000      0x45f ./src/clkconfig.o
+ .debug_line    0x0000045f      0x479 ./src/cr_startup_lpc13.o
+ .debug_line    0x000008d8      0x510 ./src/cronos_slave.o
+ .debug_line    0x00000de8      0x523 ./src/gpio.o
+ .debug_line    0x0000130b      0x4eb ./src/lpcxpresso_gpio_int.o
+ .debug_line    0x000017f6      0x54e ./src/timer32.o
+ .debug_line    0x00001d44      0x4d8 ./src/uart.o
+ .debug_line    0x0000221c      0x495 D:\Archivos\DropBox\proyectofinal\codigo\workspace\CMSISv1p30_LPC13xx\Debug\libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+
+.debug_macinfo  0x00000000    0x3205b
+ .debug_macinfo
+                0x00000000     0x6a4d ./src/clkconfig.o
+ .debug_macinfo
+                0x00006a4d     0x313f ./src/cr_startup_lpc13.o
+ .debug_macinfo
+                0x00009b8c     0x6d6a ./src/cronos_slave.o
+ .debug_macinfo
+                0x000108f6     0x69c1 ./src/gpio.o
+ .debug_macinfo
+                0x000172b7     0x6a44 ./src/lpcxpresso_gpio_int.o
+ .debug_macinfo
+                0x0001dcfb     0x6ae4 ./src/timer32.o
+ .debug_macinfo
+                0x000247df     0x6b75 ./src/uart.o
+ .debug_macinfo
+                0x0002b354     0x6d07 D:\Archivos\DropBox\proyectofinal\codigo\workspace\CMSISv1p30_LPC13xx\Debug\libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+
+.debug_loc      0x00000000      0x6d6
+ .debug_loc     0x00000000       0x70 ./src/clkconfig.o
+ .debug_loc     0x00000070       0x3e ./src/cr_startup_lpc13.o
+ .debug_loc     0x000000ae       0xa8 ./src/cronos_slave.o
+ .debug_loc     0x00000156      0x17c ./src/gpio.o
+ .debug_loc     0x000002d2       0x70 ./src/lpcxpresso_gpio_int.o
+ .debug_loc     0x00000342      0x1e0 ./src/timer32.o
+ .debug_loc     0x00000522      0x118 ./src/uart.o
+ .debug_loc     0x0000063a       0x9c D:\Archivos\DropBox\proyectofinal\codigo\workspace\CMSISv1p30_LPC13xx\Debug\libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+
+.debug_pubnames
+                0x00000000      0x4d0
+ .debug_pubnames
+                0x00000000       0x35 ./src/clkconfig.o
+ .debug_pubnames
+                0x00000035       0xec ./src/cr_startup_lpc13.o
+ .debug_pubnames
+                0x00000121       0x92 ./src/cronos_slave.o
+ .debug_pubnames
+                0x000001b3       0x7c ./src/gpio.o
+ .debug_pubnames
+                0x0000022f       0xed ./src/lpcxpresso_gpio_int.o
+ .debug_pubnames
+                0x0000031c       0xde ./src/timer32.o
+ .debug_pubnames
+                0x000003fa       0x87 ./src/uart.o
+ .debug_pubnames
+                0x00000481       0x4f D:\Archivos\DropBox\proyectofinal\codigo\workspace\CMSISv1p30_LPC13xx\Debug\libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+
+.debug_pubtypes
+                0x00000000      0x2de
+ .debug_pubtypes
+                0x00000000       0x36 ./src/clkconfig.o
+ .debug_pubtypes
+                0x00000036       0x12 ./src/cr_startup_lpc13.o
+ .debug_pubtypes
+                0x00000048       0x78 ./src/cronos_slave.o
+ .debug_pubtypes
+                0x000000c0       0x7c ./src/gpio.o
+ .debug_pubtypes
+                0x0000013c       0x34 ./src/lpcxpresso_gpio_int.o
+ .debug_pubtypes
+                0x00000170       0xa6 ./src/timer32.o
+ .debug_pubtypes
+                0x00000216       0x92 ./src/uart.o
+ .debug_pubtypes
+                0x000002a8       0x36 D:\Archivos\DropBox\proyectofinal\codigo\workspace\CMSISv1p30_LPC13xx\Debug\libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+
+.debug_aranges  0x00000000      0x210
+ .debug_aranges
+                0x00000000       0x28 ./src/clkconfig.o
+ .debug_aranges
+                0x00000028       0x70 ./src/cr_startup_lpc13.o
+ .debug_aranges
+                0x00000098       0x30 ./src/cronos_slave.o
+ .debug_aranges
+                0x000000c8       0x50 ./src/gpio.o
+ .debug_aranges
+                0x00000118       0x28 ./src/lpcxpresso_gpio_int.o
+ .debug_aranges
+                0x00000140       0x60 ./src/timer32.o
+ .debug_aranges
+                0x000001a0       0x40 ./src/uart.o
+ .debug_aranges
+                0x000001e0       0x30 D:\Archivos\DropBox\proyectofinal\codigo\workspace\CMSISv1p30_LPC13xx\Debug\libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+
+.debug_ranges   0x00000000      0x190
+ .debug_ranges  0x00000000       0x18 ./src/clkconfig.o
+ .debug_ranges  0x00000018       0x60 ./src/cr_startup_lpc13.o
+ .debug_ranges  0x00000078       0x20 ./src/cronos_slave.o
+ .debug_ranges  0x00000098       0x40 ./src/gpio.o
+ .debug_ranges  0x000000d8       0x18 ./src/lpcxpresso_gpio_int.o
+ .debug_ranges  0x000000f0       0x50 ./src/timer32.o
+ .debug_ranges  0x00000140       0x30 ./src/uart.o
+ .debug_ranges  0x00000170       0x20 D:\Archivos\DropBox\proyectofinal\codigo\workspace\CMSISv1p30_LPC13xx\Debug\libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+
+.debug_str      0x00000000      0xe40
+ .debug_str     0x00000000      0x3b5 ./src/clkconfig.o
+                                0x3d7 (size before relaxing)
+ .debug_str     0x000003b5      0x108 ./src/cr_startup_lpc13.o
+                                0x1e5 (size before relaxing)
+ .debug_str     0x000004bd      0x156 ./src/cronos_slave.o
+                                0x4ff (size before relaxing)
+ .debug_str     0x00000613      0x41e ./src/gpio.o
+                                0x80a (size before relaxing)
+ .debug_str     0x00000a31       0x7d ./src/lpcxpresso_gpio_int.o
+                                0x225 (size before relaxing)
+ .debug_str     0x00000aae      0x271 ./src/timer32.o
+                                0xa80 (size before relaxing)
+ .debug_str     0x00000d1f       0x8e ./src/uart.o
+                                0x9cd (size before relaxing)
+ .debug_str     0x00000dad       0x93 D:\Archivos\DropBox\proyectofinal\codigo\workspace\CMSISv1p30_LPC13xx\Debug\libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+                                0x3ff (size before relaxing)
+
+.comment        0x00000000       0x2a
+ .comment       0x00000000       0x2a ./src/clkconfig.o
+                                 0x2b (size before relaxing)
+ .comment       0x00000000       0x2b ./src/cr_startup_lpc13.o
+ .comment       0x00000000       0x2b ./src/cronos_slave.o
+ .comment       0x00000000       0x2b ./src/gpio.o
+ .comment       0x00000000       0x2b ./src/lpcxpresso_gpio_int.o
+ .comment       0x00000000       0x2b ./src/timer32.o
+ .comment       0x00000000       0x2b ./src/uart.o
+ .comment       0x00000000       0x2b D:\Archivos\DropBox\proyectofinal\codigo\workspace\CMSISv1p30_LPC13xx\Debug\libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+
+.ARM.attributes
+                0x00000000       0x31
+ .ARM.attributes
+                0x00000000       0x31 ./src/clkconfig.o
+ .ARM.attributes
+                0x00000031       0x31 ./src/cr_startup_lpc13.o
+ .ARM.attributes
+                0x00000062       0x31 ./src/cronos_slave.o
+ .ARM.attributes
+                0x00000093       0x31 ./src/gpio.o
+ .ARM.attributes
+                0x000000c4       0x31 ./src/lpcxpresso_gpio_int.o
+ .ARM.attributes
+                0x000000f5       0x31 ./src/timer32.o
+ .ARM.attributes
+                0x00000126       0x31 ./src/uart.o
+ .ARM.attributes
+                0x00000157       0x31 D:\Archivos\DropBox\proyectofinal\codigo\workspace\CMSISv1p30_LPC13xx\Debug\libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+
+.debug_frame    0x00000000      0x4a8
+ .debug_frame   0x00000000       0x48 ./src/clkconfig.o
+ .debug_frame   0x00000048       0xc8 ./src/cr_startup_lpc13.o
+ .debug_frame   0x00000110       0x68 ./src/cronos_slave.o
+ .debug_frame   0x00000178       0xd4 ./src/gpio.o
+ .debug_frame   0x0000024c       0x4c ./src/lpcxpresso_gpio_int.o
+ .debug_frame   0x00000298      0x10c ./src/timer32.o
+ .debug_frame   0x000003a4       0xa0 ./src/uart.o
+ .debug_frame   0x00000444       0x64 D:\Archivos\DropBox\proyectofinal\codigo\workspace\CMSISv1p30_LPC13xx\Debug\libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)

@@ -1,0 +1,9 @@
+Added Component: Designator=R_PU_USB(J1-0603)
+Added Pin To Net: NetName=39_LPC1343_UC Pin=J2-1
+Added Pin To Net: NetName=36_LPC1343_UC Pin=J2-2
+Added Pin To Net: NetName=37_LPC1343_UC Pin=J2-3
+Added Pin To Net: NetName=1_LPC1343_A Pin=J2-4
+Added Pin To Net: NetName=1_LPC1343_A Pin=J2-5
+Added Pin To Net: NetName=37_LPC1343_UC Pin=R_PU_USB-1
+Added Pin To Net: NetName=28_LPC1343_A Pin=R_PU_USB-2
+Added Member To Class: ClassName=placa_madre Member=Component R_PU_USB Res3

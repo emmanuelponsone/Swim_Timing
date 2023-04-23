@@ -1,0 +1,127 @@
+<br>
+<!--
+<% if @partida.show_or_wait == false %>
+		<b>Estado de la unidad central: </b><%= @estado %>               <br>
+<% else %>
+		<b>Partida ejecutada</b>               <br>
+<% end %>
+-->
+
+<b>	Tipo de prueba:</b> <%= @partida.tipo_prueba %>      <br>
+<b>	Distancia:</b>	 	  <%= @partida.laps*@competencia.largo_pileta %> metros <br>
+<b> Numero de laps: </b> <%= @partida.laps %>
+<br>
+<br>
+
+<table>
+	<tr>
+		<th> Carril </th>
+		<th> Nadador </th>
+		<th> Puesto </th>
+		<th> Tiempo </th>
+	</tr>
+
+	<% if @partida.nadador_id_1 != nil %>
+		<tr>
+			<% @nadador = Nadador.find(@partida.nadador_id_1) %>
+			<td> 1 </td> 
+			<td> <%= @nadador.nombre %> <%= @nadador.apellido %> </td>
+			<td> <%= if @estado == "ADQUIRIENDO..."  then "-"
+								elsif @estado == "FINALIZADO" || @partida.show_or_wait==true	
+							 		"#{@partida.puesto_nadador_1}"	
+						 		end %>  </td>
+			<td> <%= print_tiempo(@partida.tiempo_1.to_i) %> </td>
+		</tr>
+	<% end %>
+	<% if @partida.nadador_id_2!=nil %>
+		<tr> 
+			<% @nadador = Nadador.find(@partida.nadador_id_2) %>
+			<td> 2 </td> 
+			<td> <%= @nadador.nombre %> <%= @nadador.apellido %> </td>
+			<td> <%= if @estado == "ADQUIRIENDO..."  then "-"
+								elsif @estado == "FINALIZADO"	|| @partida.show_or_wait==true	
+							 		"#{@partida.puesto_nadador_2}"	
+						 		end %>  </td>
+			<td> <%= print_tiempo(@partida.tiempo_2.to_i) %> </td>
+		</tr>
+	<% end %>
+	<% if @partida.nadador_id_3!=nil %>
+		<tr> <% @nadador = Nadador.find(@partida.nadador_id_3) %>
+			<td> 3 </td> 
+			<td> <%= @nadador.nombre %> <%= @nadador.apellido %> </td>
+			<td> <%= if @estado == "ADQUIRIENDO..."  then "-"
+									elsif @estado == "FINALIZADO"	|| @partida.show_or_wait==true	
+							 			"#{@partida.puesto_nadador_3}"
+				 					end %>  </td>
+			<td> <%= print_tiempo(@partida.tiempo_3.to_i) %> </td>
+		</tr>
+	<% end %>
+	<% if @partida.nadador_id_4!=nil %>
+		<tr> <% @nadador = Nadador.find(@partida.nadador_id_4) %>
+			<td> 4 </td> 
+			<td> <%= @nadador.nombre %> <%= @nadador.apellido %> </td>
+			<td> <%= if @estado == "ADQUIRIENDO..."  then "-"
+								elsif @estado == "FINALIZADO"	|| @partida.show_or_wait==true	
+							 		"#{@partida.puesto_nadador_4}"	
+						 		end %>  </td>
+			<td> <%= print_tiempo(@partida.tiempo_4.to_i) %> </td>
+		</tr>
+	<% end %>
+	<% if @partida.nadador_id_5!=nil %>
+		<tr> <% @nadador = Nadador.find(@partida.nadador_id_5) %>
+			<td> 5 </td> 
+			<td> <%= @nadador.nombre %> <%= @nadador.apellido %> </td>
+			<td> <%= if @estado == "ADQUIRIENDO..."  then "-"
+								elsif @estado == "FINALIZADO"	|| @partida.show_or_wait==true	
+							 		"#{@partida.puesto_nadador_5}"	
+					 			end %>  </td>
+			<td> <%= print_tiempo(@partida.tiempo_5.to_i) %> </td>
+		</tr>
+	<% end %>
+	<% if @partida.nadador_id_6!=nil %>
+		<tr> <% @nadador = Nadador.find(@partida.nadador_id_6) %>
+			<td> 6 </td> 
+			<td> <%= @nadador.nombre %> <%= @nadador.apellido %> </td>
+			<td> <%= if @estado == "ADQUIRIENDO..."  then "-"
+								elsif @estado == "FINALIZADO"	|| @partida.show_or_wait==true
+							 		"#{@partida.puesto_nadador_6}"	
+						 		end %>  </td>
+			<td> <%= print_tiempo(@partida.tiempo_6.to_i) %> </td>
+		</tr>
+	<% end %>
+	<% if @partida.nadador_id_7!=nil %>
+		<tr> <% @nadador = Nadador.find(@partida.nadador_id_7) %>
+			<td> 7 </td> 
+			<td> <%= @nadador.nombre %> <%= @nadador.apellido %> </td>
+			<td> <%= if @estado == "ADQUIRIENDO..."  then "-"
+								elsif @estado == "FINALIZADO"	|| @partida.show_or_wait==true	
+									"#{@partida.puesto_nadador_7}"	
+								end %>  </td>
+			<td> <%= print_tiempo(@partida.tiempo_7.to_i) %> </td>
+		</tr>
+	<% end %>
+	<% if @partida.nadador_id_8!=nil %>
+		<tr> <% @nadador = Nadador.find(@partida.nadador_id_8) %>
+			<td> 8 </td> 
+			<td> <%= @nadador.nombre %> <%= @nadador.apellido %> </td>
+			<td> <%= if @estado == "ADQUIRIENDO..."  then "-"
+								elsif @estado == "FINALIZADO"	|| @partida.show_or_wait==true
+							 		"#{@partida.puesto_nadador_8}"	
+								end %>  </td>
+			<td> <%= print_tiempo(@partida.tiempo_8.to_i) %> </td>
+		</tr>
+	<% end %>
+</table>
+<br>
+<% if flash[:notice]%>
+	<div class="flash <%= :notice %>"><%= flash[:notice] %></div>
+<% end %>
+
+
+<div style="float:right; with:50%; height:50px; margin-right:350px; ">
+		<%= if @partida.show_or_wait==true 
+				button_to 'Volver a Competencia', competencia_path(@competencia.id), :method => :get 
+		end %>
+		
+</div>
+<br>

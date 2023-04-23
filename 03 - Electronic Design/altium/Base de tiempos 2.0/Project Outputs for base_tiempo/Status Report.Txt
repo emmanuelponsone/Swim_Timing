@@ -1,0 +1,13 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [base_tiempo.PrjPcb]
+   Generated File[base_tiempo.TXT]
+   Generated File[base_tiempo.DRL]
+   Generated File[base_tiempo.LDP]
+   Generated File[base_tiempo.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 10:40:47 a.m. On 26/03/2012

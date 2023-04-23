@@ -1,0 +1,125 @@
+// Code based on content of NXP gpio.c, to be found in LPC13xx_Lib project.
+// Interrupts handlers have been extracted to this file so that the library
+// project is then application independent.
+
+#include "LPC13xx.h"			/* LPC13xx Peripheral Registers */
+#include "gpio.h"
+#include "config.h"
+
+#define INTERVALO 	1000		//Para fosc= 100KHz. Divisor = 100
+#define	ON	 		1
+#define	OFF			0
+#define MAX_LAPS	50
+#define A			0
+#define B			1
+#define OK			1
+
+#define	PC_OK 		1
+#define	SET	 		2
+#define	ADQ	 		3
+#define	RESET 		4
+#define	FIN			5
+#define HOLD		2000
+#define ANTIRREBOTE 2
+
+
+// CodeRed
+
+
+volatile uint32_t gpio2_counter = 0;
+volatile uint32_t p2_1_counter  = 0;
+volatile uint32_t contador  = 0,espera=0,centesimas=0;
+extern unsigned char comienzo;
+/*****************************************************************************
+** Function name:		PIOINT2_IRQHandler
+**
+** Descriptions:		Use one GPIO pin(port2 pin1) as interrupt source
+**
+** parameters:			None
+** Returned value:		None
+** 
+**
+**
+*****************************************************************************/
+void PIOINT2_IRQHandler(void)
+{
+uint32_t regVal;
+
+//P2.2: BOTON DE COMIENZO PULSADO
+regVal=0;
+regVal = GPIOIntStatus( PORT2, 2 );
+if ( regVal )
+	{
+	GPIOIntClear( PORT2, 2 );
+	GPIOIntDisable( PORT2, 2 );
+	espera=ON;
+	contador++;
+	centesimas=0;
+	if(contador==3)		//Indica que es la segunda ves que entra y ademas paso el tiempo de espera
+	{
+		comienzo=RESET;
+		espera=OFF;
+		contador=0;
+	}
+	}
+
+regVal = GPIOIntStatus( PORT2, 1 );	//Chequea que P2.1 sea la que genero la int.
+if ( regVal )
+{
+GPIOIntClear( PORT2, 1 );
+}
+/***********************************************************************/
+
+//P2.4: PULSADOR DE START
+regVal=0;
+regVal = GPIOIntStatus( PORT2, 4 );
+if ( regVal )
+{
+	GPIOIntClear( PORT2, 4 );
+	GPIOIntDisable( PORT2, 4 );
+	espera=ANTIRREBOTE;
+	if(comienzo==SET)
+	{
+		comienzo=ADQ;	//COMIENZA LA COMPETENCIA
+	}
+}
+
+/***********************************************************************/
+regVal=0;
+regVal = GPIOIntStatus( PORT2, 3 );
+GPIOIntDisable( PORT2, 3 );	//Deshabilito las interrupciones de la placa.
+
+if ( regVal )
+	{
+	GPIOIntClear( PORT2, 3 );
+	}
+
+/***********************************************************************/
+//P2.4
+/*regVal=0;
+regVal = GPIOIntStatus( PORT2, 4 );
+GPIOIntDisable( PORT2, 4 );	//Deshabilito las interrupciones de la placa.
+
+if ( regVal )
+	{
+	GPIOIntClear( PORT2, 4 );
+	}*/
+/***********************************************************************/
+//P2.5
+regVal=0;
+regVal = GPIOIntStatus( PORT2, 5 );
+GPIOIntDisable( PORT2, 5 );	//Deshabilito las interrupciones de la placa.
+
+if ( regVal )
+	{
+	GPIOIntClear( PORT2, 5 );
+	}
+
+/***********************************************************************/
+  // CodeRed - extend original interrupt handler so as to toggle the LED state
+
+  //GPIOSetValue( LED_PORT, LED_BIT, LEDvalue );
+
+  return;
+}
+

@@ -1,0 +1,12 @@
+Change Component DesignItemId : Designator=C_rect1 Old DesignItemId=Cap Pol3 New DesignItemId=Cap Pol1
+Change Component DesignItemId : Designator=C_rect2 Old DesignItemId=Cap Pol3 New DesignItemId=Cap Pol1
+Change Component Designator: OldDesignator=U? NewDesignator=U1
+Change Component Description : Designator=C_rect1 Old Description=Polarized Capacitor (Surface Mount) New Description=Polarized Capacitor (Radial)
+Change Component Description : Designator=C_rect2 Old Description=Polarized Capacitor (Surface Mount) New Description=Polarized Capacitor (Radial)
+Added Pin To Net: NetName=NetR4_2 Pin=U1-1
+Added Pin To Net: NetName=VCC Pin=U?-1
+Added Pin To Net: NetName=GND_ISO Pin=U?-2
+Added Pin To Net: NetName=3.3V Pin=U?-3
+Added Pin To Net: NetName=VCC Pin=Vin+_trafo1-1
+Added Pin To Net: NetName=VCC Pin=Vin+_trafo2-1
+Added Member To Class: ClassName=conexion Member=Component U? LM3940IMP-3.3

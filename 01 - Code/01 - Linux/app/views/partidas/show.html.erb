@@ -1,0 +1,58 @@
+<% if @partida.show_or_wait == false %>
+	<% content_for :head do %>
+		<%= javascript_tag do %>
+			$(function () {  
+		      setTimeout(refresca_estado, 500);  
+		  		});  
+
+			function refresca_estado() {  
+		  		var partida_id = $('#div_tiempo').attr('data-id')	
+		  		$.getScript('/wait_partida.js?partida_id='+partida_id);  
+		  		setTimeout(refresca_estado, 1000);  
+				};
+		<% end %>
+	<% end %>
+<% end %>
+
+<h1>Partida <%= @partida.id %> </h1>
+
+<div style="color:red ;">
+	<b>
+	<%= if @partida.show_or_wait == false then "ATENCION: no abandone esta pagina antes de que la partida se muestre como: <Partida ejecutada>. La adquisicion de datos puede verse comprometida." end %>
+	</b>
+</div>
+
+<div id="div_tiempo" data-id="<%= @partida.id %>" >
+	<!-- El scrypt actualiza TODA LA TABLA en lugar de solo un campo -->
+	<%= render '/partidas/tiempos'%>
+</div>
+
+
+<!--
+<% if @partida.show_or_wait == false %>
+	<b> Comentario </b>
+	<%= text_field :comentario, :value => "lapapa", :maxlength=>'1000', :style=>'width: 770px;' %>
+	<%= button_to 'Finalizar Partida', competencia_partida_path(@competencia, @partida) , :method => :put  %>
+		<% form_for [@competencia, @partida], :url => competencia_partidas_path(@competencia,@partida), :method => :put do |f| %>
+			<%= f.text_field :comentario %>
+	  		<%= f.submit "enviar" %>
+			<% end %> 
+	<%	else @partida.comentario end %>
+
+-->
+
+
+<%if @partida.show_or_wait == false %>
+
+<div style="float:right; with:100%; height:50px; margin-right:370px; ">
+	<%= button_to 'Finalizar Partida', competencia_partida_path(@competencia, @partida) , :method => :put  %>
+</div>
+<br>
+<br>
+<br>
+<% end %>
+
+
+
+
+

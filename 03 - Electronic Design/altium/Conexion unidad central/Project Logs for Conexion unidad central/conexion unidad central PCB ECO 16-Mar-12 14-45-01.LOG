@@ -1,0 +1,144 @@
+Removed Pin From Net: NetName=PT1- Pin=*-1
+Removed Pin From Net: NetName=PT1+ Pin=*-2
+Removed Pin From Net: NetName=PT1 Pin=*-3
+Removed Pin From Net: NetName=PM1 Pin=*-5
+Removed Pin From Net: NetName=PM1+ Pin=*-6
+Removed Pin From Net: NetName=PM1- Pin=*-7
+Removed Pin From Net: NetName=PT2- Pin=*-9
+Removed Pin From Net: NetName=PT2+ Pin=*-10
+Removed Pin From Net: NetName=PT2 Pin=*-11
+Removed Pin From Net: NetName=PM2 Pin=*-13
+Removed Pin From Net: NetName=PM2+ Pin=*-14
+Removed Pin From Net: NetName=PM2- Pin=*-15
+Removed Pin From Net: NetName=VCC_ISO Pin=*-16
+Removed Pin From Net: NetName=PT1+ Pin=J?-1
+Removed Pin From Net: NetName=PM1+ Pin=J?-2
+Removed Pin From Net: NetName=PT2+ Pin=J?-3
+Removed Pin From Net: NetName=PM2+ Pin=J?-4
+Removed Pin From Net: NetName=PT3+ Pin=J?-5
+Removed Pin From Net: NetName=PM3+ Pin=J?-6
+Removed Pin From Net: NetName=PT4+ Pin=J?-7
+Removed Pin From Net: NetName=PM4+ Pin=J?-8
+Removed Pin From Net: NetName=VCC_ISO Pin=J?-9
+Removed Pin From Net: NetName=VCC_ISO Pin=J?-10
+Removed Pin From Net: NetName=GND_ISO Pin=J?-11
+Removed Pin From Net: NetName=GND_ISO Pin=J?-12
+Removed Pin From Net: NetName=GND_ISO Pin=J?-13
+Removed Pin From Net: NetName=PT1- Pin=J?-14
+Removed Pin From Net: NetName=PM1- Pin=J?-15
+Removed Pin From Net: NetName=PT2- Pin=J?-16
+Removed Pin From Net: NetName=PM2- Pin=J?-17
+Removed Pin From Net: NetName=PT3- Pin=J?-18
+Removed Pin From Net: NetName=PM3- Pin=J?-19
+Removed Pin From Net: NetName=PT4- Pin=J?-20
+Removed Pin From Net: NetName=PM4- Pin=J?-21
+Removed Pin From Net: NetName=VCC_ISO Pin=J?-22
+Removed Pin From Net: NetName=VCC_ISO Pin=J?-23
+Removed Pin From Net: NetName=GND_ISO Pin=J?-24
+Removed Pin From Net: NetName=GND_ISO Pin=J?-25
+Removed Member From Class: ClassName=drivers Member=J?
+Change Component Designator: OldDesignator=* NewDesignator=u1
+Change Component Designator: OldDesignator=* NewDesignator=u2
+Change Component Designator: OldDesignator=P? NewDesignator=P1
+Change Component Designator: OldDesignator=P? NewDesignator=POUT
+Change Component Designator: OldDesignator=R? NewDesignator=R1
+Change Component Designator: OldDesignator=R? NewDesignator=R2
+Change Component Designator: OldDesignator=R? NewDesignator=R3
+Change Component Designator: OldDesignator=R? NewDesignator=R4
+Added Component: Designator=C18(CAPPR5-5x5)
+Added Component: Designator=C20(C1206)
+Added Component: Designator=Cr1(C1206)
+Added Component: Designator=Cr2(1608[0603])
+Added Component: Designator=L1(AXIAL-0.3)
+Added Component: Designator=Pin(DSUB1.385-2H25A)
+Added Component: Designator=Rr1(3216[1206])
+Added Pin To Net: NetName=VCC_ISO Pin=C18-1
+Added Pin To Net: NetName=GND_ISO Pin=C18-2
+Added Pin To Net: NetName=GND_ISO Pin=C20-1
+Added Pin To Net: NetName=GND_ISO Pin=Cr1-2
+Added Pin To Net: NetName=GND_ISO Pin=Cr2-1
+Added Pin To Net: NetName=VCC_ISO Pin=L1-1
+Added Pin To Net: NetName=PT1+ Pin=Pin-1
+Added Pin To Net: NetName=PM1+ Pin=Pin-2
+Added Pin To Net: NetName=PT2+ Pin=Pin-3
+Added Pin To Net: NetName=PM2+ Pin=Pin-4
+Added Pin To Net: NetName=PT3+ Pin=Pin-5
+Added Pin To Net: NetName=PM3+ Pin=Pin-6
+Added Pin To Net: NetName=PT4+ Pin=Pin-7
+Added Pin To Net: NetName=PM4+ Pin=Pin-8
+Added Pin To Net: NetName=GND_ISO Pin=Pin-11
+Added Pin To Net: NetName=GND_ISO Pin=Pin-12
+Added Pin To Net: NetName=GND_ISO Pin=Pin-13
+Added Pin To Net: NetName=PT1- Pin=Pin-14
+Added Pin To Net: NetName=PM1- Pin=Pin-15
+Added Pin To Net: NetName=PT2- Pin=Pin-16
+Added Pin To Net: NetName=PM2- Pin=Pin-17
+Added Pin To Net: NetName=PT3- Pin=Pin-18
+Added Pin To Net: NetName=PM3- Pin=Pin-19
+Added Pin To Net: NetName=PT4- Pin=Pin-20
+Added Pin To Net: NetName=PM4- Pin=Pin-21
+Added Pin To Net: NetName=GND_ISO Pin=Pin-24
+Added Pin To Net: NetName=GND_ISO Pin=Pin-25
+Added Pin To Net: NetName=GND_ISO Pin=R1-1
+Added Pin To Net: NetName=GND_ISO Pin=R2-2
+Added Pin To Net: NetName=GND_ISO Pin=R3-1
+Added Pin To Net: NetName=GND_ISO Pin=R4-2
+Added Pin To Net: NetName=GND_ISO Pin=Rr1-1
+Added Pin To Net: NetName=PT1- Pin=u1-1
+Added Pin To Net: NetName=PT1+ Pin=u1-2
+Added Pin To Net: NetName=PT1 Pin=u1-3
+Added Pin To Net: NetName=PM1 Pin=u1-5
+Added Pin To Net: NetName=PM1+ Pin=u1-6
+Added Pin To Net: NetName=PM1- Pin=u1-7
+Added Pin To Net: NetName=GND_ISO Pin=u1-8
+Added Pin To Net: NetName=PT2- Pin=u1-9
+Added Pin To Net: NetName=PT2+ Pin=u1-10
+Added Pin To Net: NetName=PT2 Pin=u1-11
+Added Pin To Net: NetName=PM2 Pin=u1-13
+Added Pin To Net: NetName=PM2+ Pin=u1-14
+Added Pin To Net: NetName=PM2- Pin=u1-15
+Added Pin To Net: NetName=PT3- Pin=u2-1
+Added Pin To Net: NetName=PT3+ Pin=u2-2
+Added Pin To Net: NetName=PT3 Pin=u2-3
+Added Pin To Net: NetName=PM3 Pin=u2-5
+Added Pin To Net: NetName=PM3+ Pin=u2-6
+Added Pin To Net: NetName=PM3- Pin=u2-7
+Added Pin To Net: NetName=PT4- Pin=u2-9
+Added Pin To Net: NetName=PT4+ Pin=u2-10
+Added Pin To Net: NetName=PT4 Pin=u2-11
+Added Pin To Net: NetName=PM4 Pin=u2-13
+Added Pin To Net: NetName=PM4+ Pin=u2-14
+Added Pin To Net: NetName=PM4- Pin=u2-15
+Added Pin To Net: NetName=NetC20_2 Pin=C20-2
+Added Pin To Net: NetName=NetC20_2 Pin=L1-2
+Added Net: Name=NetC20_2
+Added Pin To Net: NetName=NetR1_2 Pin=R1-2
+Added Pin To Net: NetName=NetR1_2 Pin=u1-4
+Added Net: Name=NetR1_2
+Added Pin To Net: NetName=NetR2_1 Pin=R2-1
+Added Pin To Net: NetName=NetR2_1 Pin=u1-12
+Added Net: Name=NetR2_1
+Added Pin To Net: NetName=NetR3_2 Pin=R3-2
+Added Pin To Net: NetName=NetR3_2 Pin=u2-4
+Added Net: Name=NetR3_2
+Added Pin To Net: NetName=NetR4_1 Pin=R4-1
+Added Pin To Net: NetName=NetR4_1 Pin=u2-12
+Added Net: Name=NetR4_1
+Added Pin To Net: NetName=VCC Pin=Cr1-1
+Added Pin To Net: NetName=VCC Pin=Cr2-2
+Added Pin To Net: NetName=VCC Pin=Pin-9
+Added Pin To Net: NetName=VCC Pin=Pin-10
+Added Pin To Net: NetName=VCC Pin=Pin-22
+Added Pin To Net: NetName=VCC Pin=Pin-23
+Added Pin To Net: NetName=VCC Pin=Rr1-2
+Added Pin To Net: NetName=VCC Pin=u1-16
+Added Pin To Net: NetName=VCC Pin=u2-16
+Added Net: Name=VCC
+Added Class: Name=alimentacion
+Added Member To Class: ClassName=drivers Member=Component Pin D Connector 25
+Added Member To Class: ClassName=drivers Member=Component POUT Header 8X2
+Added Member To Class: ClassName=drivers Member=Component R1 Res Semi
+Added Member To Class: ClassName=drivers Member=Component R2 Res Semi
+Added Member To Class: ClassName=drivers Member=Component R4 Res Semi
+Added Member To Class: ClassName=drivers Member=Component u2 SNlvdt33d
+Added Room: Name=alimentacion

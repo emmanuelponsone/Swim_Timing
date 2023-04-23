@@ -1,0 +1,24 @@
+Added Component: Designator=*(R-16)
+Added Component: Designator=J?(DSUB1.385-2H15)
+Added Component: Designator=R?(2012[0805])
+Added Component: Designator=R?(2012[0805])
+Added Component: Designator=R?(2012[0805])
+Added Component: Designator=R?(2012[0805])
+Added Pin To Net: NetName=GND Pin=*-8
+Added Pin To Net: NetName=GND Pin=*-8
+Added Pin To Net: NetName=GND Pin=R?-1
+Added Pin To Net: NetName=GND Pin=R?-1
+Added Pin To Net: NetName=GND Pin=R?-2
+Added Pin To Net: NetName=GND Pin=R?-2
+Added Net: Name=GND
+Added Pin To Net: NetName=Net*_4 Pin=*-4
+Added Pin To Net: NetName=Net*_4 Pin=R?-2
+Added Net: Name=Net*_4
+Added Pin To Net: NetName=Net*_12 Pin=*-12
+Added Pin To Net: NetName=Net*_12 Pin=R?-1
+Added Net: Name=Net*_12
+Added Pin To Net: NetName=VCC Pin=*-16
+Added Pin To Net: NetName=VCC Pin=*-16
+Added Net: Name=VCC
+Added Member To Class: ClassName=drivers Member=Component J? D Connector 15
+Added Member To Class: ClassName=drivers Member=Component R? Res Semi

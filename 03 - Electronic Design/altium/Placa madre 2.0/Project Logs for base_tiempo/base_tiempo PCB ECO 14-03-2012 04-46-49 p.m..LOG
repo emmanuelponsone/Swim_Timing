@@ -1,0 +1,69 @@
+Removed Pin From Net: NetName=VCC_EXT Pin=Q1-2
+Removed Pin From Net: NetName=BOCINA Pin=Q1-3
+Removed Pin From Net: NetName=+3.3V Pin=Q2-1
+Removed Pin From Net: NetName=GND Pin=r10-2
+Removed Pin From Net: NetName=12_UC Pin=R_BOCINA-2
+Removed Pin From Net: NetName=Netr9_1 Pin=U1-1
+Removed Pin From Net: NetName=NetU4_3 Pin=U4-4
+Removed Pin From Net: NetName=VCC Pin=U4-5
+Removed Pin From Net: NetName=NetU4_6 Pin=U4-9
+Removed Pin From Net: NetName=Q_6 Pin=U4-12
+Removed Pin From Net: NetName=Q_7 Pin=U4-13
+Removed Pin From Net: NetName=Q_0 Pin=U5-1
+Removed Pin From Net: NetName=Q_1 Pin=U5-2
+Removed Pin From Net: NetName=NetU5_3 Pin=U5-4
+Removed Pin From Net: NetName=Q_2 Pin=U5-9
+Removed Pin From Net: NetName=Q_3 Pin=U5-10
+Removed Pin From Net: NetName=Q_4 Pin=U5-12
+Removed Pin From Net: NetName=Q_5 Pin=U5-13
+Removed Pin From Net: NetName=NetU5_11 Pin=U6-1
+Removed Pin From Net: NetName=NetU4_11 Pin=U6-2
+Removed Pin From Net: NetName=NetU5_6 Pin=U6-4
+Removed Pin From Net: NetName=NetU4_8 Pin=U6-10
+Removed Member From Class: ClassName=placa_madre Member=Q1
+Removed Member From Class: ClassName=placa_madre Member=Q2
+Removed Member From Class: ClassName=BTIEMPO Member=r9
+Removed Member From Class: ClassName=BTIEMPO Member=r10
+Removed Member From Class: ClassName=placa_madre Member=R_BOCINA
+Change Component Footprint: Designator=r9 Old Footprint=J1-0603 New Footprint=2012[0805]
+Change Component Footprint: Designator=r10 Old Footprint=J1-0603 New Footprint=2012[0805]
+Added Component: Designator=Qbocina(TO-220)
+Added Component: Designator=R11(2012[0805])
+Added Component: Designator=U9(751A-02_N)
+Added Pin To Net: NetName=VCC_EXT Pin=Qbocina-2
+Added Pin To Net: NetName=BOCINA Pin=Qbocina-3
+Added Pin To Net: NetName=GND Pin=r10-1
+Added Pin To Net: NetName=12_UC Pin=r10-2
+Added Pin To Net: NetName=Netr9_1 Pin=R11-1
+Added Pin To Net: NetName=Q_6 Pin=U4-4
+Added Pin To Net: NetName=Q_7 Pin=U4-5
+Added Pin To Net: NetName=NetU4_3 Pin=U4-9
+Added Pin To Net: NetName=NetU4_8 Pin=U4-12
+Added Pin To Net: NetName=VCC Pin=U4-13
+Added Pin To Net: NetName=Q_4 Pin=U5-1
+Added Pin To Net: NetName=Q_5 Pin=U5-2
+Added Pin To Net: NetName=Q_2 Pin=U5-4
+Added Pin To Net: NetName=Q_3 Pin=U5-5
+Added Pin To Net: NetName=Q_0 Pin=U5-9
+Added Pin To Net: NetName=Q_1 Pin=U5-10
+Added Pin To Net: NetName=NetU5_6 Pin=U5-13
+Added Pin To Net: NetName=NetU5_3 Pin=U6-1
+Added Pin To Net: NetName=NetU4_6 Pin=U6-2
+Added Pin To Net: NetName=NetU5_11 Pin=U6-4
+Added Pin To Net: NetName=NetU4_11 Pin=U6-10
+Added Pin To Net: NetName=Netr9_1 Pin=U9-2
+Added Pin To Net: NetName=12_UC Pin=U9-3
+Added Pin To Net: NetName=VCC_EXT Pin=U9-4
+Added Pin To Net: NetName=GND Pin=U9-11
+Added Pin To Net: NetName=NetQbocina_1 Pin=Qbocina-1
+Added Pin To Net: NetName=NetQbocina_1 Pin=R11-2
+Added Pin To Net: NetName=NetQbocina_1 Pin=U9-1
+Added Net: Name=NetQbocina_1
+Added Pin To Net: NetName=NetU5_8 Pin=U5-8
+Added Pin To Net: NetName=NetU5_8 Pin=U5-12
+Added Net: Name=NetU5_8
+Added Member To Class: ClassName=placa_madre Member=Component Qbocina D44H8
+Added Member To Class: ClassName=placa_madre Member=Component R9 Res3
+Added Member To Class: ClassName=placa_madre Member=Component R10 Res3
+Added Member To Class: ClassName=placa_madre Member=Component R11 Res3
+Added Member To Class: ClassName=placa_madre Member=Component U9 LM324AD

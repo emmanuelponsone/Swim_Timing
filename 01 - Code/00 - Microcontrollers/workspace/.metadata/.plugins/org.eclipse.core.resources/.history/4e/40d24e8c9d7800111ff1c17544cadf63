@@ -1,0 +1,195 @@
+/*****************************************************************************
+ *   uarttest.c:  UART test C file for NXP LPC13xx Family Microprocessors
+ *
+ *   Copyright(C) 2008, NXP Semiconductor
+ *   All rights reserved.
+ *
+ *   History
+ *   2008.08.20  ver 1.00    Preliminary version, first Release
+ *
+******************************************************************************/
+#include "LPC13xx.h"
+#include "uart.h"
+#include "clkconfig.h"
+#include "gpio.h"
+#include "config.h"
+#include "timer32.h"
+
+#define	 	MAX_LAPS		50
+#define 	A				0
+#define 	B				1
+#define		UI_FIN 			0
+#define		UI_RUN 			1
+
+unsigned char aux;
+unsigned int cuentas;
+
+extern volatile uint32_t UARTCount;
+extern volatile uint8_t UARTBuffer[BUFSIZE];
+volatile uint8_t  Buffer[BUFSIZE],estado[1];
+volatile uint32_t centesimas  = 0,lap[MAX_LAPS],n_laps=0,cont_laps=0,lado=B,ultimo;
+extern unsigned int start,PM_A,PM_B,esperar_PT_A,esperar_PT_B,fin;
+extern volatile uint32_t contador ;
+
+union CUENTAS
+{
+	uint32_t cuentas[1];
+	unsigned char bytes[4];
+
+};
+
+union CUENTAS pepe;
+
+
+int main (void) {
+	  /* Basic chip initialization is taken care of in SystemInit() called
+	   * from the startup code. SystemInit() and chip settings are defined
+	   * in the CMSIS system_<part family>.c file.
+	   */
+
+/* NVIC is installed inside UARTInit file. */
+
+unsigned char id;
+
+
+init_timer32(0, TIME_INTERVAL);				//TIME_INTERVAL está en timer32.h. Leer los comentarios para definir la frecuencia
+GPIOInit();
+//P2.0: Boton de start. Se habilita solo cuando la unidad central esta lista y envia el estado set.
+GPIOSetDir( PORT2, 0, 0 ); 					//Configura P2.1 como entrada
+GPIOSetInterrupt( PORT2, 0, 0, 0, 0 ); 		//Ahora además de ser entrada, es de interrupcion.
+//P2.1: pulsos de la base de tiempo
+GPIOSetDir( PORT2, 1, 0 ); 					//Configura P2.1 como entrada
+GPIOSetInterrupt( PORT2, 1, 0, 0, 0 ); 		//Ahora además de ser entrada, es de interrupcion.
+GPIOIntEnable( PORT2, 1 );					//Habilita las interrupciones.
+//P2.2: Placa de toque A
+GPIOSetDir( PORT2, 2, 0 ); 					//Configura P2.1 como entrada
+GPIOSetInterrupt( PORT2, 2, 1, 0, 0 ); 		//Ahora además de ser entrada, es de interrupcion.
+//P2.3: Pulsador Manual A. El pulsador Manual se habilita cuando se llega al lado b para evitar falsos disparos.
+GPIOSetDir( PORT2, 3, 0 ); 					//Configura P2.1 como entrada
+GPIOSetInterrupt( PORT2, 3, 1, 0, 0 ); 		//Ahora además de ser entrada, es de interrupcion.
+//P2.4: Placa de toque B
+GPIOSetDir( PORT2, 4, 0 ); 					//Configura P2.1 como entrada
+GPIOSetInterrupt( PORT2, 4, 1, 0, 0 ); 		//Ahora además de ser entrada, es de interrupcion.
+GPIOIntEnable( PORT2, 4 );					//Habilita las interrupciones.
+//P2.5: Pulsador manual B
+GPIOSetDir( PORT2, 5, 0 ); 					//Configura P2.5 como entrada
+GPIOSetInterrupt( PORT2, 5, 1, 0, 0 ); 		//Ahora además de ser entrada, es de interrupcion.
+GPIOIntEnable( PORT2, 5 );					//Habilita las interrupciones.
+//P2.10: RESET
+GPIOSetDir( PORT2, 10, 0 ); 					//Configura P2.5 como entrada
+GPIOSetInterrupt( PORT2, 10, 0, 0, 0 ); 		//Ahora además de ser entrada, es de interrupcion.
+enable_timer32(0);							//Habilita el timer.
+
+GPIOSetDir( PORT2, 6, 1 );
+GPIOSetDir( PORT2, 7, 1 );
+GPIOSetValue( PORT2, 6, 0 );
+GPIOSetValue( PORT2, 7, 0 );
+GPIOSetDir( LED_PORT, LED_BIT, 1 );
+GPIOSetValue( LED_PORT, LED_BIT, LED_OFF );
+
+
+
+
+
+UARTInit(9600);
+
+id='B';
+centesimas=0;
+
+while (1)
+	{				/* Loop forever */
+	//Espera a que la UC envie el dato que identifique a cada ui
+	while(UARTBuffer[0]!=id)
+	{
+		UARTCount=0;
+	}
+	UARTBuffer[0]=0;
+	//Espera a recibir el numero de laps
+	while(!UARTBuffer[0])
+	{
+		UARTCount=0;
+	}
+	n_laps=UARTBuffer[0]-0x30;
+
+	//Espera el estado de la UC
+	UARTBuffer[0]=0;
+	while(!UARTBuffer[0])
+	{
+		UARTCount=0;
+	}
+	UARTCount=0;
+	if(UARTBuffer[0]=='S')		//SET: Habilito a comenzar la partida
+	{
+		GPIOIntClear( PORT2, 0 );
+		GPIOIntEnable( PORT2, 0 );		//Habilita el boton de start
+		UARTCount=0;
+	}
+	if(UARTBuffer[0]=='R')		//RESET
+	{
+		GPIOIntDisable( PORT2, 0 );		//Deshabilito Start
+		//GPIOIntDisable( PORT2, 1 );		//Deshabilito base de tiempos.
+		GPIOIntDisable( PORT2, 2 );		//Deshabilito placa de toque A
+		GPIOIntDisable( PORT2, 3 );		//Deshabilito pulsador manual A
+		GPIOIntDisable( PORT2, 4 );		//Deshabilito placa de toque B
+		GPIOIntDisable( PORT2, 5 );		//Deshabilito pulsador manual B
+		//GPIOIntDisable( PORT2, 1 );		//Deshabilito base de tiempos.
+		GPIOIntDisable( PORT2, 0 );		//Deshabilito Start
+		GPIOIntClear( PORT2, 0 );
+		//GPIOIntClear( PORT2, 1 );
+		GPIOIntClear( PORT2, 2 );
+		GPIOIntClear( PORT2, 3 );
+		GPIOIntClear( PORT2, 4 );
+		GPIOIntClear( PORT2, 5 );
+
+		start=0;
+		PM_A=0;
+		PM_B=0;
+		esperar_PT_A=0;
+		esperar_PT_B=0;
+		for(contador=0;contador<n_laps;contador++)
+		{
+			lap[contador]=0;
+		}
+		contador=0;
+		n_laps=0;
+		cont_laps=0;
+		lado=B;
+		centesimas=0;
+		fin=0;										//
+		ultimo=0;
+		UARTCount=0;
+
+	}
+	UARTBuffer[0]=id;
+	if(UARTBuffer[0]==id)
+		{
+			UARTCount=0;
+			LPC_UART->IER = IER_THRE | IER_RLS;				/* Disable RBR */
+			//pepe.cuentas[0]=centesimas;
+			pepe.cuentas[0]=ultimo;
+			UARTSend( (uint8_t *)pepe.bytes, sizeof(uint32_t) );
+			UARTCount = 0;
+			UARTBuffer[0]=0;
+			LPC_UART->IER = IER_THRE | IER_RLS | IER_RBR;	/* Re-enable RBR */
+//Envia el estado
+			if(fin)
+			{
+				LPC_UART->IER = IER_THRE | IER_RLS;				/* Disable RBR */
+				estado[0]=UI_FIN;
+				UARTSend( (uint8_t *)estado, sizeof(uint8_t) );
+				UARTCount = 0;
+				UARTBuffer[0]=0;
+				LPC_UART->IER = IER_THRE | IER_RLS | IER_RBR;	/* Re-enable RBR */
+			}
+			else
+			{
+				LPC_UART->IER = IER_THRE | IER_RLS;				/* Disable RBR */
+				estado[0]=UI_RUN;
+				UARTSend( (uint8_t *)estado, sizeof(uint8_t) );
+				UARTCount = 0;
+				UARTBuffer[0]=0;
+				LPC_UART->IER = IER_THRE | IER_RLS | IER_RBR;	/* Re-enable RBR */
+			}
+		}
+	} //FIN WHILE 1
+}//FIN MAIN

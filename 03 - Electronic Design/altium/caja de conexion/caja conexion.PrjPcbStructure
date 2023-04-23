@@ -1,0 +1,3 @@
+Record=SheetSymbol|SourceDocument=conexion.SchDoc|Designator=trafo1|SchDesignator=trafo1|FileName=trafo.SchDoc|SymbolType=Normal|RawFileName=trafo.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol
+Record=SheetSymbol|SourceDocument=conexion.SchDoc|Designator=trafo2|SchDesignator=trafo2|FileName=trafo.SchDoc|SymbolType=Normal|RawFileName=trafo.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol
+Record=TopLevelDocument|FileName=conexion.SchDoc

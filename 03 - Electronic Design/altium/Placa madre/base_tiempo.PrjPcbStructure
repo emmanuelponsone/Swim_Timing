@@ -1,0 +1,14 @@
+Record=SheetSymbol|SourceDocument=placa_madre.SchDoc|Designator=BTIEMPO|SchDesignator=BTIEMPO|FileName=base_tiempo.SchDoc|SymbolType=Normal|RawFileName=base_tiempo.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol
+Record=SheetSymbol|SourceDocument=placa_madre.SchDoc|Designator=Designator|SchDesignator=Designator|FileName=dc-dc.SchDoc|SymbolType=Normal|RawFileName=dc-dc.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol
+Record=SheetSymbol|SourceDocument=placa_madre.SchDoc|Designator=UC|SchDesignator=UC|FileName=LPC1343.SchDoc|SymbolType=Normal|RawFileName=LPC1343.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol
+Record=SheetSymbol|SourceDocument=placa_madre.SchDoc|Designator=UI_A|SchDesignator=UI_A|FileName=LPC1343.SchDoc|SymbolType=Normal|RawFileName=LPC1343.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol
+Record=SheetSymbol|SourceDocument=placa_madre.SchDoc|Designator=UI_B|SchDesignator=UI_B|FileName=LPC1343.SchDoc|SymbolType=Normal|RawFileName=LPC1343.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol
+Record=SheetSymbol|SourceDocument=placa_madre.SchDoc|Designator=UI_C|SchDesignator=UI_C|FileName=LPC1343.SchDoc|SymbolType=Normal|RawFileName=LPC1343.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol
+Record=SheetSymbol|SourceDocument=placa_madre.SchDoc|Designator=UI_D|SchDesignator=UI_D|FileName=LPC1343.SchDoc|SymbolType=Normal|RawFileName=LPC1343.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol
+Record=SheetSymbol|SourceDocument=placa_madre.SchDoc|Designator=UI_E|SchDesignator=UI_E|FileName=LPC1343.SchDoc|SymbolType=Normal|RawFileName=LPC1343.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol
+Record=SheetSymbol|SourceDocument=placa_madre.SchDoc|Designator=UI_F|SchDesignator=UI_F|FileName=LPC1343.SchDoc|SymbolType=Normal|RawFileName=LPC1343.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol
+Record=SheetSymbol|SourceDocument=placa_madre.SchDoc|Designator=UI_G|SchDesignator=UI_G|FileName=LPC1343.SchDoc|SymbolType=Normal|RawFileName=LPC1343.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol
+Record=SheetSymbol|SourceDocument=placa_madre.SchDoc|Designator=UI_H|SchDesignator=UI_H|FileName=LPC1343.SchDoc|SymbolType=Normal|RawFileName=LPC1343.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol
+Record=SheetSymbol|SourceDocument=base_tiempo.SchDoc|Designator=AND_5_Entradas|SchDesignator=AND_5_Entradas|FileName=AND_5_entradas.SchDoc|SymbolType=Normal|RawFileName=AND_5_entradas.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol
+Record=SheetSymbol|SourceDocument=base_tiempo.SchDoc|Designator=Buffer_5Bits|SchDesignator=Buffer_5Bits|FileName=buffers_5bits.SchDoc|SymbolType=Normal|RawFileName=buffers_5bits.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol
+Record=TopLevelDocument|FileName=placa_madre.SchDoc

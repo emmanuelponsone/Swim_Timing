@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench progressCount="22" version="2.0">
+<workbenchAdvisor/>
+<window height="776" maximized="true" width="679" x="334" y="175">
+<fastViewData fastViewLocation="1024"/>
+<perspectiveBar>
+<itemSize x="160"/>
+</perspectiveBar>
+<coolbarLayout locked="0">
+<coolItem id="group.file" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="154" y="34"/>
+<coolItem id="com.crt.quickstart.toolbar.favorite" itemType="typeToolBarContribution" x="232" y="34"/>
+<coolItem id="com.crt.quickstart.toolbar.project" itemType="typeToolBarContribution" x="78" y="34"/>
+<coolItem id="com.crt.quickstart.toolbar.import" itemType="typeToolBarContribution" x="198" y="34"/>
+<coolItem id="com.crt.quickstart.toolbar.extras" itemType="typeToolBarContribution" x="104" y="34"/>
+<coolItem id="additions" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="44" y="34"/>
+<coolItem id="group.nav" itemType="typeGroupMarker"/>
+<coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.browser.editor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.cdt.ui.editor.CEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="group.help" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="UserSeparator" itemType="typeSeparator"/>
+<coolItem id="com.crt.quickstart.toolbar.build" itemType="typeToolBarContribution" x="78" y="34"/>
+<coolItem id="com.crt.quickstart.toolbar.debug" itemType="typeToolBarContribution" x="54" y="34"/>
+<coolItem id="org.eclipse.cdt.ui.buildConfigActionSet" itemType="typeToolBarContribution" x="82" y="34"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="82" y="34"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="52" y="34"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="84" y="34"/>
+</coolbarLayout>
+<page aggregateWorkingSetId="Aggregate for window 1321404283091" focus="true" label="Workspace - Develop">
+<editors>
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="2"/>
+<part id="1"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+</presentation>
+</folder>
+</info>
+</editorArea>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="cronos_slave.c" partName="cronos_slave.c" path="/home/kerlos/Dropbox/proyectofinal/codigo/workspace/cronos_slave/src/cronos_slave.c" title="cronos_slave.c" tooltip="cronos_slave/src/cronos_slave.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/cronos_slave/src/cronos_slave.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2219" selectionTopPixel="849"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="blinky_main.c" partName="blinky_main.c" path="C:/Users/Emmanuel/Dropbox/proyectofinal/codigo/workspace/blinky/src/blinky_main.c" title="blinky_main.c" tooltip="blinky/src/blinky_main.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/blinky/src/blinky_main.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="48" selectionOffset="1514" selectionTopPixel="255"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="lpcxpresso_gpio_int.c" partName="lpcxpresso_gpio_int.c" path="/home/kerlos/Dropbox/proyectofinal/codigo/workspace/cronos_slave/src/lpcxpresso_gpio_int.c" title="lpcxpresso_gpio_int.c" tooltip="cronos_slave/src/lpcxpresso_gpio_int.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/cronos_slave/src/lpcxpresso_gpio_int.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1069" selectionTopPixel="425"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="cr_startup_lpc13.c" partName="cr_startup_lpc13.c" path="C:/Users/Emmanuel/Dropbox/proyectofinal/codigo/workspace/cronos_slave/src/cr_startup_lpc13.c" title="cr_startup_lpc13.c" tooltip="cronos_slave/src/cr_startup_lpc13.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/cronos_slave/src/cr_startup_lpc13.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="10494" selectionTopPixel="3621"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="cronos_master.c" partName="cronos_master.c" path="C:/Users/Emmanuel/Dropbox/proyectofinal/codigo/workspace/cronos_master/src/cronos_master.c" title="cronos_master.c" tooltip="cronos_master/src/cronos_master.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/cronos_master/src/cronos_master.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+</editors>
+<views>
+<view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
+<viewState CommonNavigator.LINKING_ENABLED="1" CommonNavigator.LINKING_ENABLED.delayed="0" org.eclipse.cdt.ui.cview.groupincludes="false" org.eclipse.cdt.ui.cview.groupmacros="false" org.eclipse.cdt.ui.editor.CUChildren="true" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
+</view>
+<view id="com.crt.redtracepreview.views.Preview" partName="Red Trace Preview"/>
+<view id="com.crt.config.browserview.RedInfoView" partName="RedChannel"/>
+<view id="com.crt.quickstart.views.QuickstartView" partName="Quickstart Panel">
+<viewState/>
+</view>
+<view id="org.eclipse.debug.ui.MemoryView" partName="Memory"/>
+<view id="org.eclipse.ui.views.ProblemView" partName="Problems">
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
+<expanded>&#x0A;<category IMemento.internal.id="Warnings"/>
+</expanded>
+<columnWidths org.eclipse.ui.ide.locationField="0" org.eclipse.ui.ide.markerType="0" org.eclipse.ui.ide.pathField="0" org.eclipse.ui.ide.resourceField="0" org.eclipse.ui.ide.severityAndDescriptionField="0"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
+</viewState>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
+</view>
+<view id="com.crt.trueview.views.PeripheralsViewer" partName="Peripherals"/>
+<view id="com.crt.trueview.views.CRTRegisterViewer" partName="Core Registers"/>
+<view id="org.eclipse.debug.ui.BreakpointView" partName="Breakpoints"/>
+<view id="org.eclipse.debug.ui.VariableView" partName="Variables">
+<viewState/>
+</view>
+</views>
+<perspectives activePart="org.eclipse.ui.navigator.ProjectExplorer" activePerspective="com.crt.lite.perspective.CRTPerspective">
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="com.crt.lite.perspective.CRTPerspectiveFactory" id="com.crt.lite.perspective.CRTPerspective" label="Develop"/>
+<alwaysOnActionSet id="com.crt.utils.support.actionSet"/>
+<alwaysOnActionSet id="com.crt.utils.activate.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.cdt.ui.buildConfigActionSet"/>
+<alwaysOnActionSet id="com.crt.branding.toolbar.utilityactions"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.debugActionSet"/>
+<alwaysOffActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOffActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOffActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOffActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<show_view_action id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<show_view_action id="org.eclipse.cdt.ui.includeBrowser"/>
+<perspective_action id="org.eclipse.team.ui.TeamSynchronizingPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<view id="com.crt.trueview.views.CRTRegisterViewer"/>
+<view id="com.crt.trueview.views.PeripheralsViewer"/>
+<view id="com.crt.quickstart.views.QuickstartView"/>
+<view id="com.crt.config.browserview.RedInfoView"/>
+<view id="org.eclipse.debug.ui.VariableView"/>
+<view id="org.eclipse.debug.ui.BreakpointView"/>
+<fastViewBars>
+<fastViewBar fastViewLocation="1024" id="consoleEtc" orientation="256" selectedTabId="org.eclipse.ui.console.ConsoleView" style="0">
+<fastViews>
+<view id="org.eclipse.ui.console.ConsoleView" ratio="0.3054755"/>
+<view id="org.eclipse.ui.views.ProblemView" ratio="0.3"/>
+<view id="org.eclipse.debug.ui.MemoryView" ratio="0.3"/>
+<view id="com.crt.redtracepreview.views.Preview" ratio="0.3"/>
+</fastViews>
+</fastViewBar>
+</fastViewBars>
+<layout>
+<mainWindow>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@f80123">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.debug.ui.DebugView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="topLeft" ratio="0.13013698" ratioLeft="95" ratioRight="635" relationship="4" relative="org.eclipse.ui.internal.ViewStack@f80123">
+<folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">
+<page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
+<page content="com.crt.trueview.views.CRTRegisterViewer" label="Core Registers"/>
+<page content="com.crt.trueview.views.PeripheralsViewer" label="Peripherals"/>
+<page content="org.eclipse.cdt.ui.CView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.7495049" ratioLeft="757" ratioRight="253" relationship="2" relative="topLeft">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.3455084" ratioLeft="350" ratioRight="663" relationship="2" relative="topLeft"/>
+<info folder="true" part="consoleEtc" ratio="0.6427406" ratioLeft="394" ratioRight="219" relationship="4" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ProblemView" label="LabelNotFound"/>
+<page content="org.eclipse.debug.ui.MemoryView" label="LabelNotFound"/>
+<page content="com.crt.redtracepreview.views.Preview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="bottom" ratio="0.75" ratioLeft="336" ratioRight="112" relationship="4" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="2"/>
+</info>
+<info folder="true" part="bottomLeft" ratio="0.56606853" ratioLeft="347" ratioRight="266" relationship="4" relative="topLeft">
+<folder activePageID="com.crt.quickstart.views.QuickstartView" appearance="2" expanded="2">
+<page content="com.crt.quickstart.views.QuickstartView" label="Quickstart Panel"/>
+<page content="com.crt.config.browserview.RedInfoView" label="RedChannel"/>
+<page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
+<page content="org.eclipse.debug.ui.BreakpointView" label="Breakpoints"/>
+<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
+<page content="org.eclipse.debug.ui.ExpressionView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<workingSets/>
+<navigationHistory/>
+<input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
+</page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+<trimLayout>
+<trimArea IMemento.internal.id="128">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
+</trimArea>
+<trimArea IMemento.internal.id="1024">
+<trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
+<trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+<trimItem IMemento.internal.id="com.crt.config.toolbar"/>
+<trimItem IMemento.internal.id="consoleEtc"/>
+</trimArea>
+</trimLayout>
+</window>
+<mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="clkconfig.d" tooltip="cronos_slave/Debug/src/clkconfig.d">
+<persistable path="/cronos_slave/Debug/src/clkconfig.d"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="lpcxpresso_gpio_int.c" tooltip="cronos_master/src/lpcxpresso_gpio_int.c">
+<persistable path="/cronos_master/src/lpcxpresso_gpio_int.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="funciones.c" tooltip="cronos_master/src/funciones.c">
+<persistable path="/cronos_master/src/funciones.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="cronos_master.c" tooltip="cronos_master/src/cronos_master.c">
+<persistable path="/cronos_master/src/cronos_master.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="cr_startup_lpc13.c" tooltip="cronos_slave/src/cr_startup_lpc13.c">
+<persistable path="/cronos_slave/src/cr_startup_lpc13.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="lpcxpresso_gpio_int.c" tooltip="cronos_slave/src/lpcxpresso_gpio_int.c">
+<persistable path="/cronos_slave/src/lpcxpresso_gpio_int.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="blinky_main.c" tooltip="blinky/src/blinky_main.c">
+<persistable path="/blinky/src/blinky_main.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="cronos_slave.c" tooltip="cronos_slave/src/cronos_slave.c">
+<persistable path="/cronos_slave/src/cronos_slave.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="timer32.c" tooltip="cronos_master/src/timer32.c">
+<persistable path="/cronos_master/src/timer32.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="usbhw.c" tooltip="cronos_master/src/usbhw.c">
+<persistable path="/cronos_master/src/usbhw.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="uart.c" tooltip="cronos_slave/src/uart.c">
+<persistable path="/cronos_slave/src/uart.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="timer32.c" tooltip="cronos_slave/src/timer32.c">
+<persistable path="/cronos_slave/src/timer32.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="uart.c" tooltip="cronos_master/src/uart.c">
+<persistable path="/cronos_master/src/uart.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="cr_startup_lpc13.c" tooltip="cronos_master/src/cr_startup_lpc13.c">
+<persistable path="/cronos_master/src/cr_startup_lpc13.c"/>
+</file>
+</mruList>
+</workbench>

@@ -1,0 +1,20 @@
+
+**** Build of configuration Debug for project cronos_slave ****
+
+make all 
+Building file: ../src/cronos_slave.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_CMSIS=CMSISv1p30_LPC13xx -I"D:\Archivos\DropBox\proyectofinal\codigo\workspace\CMSISv1p30_LPC13xx\inc" -I"D:\Archivos\DropBox\proyectofinal\codigo\workspace\cronos_slave\headers" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -MMD -MP -MF"src/cronos_slave.d" -MT"src/cronos_slave.d" -o"src/cronos_slave.o" "../src/cronos_slave.c"
+Finished building: ../src/cronos_slave.c
+ 
+Building target: cronos_slave.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"D:\Archivos\DropBox\proyectofinal\codigo\workspace\CMSISv1p30_LPC13xx\Debug" -Xlinker -Map="cronos_slave.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "cronos_slave_Debug.ld" -o"cronos_slave.axf"  ./src/clkconfig.o ./src/cr_startup_lpc13.o ./src/cronos_slave.o ./src/gpio.o ./src/lpcxpresso_gpio_int.o ./src/timer32.o ./src/uart.o   -lCMSISv1p30_LPC13xx
+Finished building target: cronos_slave.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "cronos_slave.axf"; # arm-none-eabi-objcopy -O binary "cronos_slave.axf" "cronos_slave.bin" ; checksum -p LPC1343 -d "cronos_slave.bin";
+   text	   data	    bss	    dec	    hex	filename
+   9724	     12	    428	  10164	   27b4	cronos_slave.axf
+ 

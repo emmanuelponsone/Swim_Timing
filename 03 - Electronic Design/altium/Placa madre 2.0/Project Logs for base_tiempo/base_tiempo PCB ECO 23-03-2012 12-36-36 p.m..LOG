@@ -1,0 +1,3 @@
+Added Component: Designator=5V(PIN1)
+Added Pin To Net: NetName=VCC Pin=5V-1
+Added Member To Class: ClassName=Base de Tiempos Member=Component 5V Socket

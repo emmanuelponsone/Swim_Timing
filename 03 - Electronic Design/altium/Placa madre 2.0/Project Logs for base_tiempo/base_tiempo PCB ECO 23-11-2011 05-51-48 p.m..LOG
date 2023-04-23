@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=VCC Pin=U7-1
+Removed Pin From Net: NetName=GND Pin=U7-2
+Removed Pin From Net: NetName=+3.3V Pin=U7-3
+Removed Pin From Net: NetName=GND Pin=U7-4
+Change Component Footprint: Designator=R_PU_USB Old Footprint=J1-0603 New Footprint=2012[0805]
+Added Component: Designator=U7(MP04A_N)
+Added Pin To Net: NetName=VCC Pin=U7-1
+Added Pin To Net: NetName=GND Pin=U7-2
+Added Pin To Net: NetName=+3.3V Pin=U7-3
+Added Pin To Net: NetName=GND Pin=U7-4

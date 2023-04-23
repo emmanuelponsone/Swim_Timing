@@ -1,0 +1,4 @@
+Added Component: Designator=CENTRADA(RB7.6-15)
+Added Pin To Net: NetName=VCC_EXT Pin=CENTRADA-1
+Added Pin To Net: NetName=GND Pin=CENTRADA-2
+Added Member To Class: ClassName=placa_madre Member=Component CENTRADA Cap Pol1

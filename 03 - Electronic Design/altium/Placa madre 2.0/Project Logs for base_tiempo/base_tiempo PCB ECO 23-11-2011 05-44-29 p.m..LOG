@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=VCC Pin=U7-1
+Removed Pin From Net: NetName=GND Pin=U7-2
+Removed Pin From Net: NetName=+3.3V Pin=U7-3
+Removed Pin From Net: NetName=GND Pin=U7-4
+Change Component DesignItemId : Designator=CENTRADA Old DesignItemId=Cap Pol1 New DesignItemId=Cap2
+Change Component Description : Designator=CENTRADA Old Description=Polarized Capacitor (Radial) New Description=Capacitor

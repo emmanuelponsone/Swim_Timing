@@ -1,0 +1,116 @@
+
+nov 15, 2011 21:30:34.52 NEW SESSION
+nov 15, 2011 21:30:34.52 Error: No running window found
+nov 15, 2011 21:30:34.69 
+nov 15, 2011 21:30:34.69 (firefox:7196): Gtk-WARNING **: Imposible encontrar el motor de temas en la ruta al _modulo: «pixmap»,
+nov 15, 2011 21:30:34.69 
+nov 15, 2011 21:30:34.69 (firefox:7196): Gtk-WARNING **: Imposible encontrar el motor de temas en la ruta al _modulo: «pixmap»,
+nov 15, 2011 21:30:34.69 
+nov 15, 2011 21:30:34.69 (firefox:7196): Gtk-WARNING **: Imposible encontrar el motor de temas en la ruta al _modulo: «pixmap»,
+nov 15, 2011 21:30:34.69 
+nov 15, 2011 21:30:34.69 (firefox:7196): Gtk-WARNING **: Imposible encontrar el motor de temas en la ruta al _modulo: «pixmap»,
+nov 15, 2011 21:48:56.58 
+nov 15, 2011 21:48:56.58 (file-roller:7923): Gtk-CRITICAL **: gtk_style_provider_get_style_property: assertion `g_type_is_a (gtk_widget_path_get_object_type (path), pspec->owner_type)' failed
+nov 15, 2011 21:48:56.58 
+nov 15, 2011 21:48:56.58 (file-roller:7923): Gtk-CRITICAL **: gtk_style_provider_get_style_property: assertion `g_type_is_a (gtk_widget_path_get_object_type (path), pspec->owner_type)' failed
+nov 15, 2011 21:48:56.58 
+nov 15, 2011 21:48:56.58 (file-roller:7923): Gtk-CRITICAL **: gtk_style_provider_get_style_property: assertion `g_type_is_a (gtk_widget_path_get_object_type (path), pspec->owner_type)' failed
+nov 15, 2011 21:48:56.58 
+nov 15, 2011 21:48:56.58 (file-roller:7923): Gtk-CRITICAL **: gtk_style_provider_get_style_property: assertion `g_type_is_a (gtk_widget_path_get_object_type (path), pspec->owner_type)' failed
+nov 15, 2011 21:48:56.58 
+nov 15, 2011 21:48:56.58 (file-roller:7923): Gtk-CRITICAL **: gtk_style_provider_get_style_property: assertion `g_type_is_a (gtk_widget_path_get_object_type (path), pspec->owner_type)' failed
+nov 16, 2011 01:41:38.02 firefox: Fatal IO error 104 (Conexión reinicializada por la máquina remota) on X server :0.
+
+nov 22, 2011 07:06:49.79 NEW SESSION
+nov 22, 2011 07:06:49.79 Error: No running window found
+nov 22, 2011 07:06:49.88 
+nov 22, 2011 07:06:49.88 (firefox:2080): Gtk-WARNING **: Imposible encontrar el motor de temas en la ruta al _modulo: «pixmap»,
+
+nov 22, 2011 20:11:15.47 NEW SESSION
+nov 22, 2011 20:11:15.47 Error: No running window found
+nov 22, 2011 20:11:15.64 
+nov 22, 2011 20:11:15.64 (firefox:2084): Gtk-WARNING **: Imposible encontrar el motor de temas en la ruta al _modulo: «pixmap»,
+
+nov 23, 2011 12:06:28.08 NEW SESSION
+nov 23, 2011 12:06:28.08 Error: No running window found
+nov 23, 2011 12:06:28.31 
+nov 23, 2011 12:06:28.36 (firefox:15260): Gtk-WARNING **: Imposible encontrar el motor de temas en la ruta al _modulo: «pixmap»,
+
+nov 23, 2011 21:19:53.60 NEW SESSION
+nov 23, 2011 21:19:53.60 Error: No running window found
+nov 23, 2011 21:19:53.72 
+nov 23, 2011 21:19:53.72 (firefox:2151): Gtk-WARNING **: Imposible encontrar el motor de temas en la ruta al _modulo: «pixmap»,
+
+nov 24, 2011 10:04:47.35 NEW SESSION
+nov 24, 2011 10:04:47.35 Error: No running window found
+nov 24, 2011 10:04:47.52 
+nov 24, 2011 10:04:47.52 (firefox:2110): Gtk-WARNING **: Imposible encontrar el motor de temas en la ruta al _modulo: «pixmap»,
+
+nov 24, 2011 14:07:57.43 NEW SESSION
+nov 24, 2011 14:07:57.43 Error: No running window found
+nov 24, 2011 14:07:57.59 
+nov 24, 2011 14:07:57.59 (firefox:2180): Gtk-WARNING **: Imposible encontrar el motor de temas en la ruta al _modulo: «pixmap»,
+
+nov 24, 2011 15:37:39.28 NEW SESSION
+nov 24, 2011 15:37:39.28 Error: No running window found
+nov 24, 2011 15:37:39.42 
+nov 24, 2011 15:37:39.42 (firefox:2315): Gtk-WARNING **: Imposible encontrar el motor de temas en la ruta al _modulo: «pixmap»,
+
+nov 25, 2011 15:25:24.51 NEW SESSION
+nov 25, 2011 15:25:24.51 Error: No running window found
+nov 25, 2011 15:25:24.63 
+nov 25, 2011 15:25:24.63 (firefox:2173): Gtk-WARNING **: Imposible encontrar el motor de temas en la ruta al _modulo: «pixmap»,
+
+nov 25, 2011 15:30:39.11 NEW SESSION
+nov 25, 2011 15:30:39.11 Error: No running window found
+nov 25, 2011 15:30:39.30 
+nov 25, 2011 15:30:39.30 (firefox:2280): Gtk-WARNING **: Imposible encontrar el motor de temas en la ruta al _modulo: «pixmap»,
+
+dic 04, 2011 16:26:58.30 NEW SESSION
+dic 04, 2011 16:26:58.31 Error: No running window found
+dic 04, 2011 16:26:58.46 
+dic 04, 2011 16:26:58.47 (firefox:2589): Gtk-WARNING **: Imposible encontrar el motor de temas en la ruta al _modulo: «pixmap»,
+
+dic 04, 2011 17:30:40.18 NEW SESSION
+dic 04, 2011 17:30:40.18 Error: No running window found
+dic 04, 2011 17:30:40.39 
+dic 04, 2011 17:30:40.39 (firefox:3394): Gtk-WARNING **: Imposible encontrar el motor de temas en la ruta al _modulo: «pixmap»,
+
+dic 04, 2011 20:54:48.13 NEW SESSION
+dic 04, 2011 20:54:48.13 Error: No running window found
+dic 04, 2011 20:54:48.22 
+dic 04, 2011 20:54:48.22 (firefox:2222): Gtk-WARNING **: Imposible encontrar el motor de temas en la ruta al _modulo: «pixmap»,
+
+dic 05, 2011 24:04:05.08 NEW SESSION
+dic 05, 2011 24:04:05.08 Error: No running window found
+dic 05, 2011 24:04:05.18 
+dic 05, 2011 24:04:05.18 (firefox:2279): Gtk-WARNING **: Imposible encontrar el motor de temas en la ruta al _modulo: «pixmap»,
+
+dic 05, 2011 18:03:28.70 NEW SESSION
+dic 05, 2011 18:03:28.71 Error: No running window found
+dic 05, 2011 18:03:28.79 
+dic 05, 2011 18:03:28.79 (firefox:2108): Gtk-WARNING **: Imposible encontrar el motor de temas en la ruta al _modulo: «pixmap»,
+
+dic 06, 2011 09:34:20.95 NEW SESSION
+dic 06, 2011 09:34:20.95 Error: No running window found
+dic 06, 2011 09:34:21.10 
+dic 06, 2011 09:34:21.10 (firefox:2290): Gtk-WARNING **: Imposible encontrar el motor de temas en la ruta al _modulo: «pixmap»,
+
+dic 06, 2011 15:03:54.77 NEW SESSION
+dic 06, 2011 15:03:54.77 Error: No running window found
+dic 06, 2011 15:03:55.03 
+dic 06, 2011 15:03:55.03 (firefox:5690): Gtk-WARNING **: Imposible encontrar el motor de temas en la ruta al _modulo: «pixmap»,
+
+dic 13, 2011 21:01:05.11 NEW SESSION
+dic 13, 2011 21:01:05.11 Error: No running window found
+dic 13, 2011 21:01:05.20 
+dic 13, 2011 21:01:05.20 (firefox:2201): Gtk-WARNING **: Imposible encontrar el motor de temas en la ruta al _modulo: «pixmap»,
+dic 13, 2011 21:01:13.76 
+dic 13, 2011 21:01:13.76 (plugin-container:2243): Gtk-WARNING **: Imposible encontrar el motor de temas en la ruta al _modulo: «pixmap»,
+dic 13, 2011 21:01:16.10 
+dic 13, 2011 21:01:16.10 (gtk-gnash:2245): Gtk-WARNING **: Imposible encontrar el motor de temas en la ruta al _modulo: «pixmap»,
+
+dic 20, 2011 15:45:18.100 NEW SESSION
+dic 20, 2011 15:45:18.100 Error: No running window found
+dic 20, 2011 15:45:19.11 
+dic 20, 2011 15:45:19.11 (firefox:2180): Gtk-WARNING **: Imposible encontrar el motor de temas en la ruta al _modulo: «pixmap»,

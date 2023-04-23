@@ -1,0 +1,25 @@
+Added Component: Designator=+5V(221A-04)
+Added Component: Designator=C?(C0805)
+Added Component: Designator=C?(C0805)
+Added Component: Designator=U?(MP04A_N)
+Added Pin To Net: NetName=1_UC Pin=+5V-2
+Added Pin To Net: NetName=VCC Pin=+5V-3
+Added Pin To Net: NetName=VCC Pin=C?-1
+Added Pin To Net: NetName=1_UC Pin=C?-2
+Added Pin To Net: NetName=1_UC Pin=C?-2
+Added Pin To Net: NetName=1_UC Pin=J1-1A
+Added Pin To Net: NetName=1_UC Pin=J1-1B
+Added Pin To Net: NetName=1_UC Pin=J1-1
+Added Pin To Net: NetName=Net+5V_1 Pin=+5V-1
+Added Pin To Net: NetName=Net+5V_1 Pin=C?-1
+Added Net: Name=Net+5V_1
+Added Pin To Net: NetName=VCC_EXT Pin=J1-2
+Added Pin To Net: NetName=VCC_EXT Pin=J1-2A
+Added Pin To Net: NetName=VCC_EXT Pin=J1-2B
+Added Pin To Net: NetName=VCC_EXT Pin=J1-3
+Added Pin To Net: NetName=VCC_EXT Pin=J1-3A
+Added Pin To Net: NetName=VCC_EXT Pin=J1-3B
+Added Net: Name=VCC_EXT
+Added Member To Class: ClassName=placa_madre Member=Component +5V MC7805CT
+Added Member To Class: ClassName=placa_madre Member=Component C? Cap Pol3
+Added Member To Class: ClassName=placa_madre Member=Component U? LM3940IMP-3.3

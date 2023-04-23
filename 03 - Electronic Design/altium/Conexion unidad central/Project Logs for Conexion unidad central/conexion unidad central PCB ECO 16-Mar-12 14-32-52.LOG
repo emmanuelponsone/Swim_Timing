@@ -1,0 +1,106 @@
+Removed Pin From Net: NetName=Net*_4 Pin=*-4
+Removed Pin From Net: NetName=Net*_12 Pin=*-12
+Removed Pin From Net: NetName=Net*_4 Pin=R?-2
+Change Component DesignItemId : Designator=J? Old DesignItemId=D Connector 15 New DesignItemId=D Connector 25
+Change Component Footprint: Designator=J? Old Footprint=DSUB1.385-2H15 New Footprint=DSUB1.385-2H25A
+Change Component Comment : Designator=J? Old Comment=D Connector 15 New Comment=D Connector 25
+Added Component: Designator=P?(HDR2X8)
+Added Pin To Net: NetName=Net*_4 Pin=*-4
+Added Pin To Net: NetName=GND Pin=*-8
+Added Pin To Net: NetName=Net*_12 Pin=*-12
+Added Pin To Net: NetName=VCC Pin=*-16
+Added Pin To Net: NetName=VCC Pin=J?-9
+Added Pin To Net: NetName=VCC Pin=J?-10
+Added Pin To Net: NetName=GND Pin=J?-11
+Added Pin To Net: NetName=GND Pin=J?-12
+Added Pin To Net: NetName=GND Pin=J?-13
+Added Pin To Net: NetName=VCC Pin=J?-22
+Added Pin To Net: NetName=VCC Pin=J?-23
+Added Pin To Net: NetName=GND Pin=J?-24
+Added Pin To Net: NetName=GND Pin=J?-25
+Added Pin To Net: NetName=VCC Pin=P?-5
+Added Pin To Net: NetName=VCC Pin=P?-6
+Added Pin To Net: NetName=GND Pin=P?-7
+Added Pin To Net: NetName=VCC Pin=P?-13
+Added Pin To Net: NetName=GND Pin=P?-14
+Added Pin To Net: NetName=GND Pin=P?-15
+Added Pin To Net: NetName=GND Pin=P?-16
+Added Pin To Net: NetName=GND Pin=R?-1
+Added Pin To Net: NetName=GND Pin=R?-1
+Added Pin To Net: NetName=GND Pin=R?-2
+Added Pin To Net: NetName=GND Pin=R?-2
+Added Pin To Net: NetName=Net*_4 Pin=R?-2
+Change Net Name : Old Net Name=GND New Net Name=GND_ISO
+Change Net Name : Old Net Name=VCC New Net Name=VCC_ISO
+Added Pin To Net: NetName=PM1+ Pin=*-6
+Added Pin To Net: NetName=PM1+ Pin=J?-2
+Added Net: Name=PM1+
+Added Pin To Net: NetName=PM1- Pin=*-7
+Added Pin To Net: NetName=PM1- Pin=J?-15
+Added Net: Name=PM1-
+Added Pin To Net: NetName=PM1 Pin=*-5
+Added Pin To Net: NetName=PM1 Pin=P?-9
+Added Net: Name=PM1
+Added Pin To Net: NetName=PM2+ Pin=*-14
+Added Pin To Net: NetName=PM2+ Pin=J?-4
+Added Net: Name=PM2+
+Added Pin To Net: NetName=PM2- Pin=*-15
+Added Pin To Net: NetName=PM2- Pin=J?-17
+Added Net: Name=PM2-
+Added Pin To Net: NetName=PM2 Pin=*-13
+Added Pin To Net: NetName=PM2 Pin=P?-10
+Added Net: Name=PM2
+Added Pin To Net: NetName=PM3+ Pin=*-6
+Added Pin To Net: NetName=PM3+ Pin=J?-6
+Added Net: Name=PM3+
+Added Pin To Net: NetName=PM3- Pin=*-7
+Added Pin To Net: NetName=PM3- Pin=J?-19
+Added Net: Name=PM3-
+Added Pin To Net: NetName=PM3 Pin=*-5
+Added Pin To Net: NetName=PM3 Pin=P?-11
+Added Net: Name=PM3
+Added Pin To Net: NetName=PM4+ Pin=*-14
+Added Pin To Net: NetName=PM4+ Pin=J?-8
+Added Net: Name=PM4+
+Added Pin To Net: NetName=PM4- Pin=*-15
+Added Pin To Net: NetName=PM4- Pin=J?-21
+Added Net: Name=PM4-
+Added Pin To Net: NetName=PM4 Pin=*-13
+Added Pin To Net: NetName=PM4 Pin=P?-12
+Added Net: Name=PM4
+Added Pin To Net: NetName=PT1+ Pin=*-2
+Added Pin To Net: NetName=PT1+ Pin=J?-1
+Added Net: Name=PT1+
+Added Pin To Net: NetName=PT1- Pin=*-1
+Added Pin To Net: NetName=PT1- Pin=J?-14
+Added Net: Name=PT1-
+Added Pin To Net: NetName=PT1 Pin=*-3
+Added Pin To Net: NetName=PT1 Pin=P?-1
+Added Net: Name=PT1
+Added Pin To Net: NetName=PT2+ Pin=*-10
+Added Pin To Net: NetName=PT2+ Pin=J?-3
+Added Net: Name=PT2+
+Added Pin To Net: NetName=PT2- Pin=*-9
+Added Pin To Net: NetName=PT2- Pin=J?-16
+Added Net: Name=PT2-
+Added Pin To Net: NetName=PT2 Pin=*-11
+Added Pin To Net: NetName=PT2 Pin=P?-2
+Added Net: Name=PT2
+Added Pin To Net: NetName=PT3+ Pin=*-2
+Added Pin To Net: NetName=PT3+ Pin=J?-5
+Added Net: Name=PT3+
+Added Pin To Net: NetName=PT3- Pin=*-1
+Added Pin To Net: NetName=PT3- Pin=J?-18
+Added Net: Name=PT3-
+Added Pin To Net: NetName=PT3 Pin=*-3
+Added Pin To Net: NetName=PT3 Pin=P?-3
+Added Net: Name=PT3
+Added Pin To Net: NetName=PT4+ Pin=*-10
+Added Pin To Net: NetName=PT4+ Pin=J?-7
+Added Net: Name=PT4+
+Added Pin To Net: NetName=PT4- Pin=*-9
+Added Pin To Net: NetName=PT4- Pin=J?-20
+Added Net: Name=PT4-
+Added Pin To Net: NetName=PT4 Pin=*-11
+Added Pin To Net: NetName=PT4 Pin=P?-4
+Added Net: Name=PT4

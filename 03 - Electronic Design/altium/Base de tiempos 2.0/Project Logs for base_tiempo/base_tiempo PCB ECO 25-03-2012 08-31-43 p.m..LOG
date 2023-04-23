@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=Netfout_1 Pin=fout_1-1
+Removed Pin From Net: NetName=VCC Pin=GND1-1
+Added Component: Designator=GND27(PIN1)
+Added Pin To Net: NetName=GND Pin=GND27-1
+Added Member To Class: ClassName=base_tiempo Member=Component GND27 Socket

@@ -1,0 +1,119 @@
+Added Component: Designator=P1(HDR1X9)
+Added Component: Designator=P2(HDR1X9)
+Added Component: Designator=P3(HDR1X9)
+Added Component: Designator=P4(HDR1X9)
+Added Component: Designator=P5(HDR1X9)
+Added Component: Designator=P6(HDR1X9)
+Added Component: Designator=P7(HDR1X8)
+Added Pin To Net: NetName=GND Pin=P1-1
+Added Pin To Net: NetName=GND Pin=P6-1
+Change Net Name : Old Net Name=GND New Net Name=1
+Added Pin To Net: NetName=2 Pin=P1-2
+Added Net: Name=2
+Added Pin To Net: NetName=3 Pin=P1-3
+Added Net: Name=3
+Added Pin To Net: NetName=4 Pin=P1-4
+Added Net: Name=4
+Added Pin To Net: NetName=5 Pin=P1-5
+Added Net: Name=5
+Added Pin To Net: NetName=6 Pin=P1-6
+Added Net: Name=6
+Added Pin To Net: NetName=7 Pin=P1-7
+Added Net: Name=7
+Added Pin To Net: NetName=8 Pin=P1-8
+Added Net: Name=8
+Added Pin To Net: NetName=9 Pin=P1-9
+Added Net: Name=9
+Added Pin To Net: NetName=10 Pin=P2-1
+Added Net: Name=10
+Added Pin To Net: NetName=11 Pin=P2-2
+Added Net: Name=11
+Added Pin To Net: NetName=12 Pin=P2-3
+Added Net: Name=12
+Added Pin To Net: NetName=13 Pin=P2-4
+Added Net: Name=13
+Added Pin To Net: NetName=14 Pin=P2-5
+Added Net: Name=14
+Added Pin To Net: NetName=15 Pin=P2-6
+Added Net: Name=15
+Added Pin To Net: NetName=16 Pin=P2-7
+Added Net: Name=16
+Added Pin To Net: NetName=17 Pin=P2-8
+Added Net: Name=17
+Added Pin To Net: NetName=18 Pin=P2-9
+Added Net: Name=18
+Added Pin To Net: NetName=19 Pin=P3-1
+Added Net: Name=19
+Added Pin To Net: NetName=20 Pin=P3-2
+Added Net: Name=20
+Added Pin To Net: NetName=21 Pin=P3-3
+Added Net: Name=21
+Added Pin To Net: NetName=22 Pin=P3-4
+Added Net: Name=22
+Added Pin To Net: NetName=23 Pin=P3-5
+Added Net: Name=23
+Added Pin To Net: NetName=24 Pin=P3-6
+Added Net: Name=24
+Added Pin To Net: NetName=25 Pin=P3-7
+Added Net: Name=25
+Added Pin To Net: NetName=26 Pin=P3-8
+Added Net: Name=26
+Added Pin To Net: NetName=27 Pin=P3-9
+Added Net: Name=27
+Added Pin To Net: NetName=28 Pin=P4-9
+Added Pin To Net: NetName=28 Pin=Y1-1
+Added Pin To Net: NetName=28 Pin=Y1-4
+Added Net: Name=28
+Added Pin To Net: NetName=29 Pin=P4-8
+Added Net: Name=29
+Added Pin To Net: NetName=30 Pin=P4-7
+Added Net: Name=30
+Added Pin To Net: NetName=31 Pin=P4-6
+Added Net: Name=31
+Added Pin To Net: NetName=32 Pin=P4-5
+Added Net: Name=32
+Added Pin To Net: NetName=33 Pin=P4-4
+Added Net: Name=33
+Added Pin To Net: NetName=34 Pin=P4-3
+Added Net: Name=34
+Added Pin To Net: NetName=35 Pin=P4-2
+Added Net: Name=35
+Added Pin To Net: NetName=36 Pin=P4-1
+Added Net: Name=36
+Added Pin To Net: NetName=37 Pin=P5-9
+Added Net: Name=37
+Added Pin To Net: NetName=38 Pin=P5-8
+Added Net: Name=38
+Added Pin To Net: NetName=39 Pin=P5-7
+Added Net: Name=39
+Added Pin To Net: NetName=40 Pin=P5-6
+Added Net: Name=40
+Added Pin To Net: NetName=41 Pin=P5-5
+Added Net: Name=41
+Added Pin To Net: NetName=42 Pin=P5-4
+Added Net: Name=42
+Added Pin To Net: NetName=43 Pin=P5-3
+Added Net: Name=43
+Added Pin To Net: NetName=44 Pin=P5-2
+Added Net: Name=44
+Added Pin To Net: NetName=45 Pin=P5-1
+Added Net: Name=45
+Added Pin To Net: NetName=46 Pin=P6-9
+Added Net: Name=46
+Added Pin To Net: NetName=47 Pin=P6-8
+Added Net: Name=47
+Added Pin To Net: NetName=48 Pin=P6-7
+Added Net: Name=48
+Added Pin To Net: NetName=49 Pin=P6-6
+Added Net: Name=49
+Added Pin To Net: NetName=50 Pin=P6-5
+Added Net: Name=50
+Added Pin To Net: NetName=51 Pin=P6-4
+Added Net: Name=51
+Added Pin To Net: NetName=52 Pin=P6-3
+Added Net: Name=52
+Added Pin To Net: NetName=53 Pin=P6-2
+Added Net: Name=53
+Change Class Name : Old Net Name=base_tiempo New Net Name=Designator
+Added Room: Name=Designator
+Added Room: Name=Designator

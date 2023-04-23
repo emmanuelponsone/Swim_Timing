@@ -1,0 +1,987 @@
+Change Component Designator: OldDesignator=P1 NewDesignator=P1_LPC1343_A
+Change Component Designator: OldDesignator=P2 NewDesignator=P2_LPC1343_A
+Change Component Designator: OldDesignator=P3 NewDesignator=P3_LPC1343_A
+Change Component Designator: OldDesignator=P4 NewDesignator=P4_LPC1343_A
+Change Component Designator: OldDesignator=P5 NewDesignator=P5_LPC1343_A
+Change Component Designator: OldDesignator=P6 NewDesignator=P6_LPC1343_A
+Change Component Designator: OldDesignator=P7 NewDesignator=P7_LPC1343_A
+Added Component: Designator=P1_LPC1343_B(HDR1X9)
+Added Component: Designator=P1_LPC1343_C(HDR1X9)
+Added Component: Designator=P1_LPC1343_D(HDR1X9)
+Added Component: Designator=P1_LPC1343_E(HDR1X9)
+Added Component: Designator=P1_LPC1343_F(HDR1X9)
+Added Component: Designator=P1_LPC1343_G(HDR1X9)
+Added Component: Designator=P1_LPC1343_H(HDR1X9)
+Added Component: Designator=P1_LPC1343_UC(HDR1X9)
+Added Component: Designator=P2_LPC1343_B(HDR1X9)
+Added Component: Designator=P2_LPC1343_C(HDR1X9)
+Added Component: Designator=P2_LPC1343_D(HDR1X9)
+Added Component: Designator=P2_LPC1343_E(HDR1X9)
+Added Component: Designator=P2_LPC1343_F(HDR1X9)
+Added Component: Designator=P2_LPC1343_G(HDR1X9)
+Added Component: Designator=P2_LPC1343_H(HDR1X9)
+Added Component: Designator=P2_LPC1343_UC(HDR1X9)
+Added Component: Designator=P3_LPC1343_B(HDR1X9)
+Added Component: Designator=P3_LPC1343_C(HDR1X9)
+Added Component: Designator=P3_LPC1343_D(HDR1X9)
+Added Component: Designator=P3_LPC1343_E(HDR1X9)
+Added Component: Designator=P3_LPC1343_F(HDR1X9)
+Added Component: Designator=P3_LPC1343_G(HDR1X9)
+Added Component: Designator=P3_LPC1343_H(HDR1X9)
+Added Component: Designator=P3_LPC1343_UC(HDR1X9)
+Added Component: Designator=P4_LPC1343_B(HDR1X9)
+Added Component: Designator=P4_LPC1343_C(HDR1X9)
+Added Component: Designator=P4_LPC1343_D(HDR1X9)
+Added Component: Designator=P4_LPC1343_E(HDR1X9)
+Added Component: Designator=P4_LPC1343_F(HDR1X9)
+Added Component: Designator=P4_LPC1343_G(HDR1X9)
+Added Component: Designator=P4_LPC1343_H(HDR1X9)
+Added Component: Designator=P4_LPC1343_UC(HDR1X9)
+Added Component: Designator=P5_LPC1343_B(HDR1X9)
+Added Component: Designator=P5_LPC1343_C(HDR1X9)
+Added Component: Designator=P5_LPC1343_D(HDR1X9)
+Added Component: Designator=P5_LPC1343_E(HDR1X9)
+Added Component: Designator=P5_LPC1343_F(HDR1X9)
+Added Component: Designator=P5_LPC1343_G(HDR1X9)
+Added Component: Designator=P5_LPC1343_H(HDR1X9)
+Added Component: Designator=P5_LPC1343_UC(HDR1X9)
+Added Component: Designator=P6_LPC1343_B(HDR1X9)
+Added Component: Designator=P6_LPC1343_C(HDR1X9)
+Added Component: Designator=P6_LPC1343_D(HDR1X9)
+Added Component: Designator=P6_LPC1343_E(HDR1X9)
+Added Component: Designator=P6_LPC1343_F(HDR1X9)
+Added Component: Designator=P6_LPC1343_G(HDR1X9)
+Added Component: Designator=P6_LPC1343_H(HDR1X9)
+Added Component: Designator=P6_LPC1343_UC(HDR1X9)
+Added Component: Designator=P7_LPC1343_B(HDR1X8)
+Added Component: Designator=P7_LPC1343_C(HDR1X8)
+Added Component: Designator=P7_LPC1343_D(HDR1X8)
+Added Component: Designator=P7_LPC1343_E(HDR1X8)
+Added Component: Designator=P7_LPC1343_F(HDR1X8)
+Added Component: Designator=P7_LPC1343_G(HDR1X8)
+Added Component: Designator=P7_LPC1343_H(HDR1X8)
+Added Component: Designator=P7_LPC1343_UC(HDR1X8)
+Change Net Name : Old Net Name=2 New Net Name=2_LPC1343_A
+Change Net Name : Old Net Name=3 New Net Name=3_LPC1343_A
+Change Net Name : Old Net Name=4 New Net Name=4_LPC1343_A
+Change Net Name : Old Net Name=5 New Net Name=5_LPC1343_A
+Change Net Name : Old Net Name=6 New Net Name=6_LPC1343_A
+Change Net Name : Old Net Name=7 New Net Name=7_LPC1343_A
+Change Net Name : Old Net Name=8 New Net Name=8_LPC1343_A
+Change Net Name : Old Net Name=9 New Net Name=9_LPC1343_A
+Change Net Name : Old Net Name=10 New Net Name=10_LPC1343_A
+Change Net Name : Old Net Name=11 New Net Name=11_LPC1343_A
+Change Net Name : Old Net Name=12 New Net Name=12_LPC1343_A
+Change Net Name : Old Net Name=13 New Net Name=13_LPC1343_A
+Change Net Name : Old Net Name=14 New Net Name=14_LPC1343_A
+Change Net Name : Old Net Name=15 New Net Name=15_LPC1343_A
+Change Net Name : Old Net Name=16 New Net Name=16_LPC1343_A
+Change Net Name : Old Net Name=17 New Net Name=17_LPC1343_A
+Change Net Name : Old Net Name=18 New Net Name=18_LPC1343_A
+Change Net Name : Old Net Name=19 New Net Name=19_LPC1343_A
+Change Net Name : Old Net Name=20 New Net Name=20_LPC1343_A
+Change Net Name : Old Net Name=21 New Net Name=21_LPC1343_A
+Change Net Name : Old Net Name=22 New Net Name=22_LPC1343_A
+Change Net Name : Old Net Name=23 New Net Name=23_LPC1343_A
+Change Net Name : Old Net Name=24 New Net Name=24_LPC1343_A
+Change Net Name : Old Net Name=25 New Net Name=25_LPC1343_A
+Change Net Name : Old Net Name=26 New Net Name=26_LPC1343_A
+Change Net Name : Old Net Name=27 New Net Name=27_LPC1343_A
+Change Net Name : Old Net Name=29 New Net Name=29_LPC1343_A
+Change Net Name : Old Net Name=30 New Net Name=30_LPC1343_A
+Change Net Name : Old Net Name=31 New Net Name=31_LPC1343_A
+Change Net Name : Old Net Name=32 New Net Name=32_LPC1343_A
+Change Net Name : Old Net Name=33 New Net Name=33_LPC1343_A
+Change Net Name : Old Net Name=34 New Net Name=34_LPC1343_A
+Change Net Name : Old Net Name=35 New Net Name=35_LPC1343_A
+Change Net Name : Old Net Name=36 New Net Name=36_LPC1343_A
+Change Net Name : Old Net Name=37 New Net Name=37_LPC1343_A
+Change Net Name : Old Net Name=38 New Net Name=38_LPC1343_A
+Change Net Name : Old Net Name=39 New Net Name=39_LPC1343_A
+Change Net Name : Old Net Name=40 New Net Name=40_LPC1343_A
+Change Net Name : Old Net Name=41 New Net Name=41_LPC1343_A
+Change Net Name : Old Net Name=42 New Net Name=42_LPC1343_A
+Change Net Name : Old Net Name=43 New Net Name=43_LPC1343_A
+Change Net Name : Old Net Name=44 New Net Name=44_LPC1343_A
+Change Net Name : Old Net Name=45 New Net Name=45_LPC1343_A
+Change Net Name : Old Net Name=46 New Net Name=46_LPC1343_A
+Change Net Name : Old Net Name=47 New Net Name=47_LPC1343_A
+Change Net Name : Old Net Name=48 New Net Name=48_LPC1343_A
+Change Net Name : Old Net Name=49 New Net Name=49_LPC1343_A
+Change Net Name : Old Net Name=50 New Net Name=50_LPC1343_A
+Change Net Name : Old Net Name=51 New Net Name=51_LPC1343_A
+Change Net Name : Old Net Name=52 New Net Name=52_LPC1343_A
+Change Net Name : Old Net Name=53 New Net Name=53_LPC1343_A
+Added Pin To Net: NetName=1_LPC1343_A Pin=C_Osc-2
+Added Pin To Net: NetName=1_LPC1343_A Pin=P1_LPC1343_A-1
+Added Pin To Net: NetName=1_LPC1343_A Pin=P1_LPC1343_B-1
+Added Pin To Net: NetName=1_LPC1343_A Pin=P1_LPC1343_C-1
+Added Pin To Net: NetName=1_LPC1343_A Pin=P1_LPC1343_D-1
+Added Pin To Net: NetName=1_LPC1343_A Pin=P1_LPC1343_E-1
+Added Pin To Net: NetName=1_LPC1343_A Pin=P1_LPC1343_F-1
+Added Pin To Net: NetName=1_LPC1343_A Pin=P1_LPC1343_G-1
+Added Pin To Net: NetName=1_LPC1343_A Pin=P1_LPC1343_H-1
+Added Pin To Net: NetName=1_LPC1343_A Pin=P1_LPC1343_UC-1
+Added Pin To Net: NetName=1_LPC1343_A Pin=P6_LPC1343_A-1
+Added Pin To Net: NetName=1_LPC1343_A Pin=P6_LPC1343_B-1
+Added Pin To Net: NetName=1_LPC1343_A Pin=P6_LPC1343_C-1
+Added Pin To Net: NetName=1_LPC1343_A Pin=P6_LPC1343_D-1
+Added Pin To Net: NetName=1_LPC1343_A Pin=P6_LPC1343_E-1
+Added Pin To Net: NetName=1_LPC1343_A Pin=P6_LPC1343_F-1
+Added Pin To Net: NetName=1_LPC1343_A Pin=P6_LPC1343_G-1
+Added Pin To Net: NetName=1_LPC1343_A Pin=P6_LPC1343_H-1
+Added Pin To Net: NetName=1_LPC1343_A Pin=P6_LPC1343_UC-1
+Added Pin To Net: NetName=1_LPC1343_A Pin=U1-8
+Added Pin To Net: NetName=1_LPC1343_A Pin=U2-8
+Added Pin To Net: NetName=1_LPC1343_A Pin=U3-8
+Added Pin To Net: NetName=1_LPC1343_A Pin=U4-7
+Added Pin To Net: NetName=1_LPC1343_A Pin=U5-7
+Added Pin To Net: NetName=1_LPC1343_A Pin=U7-7
+Added Pin To Net: NetName=1_LPC1343_A Pin=U8-7
+Added Pin To Net: NetName=1_LPC1343_A Pin=Y1-2
+Added Net: Name=1_LPC1343_A
+Added Pin To Net: NetName=2_LPC1343_B Pin=P1_LPC1343_B-2
+Added Net: Name=2_LPC1343_B
+Added Pin To Net: NetName=2_LPC1343_C Pin=P1_LPC1343_C-2
+Added Net: Name=2_LPC1343_C
+Added Pin To Net: NetName=2_LPC1343_D Pin=P1_LPC1343_D-2
+Added Net: Name=2_LPC1343_D
+Added Pin To Net: NetName=2_LPC1343_E Pin=P1_LPC1343_E-2
+Added Net: Name=2_LPC1343_E
+Added Pin To Net: NetName=2_LPC1343_F Pin=P1_LPC1343_F-2
+Added Net: Name=2_LPC1343_F
+Added Pin To Net: NetName=2_LPC1343_G Pin=P1_LPC1343_G-2
+Added Net: Name=2_LPC1343_G
+Added Pin To Net: NetName=2_LPC1343_H Pin=P1_LPC1343_H-2
+Added Net: Name=2_LPC1343_H
+Added Pin To Net: NetName=2_LPC1343_UC Pin=P1_LPC1343_UC-2
+Added Net: Name=2_LPC1343_UC
+Added Pin To Net: NetName=3_LPC1343_B Pin=P1_LPC1343_B-3
+Added Net: Name=3_LPC1343_B
+Added Pin To Net: NetName=3_LPC1343_C Pin=P1_LPC1343_C-3
+Added Net: Name=3_LPC1343_C
+Added Pin To Net: NetName=3_LPC1343_D Pin=P1_LPC1343_D-3
+Added Net: Name=3_LPC1343_D
+Added Pin To Net: NetName=3_LPC1343_E Pin=P1_LPC1343_E-3
+Added Net: Name=3_LPC1343_E
+Added Pin To Net: NetName=3_LPC1343_F Pin=P1_LPC1343_F-3
+Added Net: Name=3_LPC1343_F
+Added Pin To Net: NetName=3_LPC1343_G Pin=P1_LPC1343_G-3
+Added Net: Name=3_LPC1343_G
+Added Pin To Net: NetName=3_LPC1343_H Pin=P1_LPC1343_H-3
+Added Net: Name=3_LPC1343_H
+Added Pin To Net: NetName=3_LPC1343_UC Pin=P1_LPC1343_UC-3
+Added Net: Name=3_LPC1343_UC
+Added Pin To Net: NetName=4_LPC1343_B Pin=P1_LPC1343_B-4
+Added Net: Name=4_LPC1343_B
+Added Pin To Net: NetName=4_LPC1343_C Pin=P1_LPC1343_C-4
+Added Net: Name=4_LPC1343_C
+Added Pin To Net: NetName=4_LPC1343_D Pin=P1_LPC1343_D-4
+Added Net: Name=4_LPC1343_D
+Added Pin To Net: NetName=4_LPC1343_E Pin=P1_LPC1343_E-4
+Added Net: Name=4_LPC1343_E
+Added Pin To Net: NetName=4_LPC1343_F Pin=P1_LPC1343_F-4
+Added Net: Name=4_LPC1343_F
+Added Pin To Net: NetName=4_LPC1343_G Pin=P1_LPC1343_G-4
+Added Net: Name=4_LPC1343_G
+Added Pin To Net: NetName=4_LPC1343_H Pin=P1_LPC1343_H-4
+Added Net: Name=4_LPC1343_H
+Added Pin To Net: NetName=4_LPC1343_UC Pin=P1_LPC1343_UC-4
+Added Net: Name=4_LPC1343_UC
+Added Pin To Net: NetName=5_LPC1343_B Pin=P1_LPC1343_B-5
+Added Net: Name=5_LPC1343_B
+Added Pin To Net: NetName=5_LPC1343_C Pin=P1_LPC1343_C-5
+Added Net: Name=5_LPC1343_C
+Added Pin To Net: NetName=5_LPC1343_D Pin=P1_LPC1343_D-5
+Added Net: Name=5_LPC1343_D
+Added Pin To Net: NetName=5_LPC1343_E Pin=P1_LPC1343_E-5
+Added Net: Name=5_LPC1343_E
+Added Pin To Net: NetName=5_LPC1343_F Pin=P1_LPC1343_F-5
+Added Net: Name=5_LPC1343_F
+Added Pin To Net: NetName=5_LPC1343_G Pin=P1_LPC1343_G-5
+Added Net: Name=5_LPC1343_G
+Added Pin To Net: NetName=5_LPC1343_H Pin=P1_LPC1343_H-5
+Added Net: Name=5_LPC1343_H
+Added Pin To Net: NetName=5_LPC1343_UC Pin=P1_LPC1343_UC-5
+Added Net: Name=5_LPC1343_UC
+Added Pin To Net: NetName=6_LPC1343_B Pin=P1_LPC1343_B-6
+Added Net: Name=6_LPC1343_B
+Added Pin To Net: NetName=6_LPC1343_C Pin=P1_LPC1343_C-6
+Added Net: Name=6_LPC1343_C
+Added Pin To Net: NetName=6_LPC1343_D Pin=P1_LPC1343_D-6
+Added Net: Name=6_LPC1343_D
+Added Pin To Net: NetName=6_LPC1343_E Pin=P1_LPC1343_E-6
+Added Net: Name=6_LPC1343_E
+Added Pin To Net: NetName=6_LPC1343_F Pin=P1_LPC1343_F-6
+Added Net: Name=6_LPC1343_F
+Added Pin To Net: NetName=6_LPC1343_G Pin=P1_LPC1343_G-6
+Added Net: Name=6_LPC1343_G
+Added Pin To Net: NetName=6_LPC1343_H Pin=P1_LPC1343_H-6
+Added Net: Name=6_LPC1343_H
+Added Pin To Net: NetName=6_LPC1343_UC Pin=P1_LPC1343_UC-6
+Added Net: Name=6_LPC1343_UC
+Added Pin To Net: NetName=7_LPC1343_B Pin=P1_LPC1343_B-7
+Added Net: Name=7_LPC1343_B
+Added Pin To Net: NetName=7_LPC1343_C Pin=P1_LPC1343_C-7
+Added Net: Name=7_LPC1343_C
+Added Pin To Net: NetName=7_LPC1343_D Pin=P1_LPC1343_D-7
+Added Net: Name=7_LPC1343_D
+Added Pin To Net: NetName=7_LPC1343_E Pin=P1_LPC1343_E-7
+Added Net: Name=7_LPC1343_E
+Added Pin To Net: NetName=7_LPC1343_F Pin=P1_LPC1343_F-7
+Added Net: Name=7_LPC1343_F
+Added Pin To Net: NetName=7_LPC1343_G Pin=P1_LPC1343_G-7
+Added Net: Name=7_LPC1343_G
+Added Pin To Net: NetName=7_LPC1343_H Pin=P1_LPC1343_H-7
+Added Net: Name=7_LPC1343_H
+Added Pin To Net: NetName=7_LPC1343_UC Pin=P1_LPC1343_UC-7
+Added Net: Name=7_LPC1343_UC
+Added Pin To Net: NetName=8_LPC1343_B Pin=P1_LPC1343_B-8
+Added Net: Name=8_LPC1343_B
+Added Pin To Net: NetName=8_LPC1343_C Pin=P1_LPC1343_C-8
+Added Net: Name=8_LPC1343_C
+Added Pin To Net: NetName=8_LPC1343_D Pin=P1_LPC1343_D-8
+Added Net: Name=8_LPC1343_D
+Added Pin To Net: NetName=8_LPC1343_E Pin=P1_LPC1343_E-8
+Added Net: Name=8_LPC1343_E
+Added Pin To Net: NetName=8_LPC1343_F Pin=P1_LPC1343_F-8
+Added Net: Name=8_LPC1343_F
+Added Pin To Net: NetName=8_LPC1343_G Pin=P1_LPC1343_G-8
+Added Net: Name=8_LPC1343_G
+Added Pin To Net: NetName=8_LPC1343_H Pin=P1_LPC1343_H-8
+Added Net: Name=8_LPC1343_H
+Added Pin To Net: NetName=8_LPC1343_UC Pin=P1_LPC1343_UC-8
+Added Net: Name=8_LPC1343_UC
+Added Pin To Net: NetName=9_LPC1343_B Pin=P1_LPC1343_B-9
+Added Net: Name=9_LPC1343_B
+Added Pin To Net: NetName=9_LPC1343_C Pin=P1_LPC1343_C-9
+Added Net: Name=9_LPC1343_C
+Added Pin To Net: NetName=9_LPC1343_D Pin=P1_LPC1343_D-9
+Added Net: Name=9_LPC1343_D
+Added Pin To Net: NetName=9_LPC1343_E Pin=P1_LPC1343_E-9
+Added Net: Name=9_LPC1343_E
+Added Pin To Net: NetName=9_LPC1343_F Pin=P1_LPC1343_F-9
+Added Net: Name=9_LPC1343_F
+Added Pin To Net: NetName=9_LPC1343_G Pin=P1_LPC1343_G-9
+Added Net: Name=9_LPC1343_G
+Added Pin To Net: NetName=9_LPC1343_H Pin=P1_LPC1343_H-9
+Added Net: Name=9_LPC1343_H
+Added Pin To Net: NetName=9_LPC1343_UC Pin=P1_LPC1343_UC-9
+Added Net: Name=9_LPC1343_UC
+Added Pin To Net: NetName=10_LPC1343_B Pin=P2_LPC1343_B-1
+Added Net: Name=10_LPC1343_B
+Added Pin To Net: NetName=10_LPC1343_C Pin=P2_LPC1343_C-1
+Added Net: Name=10_LPC1343_C
+Added Pin To Net: NetName=10_LPC1343_D Pin=P2_LPC1343_D-1
+Added Net: Name=10_LPC1343_D
+Added Pin To Net: NetName=10_LPC1343_E Pin=P2_LPC1343_E-1
+Added Net: Name=10_LPC1343_E
+Added Pin To Net: NetName=10_LPC1343_F Pin=P2_LPC1343_F-1
+Added Net: Name=10_LPC1343_F
+Added Pin To Net: NetName=10_LPC1343_G Pin=P2_LPC1343_G-1
+Added Net: Name=10_LPC1343_G
+Added Pin To Net: NetName=10_LPC1343_H Pin=P2_LPC1343_H-1
+Added Net: Name=10_LPC1343_H
+Added Pin To Net: NetName=10_LPC1343_UC Pin=P2_LPC1343_UC-1
+Added Net: Name=10_LPC1343_UC
+Added Pin To Net: NetName=11_LPC1343_B Pin=P2_LPC1343_B-2
+Added Net: Name=11_LPC1343_B
+Added Pin To Net: NetName=11_LPC1343_C Pin=P2_LPC1343_C-2
+Added Net: Name=11_LPC1343_C
+Added Pin To Net: NetName=11_LPC1343_D Pin=P2_LPC1343_D-2
+Added Net: Name=11_LPC1343_D
+Added Pin To Net: NetName=11_LPC1343_E Pin=P2_LPC1343_E-2
+Added Net: Name=11_LPC1343_E
+Added Pin To Net: NetName=11_LPC1343_F Pin=P2_LPC1343_F-2
+Added Net: Name=11_LPC1343_F
+Added Pin To Net: NetName=11_LPC1343_G Pin=P2_LPC1343_G-2
+Added Net: Name=11_LPC1343_G
+Added Pin To Net: NetName=11_LPC1343_H Pin=P2_LPC1343_H-2
+Added Net: Name=11_LPC1343_H
+Added Pin To Net: NetName=11_LPC1343_UC Pin=P2_LPC1343_UC-2
+Added Net: Name=11_LPC1343_UC
+Added Pin To Net: NetName=12_LPC1343_B Pin=P2_LPC1343_B-3
+Added Net: Name=12_LPC1343_B
+Added Pin To Net: NetName=12_LPC1343_C Pin=P2_LPC1343_C-3
+Added Net: Name=12_LPC1343_C
+Added Pin To Net: NetName=12_LPC1343_D Pin=P2_LPC1343_D-3
+Added Net: Name=12_LPC1343_D
+Added Pin To Net: NetName=12_LPC1343_E Pin=P2_LPC1343_E-3
+Added Net: Name=12_LPC1343_E
+Added Pin To Net: NetName=12_LPC1343_F Pin=P2_LPC1343_F-3
+Added Net: Name=12_LPC1343_F
+Added Pin To Net: NetName=12_LPC1343_G Pin=P2_LPC1343_G-3
+Added Net: Name=12_LPC1343_G
+Added Pin To Net: NetName=12_LPC1343_H Pin=P2_LPC1343_H-3
+Added Net: Name=12_LPC1343_H
+Added Pin To Net: NetName=12_LPC1343_UC Pin=P2_LPC1343_UC-3
+Added Net: Name=12_LPC1343_UC
+Added Pin To Net: NetName=13_LPC1343_B Pin=P2_LPC1343_B-4
+Added Net: Name=13_LPC1343_B
+Added Pin To Net: NetName=13_LPC1343_C Pin=P2_LPC1343_C-4
+Added Net: Name=13_LPC1343_C
+Added Pin To Net: NetName=13_LPC1343_D Pin=P2_LPC1343_D-4
+Added Net: Name=13_LPC1343_D
+Added Pin To Net: NetName=13_LPC1343_E Pin=P2_LPC1343_E-4
+Added Net: Name=13_LPC1343_E
+Added Pin To Net: NetName=13_LPC1343_F Pin=P2_LPC1343_F-4
+Added Net: Name=13_LPC1343_F
+Added Pin To Net: NetName=13_LPC1343_G Pin=P2_LPC1343_G-4
+Added Net: Name=13_LPC1343_G
+Added Pin To Net: NetName=13_LPC1343_H Pin=P2_LPC1343_H-4
+Added Net: Name=13_LPC1343_H
+Added Pin To Net: NetName=13_LPC1343_UC Pin=P2_LPC1343_UC-4
+Added Net: Name=13_LPC1343_UC
+Added Pin To Net: NetName=14_LPC1343_B Pin=P2_LPC1343_B-5
+Added Net: Name=14_LPC1343_B
+Added Pin To Net: NetName=14_LPC1343_C Pin=P2_LPC1343_C-5
+Added Net: Name=14_LPC1343_C
+Added Pin To Net: NetName=14_LPC1343_D Pin=P2_LPC1343_D-5
+Added Net: Name=14_LPC1343_D
+Added Pin To Net: NetName=14_LPC1343_E Pin=P2_LPC1343_E-5
+Added Net: Name=14_LPC1343_E
+Added Pin To Net: NetName=14_LPC1343_F Pin=P2_LPC1343_F-5
+Added Net: Name=14_LPC1343_F
+Added Pin To Net: NetName=14_LPC1343_G Pin=P2_LPC1343_G-5
+Added Net: Name=14_LPC1343_G
+Added Pin To Net: NetName=14_LPC1343_H Pin=P2_LPC1343_H-5
+Added Net: Name=14_LPC1343_H
+Added Pin To Net: NetName=14_LPC1343_UC Pin=P2_LPC1343_UC-5
+Added Net: Name=14_LPC1343_UC
+Added Pin To Net: NetName=15_LPC1343_B Pin=P2_LPC1343_B-6
+Added Net: Name=15_LPC1343_B
+Added Pin To Net: NetName=15_LPC1343_C Pin=P2_LPC1343_C-6
+Added Net: Name=15_LPC1343_C
+Added Pin To Net: NetName=15_LPC1343_D Pin=P2_LPC1343_D-6
+Added Net: Name=15_LPC1343_D
+Added Pin To Net: NetName=15_LPC1343_E Pin=P2_LPC1343_E-6
+Added Net: Name=15_LPC1343_E
+Added Pin To Net: NetName=15_LPC1343_F Pin=P2_LPC1343_F-6
+Added Net: Name=15_LPC1343_F
+Added Pin To Net: NetName=15_LPC1343_G Pin=P2_LPC1343_G-6
+Added Net: Name=15_LPC1343_G
+Added Pin To Net: NetName=15_LPC1343_H Pin=P2_LPC1343_H-6
+Added Net: Name=15_LPC1343_H
+Added Pin To Net: NetName=15_LPC1343_UC Pin=P2_LPC1343_UC-6
+Added Net: Name=15_LPC1343_UC
+Added Pin To Net: NetName=16_LPC1343_B Pin=P2_LPC1343_B-7
+Added Net: Name=16_LPC1343_B
+Added Pin To Net: NetName=16_LPC1343_C Pin=P2_LPC1343_C-7
+Added Net: Name=16_LPC1343_C
+Added Pin To Net: NetName=16_LPC1343_D Pin=P2_LPC1343_D-7
+Added Net: Name=16_LPC1343_D
+Added Pin To Net: NetName=16_LPC1343_E Pin=P2_LPC1343_E-7
+Added Net: Name=16_LPC1343_E
+Added Pin To Net: NetName=16_LPC1343_F Pin=P2_LPC1343_F-7
+Added Net: Name=16_LPC1343_F
+Added Pin To Net: NetName=16_LPC1343_G Pin=P2_LPC1343_G-7
+Added Net: Name=16_LPC1343_G
+Added Pin To Net: NetName=16_LPC1343_H Pin=P2_LPC1343_H-7
+Added Net: Name=16_LPC1343_H
+Added Pin To Net: NetName=16_LPC1343_UC Pin=P2_LPC1343_UC-7
+Added Net: Name=16_LPC1343_UC
+Added Pin To Net: NetName=17_LPC1343_B Pin=P2_LPC1343_B-8
+Added Net: Name=17_LPC1343_B
+Added Pin To Net: NetName=17_LPC1343_C Pin=P2_LPC1343_C-8
+Added Net: Name=17_LPC1343_C
+Added Pin To Net: NetName=17_LPC1343_D Pin=P2_LPC1343_D-8
+Added Net: Name=17_LPC1343_D
+Added Pin To Net: NetName=17_LPC1343_E Pin=P2_LPC1343_E-8
+Added Net: Name=17_LPC1343_E
+Added Pin To Net: NetName=17_LPC1343_F Pin=P2_LPC1343_F-8
+Added Net: Name=17_LPC1343_F
+Added Pin To Net: NetName=17_LPC1343_G Pin=P2_LPC1343_G-8
+Added Net: Name=17_LPC1343_G
+Added Pin To Net: NetName=17_LPC1343_H Pin=P2_LPC1343_H-8
+Added Net: Name=17_LPC1343_H
+Added Pin To Net: NetName=17_LPC1343_UC Pin=P2_LPC1343_UC-8
+Added Net: Name=17_LPC1343_UC
+Added Pin To Net: NetName=18_LPC1343_B Pin=P2_LPC1343_B-9
+Added Net: Name=18_LPC1343_B
+Added Pin To Net: NetName=18_LPC1343_C Pin=P2_LPC1343_C-9
+Added Net: Name=18_LPC1343_C
+Added Pin To Net: NetName=18_LPC1343_D Pin=P2_LPC1343_D-9
+Added Net: Name=18_LPC1343_D
+Added Pin To Net: NetName=18_LPC1343_E Pin=P2_LPC1343_E-9
+Added Net: Name=18_LPC1343_E
+Added Pin To Net: NetName=18_LPC1343_F Pin=P2_LPC1343_F-9
+Added Net: Name=18_LPC1343_F
+Added Pin To Net: NetName=18_LPC1343_G Pin=P2_LPC1343_G-9
+Added Net: Name=18_LPC1343_G
+Added Pin To Net: NetName=18_LPC1343_H Pin=P2_LPC1343_H-9
+Added Net: Name=18_LPC1343_H
+Added Pin To Net: NetName=18_LPC1343_UC Pin=P2_LPC1343_UC-9
+Added Net: Name=18_LPC1343_UC
+Added Pin To Net: NetName=19_LPC1343_B Pin=P3_LPC1343_B-1
+Added Net: Name=19_LPC1343_B
+Added Pin To Net: NetName=19_LPC1343_C Pin=P3_LPC1343_C-1
+Added Net: Name=19_LPC1343_C
+Added Pin To Net: NetName=19_LPC1343_D Pin=P3_LPC1343_D-1
+Added Net: Name=19_LPC1343_D
+Added Pin To Net: NetName=19_LPC1343_E Pin=P3_LPC1343_E-1
+Added Net: Name=19_LPC1343_E
+Added Pin To Net: NetName=19_LPC1343_F Pin=P3_LPC1343_F-1
+Added Net: Name=19_LPC1343_F
+Added Pin To Net: NetName=19_LPC1343_G Pin=P3_LPC1343_G-1
+Added Net: Name=19_LPC1343_G
+Added Pin To Net: NetName=19_LPC1343_H Pin=P3_LPC1343_H-1
+Added Net: Name=19_LPC1343_H
+Added Pin To Net: NetName=19_LPC1343_UC Pin=P3_LPC1343_UC-1
+Added Net: Name=19_LPC1343_UC
+Added Pin To Net: NetName=20_LPC1343_B Pin=P3_LPC1343_B-2
+Added Net: Name=20_LPC1343_B
+Added Pin To Net: NetName=20_LPC1343_C Pin=P3_LPC1343_C-2
+Added Net: Name=20_LPC1343_C
+Added Pin To Net: NetName=20_LPC1343_D Pin=P3_LPC1343_D-2
+Added Net: Name=20_LPC1343_D
+Added Pin To Net: NetName=20_LPC1343_E Pin=P3_LPC1343_E-2
+Added Net: Name=20_LPC1343_E
+Added Pin To Net: NetName=20_LPC1343_F Pin=P3_LPC1343_F-2
+Added Net: Name=20_LPC1343_F
+Added Pin To Net: NetName=20_LPC1343_G Pin=P3_LPC1343_G-2
+Added Net: Name=20_LPC1343_G
+Added Pin To Net: NetName=20_LPC1343_H Pin=P3_LPC1343_H-2
+Added Net: Name=20_LPC1343_H
+Added Pin To Net: NetName=20_LPC1343_UC Pin=P3_LPC1343_UC-2
+Added Net: Name=20_LPC1343_UC
+Added Pin To Net: NetName=21_LPC1343_B Pin=P3_LPC1343_B-3
+Added Net: Name=21_LPC1343_B
+Added Pin To Net: NetName=21_LPC1343_C Pin=P3_LPC1343_C-3
+Added Net: Name=21_LPC1343_C
+Added Pin To Net: NetName=21_LPC1343_D Pin=P3_LPC1343_D-3
+Added Net: Name=21_LPC1343_D
+Added Pin To Net: NetName=21_LPC1343_E Pin=P3_LPC1343_E-3
+Added Net: Name=21_LPC1343_E
+Added Pin To Net: NetName=21_LPC1343_F Pin=P3_LPC1343_F-3
+Added Net: Name=21_LPC1343_F
+Added Pin To Net: NetName=21_LPC1343_G Pin=P3_LPC1343_G-3
+Added Net: Name=21_LPC1343_G
+Added Pin To Net: NetName=21_LPC1343_H Pin=P3_LPC1343_H-3
+Added Net: Name=21_LPC1343_H
+Added Pin To Net: NetName=21_LPC1343_UC Pin=P3_LPC1343_UC-3
+Added Net: Name=21_LPC1343_UC
+Added Pin To Net: NetName=22_LPC1343_B Pin=P3_LPC1343_B-4
+Added Net: Name=22_LPC1343_B
+Added Pin To Net: NetName=22_LPC1343_C Pin=P3_LPC1343_C-4
+Added Net: Name=22_LPC1343_C
+Added Pin To Net: NetName=22_LPC1343_D Pin=P3_LPC1343_D-4
+Added Net: Name=22_LPC1343_D
+Added Pin To Net: NetName=22_LPC1343_E Pin=P3_LPC1343_E-4
+Added Net: Name=22_LPC1343_E
+Added Pin To Net: NetName=22_LPC1343_F Pin=P3_LPC1343_F-4
+Added Net: Name=22_LPC1343_F
+Added Pin To Net: NetName=22_LPC1343_G Pin=P3_LPC1343_G-4
+Added Net: Name=22_LPC1343_G
+Added Pin To Net: NetName=22_LPC1343_H Pin=P3_LPC1343_H-4
+Added Net: Name=22_LPC1343_H
+Added Pin To Net: NetName=22_LPC1343_UC Pin=P3_LPC1343_UC-4
+Added Net: Name=22_LPC1343_UC
+Added Pin To Net: NetName=23_LPC1343_B Pin=P3_LPC1343_B-5
+Added Net: Name=23_LPC1343_B
+Added Pin To Net: NetName=23_LPC1343_C Pin=P3_LPC1343_C-5
+Added Net: Name=23_LPC1343_C
+Added Pin To Net: NetName=23_LPC1343_D Pin=P3_LPC1343_D-5
+Added Net: Name=23_LPC1343_D
+Added Pin To Net: NetName=23_LPC1343_E Pin=P3_LPC1343_E-5
+Added Net: Name=23_LPC1343_E
+Added Pin To Net: NetName=23_LPC1343_F Pin=P3_LPC1343_F-5
+Added Net: Name=23_LPC1343_F
+Added Pin To Net: NetName=23_LPC1343_G Pin=P3_LPC1343_G-5
+Added Net: Name=23_LPC1343_G
+Added Pin To Net: NetName=23_LPC1343_H Pin=P3_LPC1343_H-5
+Added Net: Name=23_LPC1343_H
+Added Pin To Net: NetName=23_LPC1343_UC Pin=P3_LPC1343_UC-5
+Added Net: Name=23_LPC1343_UC
+Added Pin To Net: NetName=24_LPC1343_B Pin=P3_LPC1343_B-6
+Added Net: Name=24_LPC1343_B
+Added Pin To Net: NetName=24_LPC1343_C Pin=P3_LPC1343_C-6
+Added Net: Name=24_LPC1343_C
+Added Pin To Net: NetName=24_LPC1343_D Pin=P3_LPC1343_D-6
+Added Net: Name=24_LPC1343_D
+Added Pin To Net: NetName=24_LPC1343_E Pin=P3_LPC1343_E-6
+Added Net: Name=24_LPC1343_E
+Added Pin To Net: NetName=24_LPC1343_F Pin=P3_LPC1343_F-6
+Added Net: Name=24_LPC1343_F
+Added Pin To Net: NetName=24_LPC1343_G Pin=P3_LPC1343_G-6
+Added Net: Name=24_LPC1343_G
+Added Pin To Net: NetName=24_LPC1343_H Pin=P3_LPC1343_H-6
+Added Net: Name=24_LPC1343_H
+Added Pin To Net: NetName=24_LPC1343_UC Pin=P3_LPC1343_UC-6
+Added Net: Name=24_LPC1343_UC
+Added Pin To Net: NetName=25_LPC1343_B Pin=P3_LPC1343_B-7
+Added Net: Name=25_LPC1343_B
+Added Pin To Net: NetName=25_LPC1343_C Pin=P3_LPC1343_C-7
+Added Net: Name=25_LPC1343_C
+Added Pin To Net: NetName=25_LPC1343_D Pin=P3_LPC1343_D-7
+Added Net: Name=25_LPC1343_D
+Added Pin To Net: NetName=25_LPC1343_E Pin=P3_LPC1343_E-7
+Added Net: Name=25_LPC1343_E
+Added Pin To Net: NetName=25_LPC1343_F Pin=P3_LPC1343_F-7
+Added Net: Name=25_LPC1343_F
+Added Pin To Net: NetName=25_LPC1343_G Pin=P3_LPC1343_G-7
+Added Net: Name=25_LPC1343_G
+Added Pin To Net: NetName=25_LPC1343_H Pin=P3_LPC1343_H-7
+Added Net: Name=25_LPC1343_H
+Added Pin To Net: NetName=25_LPC1343_UC Pin=P3_LPC1343_UC-7
+Added Net: Name=25_LPC1343_UC
+Added Pin To Net: NetName=26_LPC1343_B Pin=P3_LPC1343_B-8
+Added Net: Name=26_LPC1343_B
+Added Pin To Net: NetName=26_LPC1343_C Pin=P3_LPC1343_C-8
+Added Net: Name=26_LPC1343_C
+Added Pin To Net: NetName=26_LPC1343_D Pin=P3_LPC1343_D-8
+Added Net: Name=26_LPC1343_D
+Added Pin To Net: NetName=26_LPC1343_E Pin=P3_LPC1343_E-8
+Added Net: Name=26_LPC1343_E
+Added Pin To Net: NetName=26_LPC1343_F Pin=P3_LPC1343_F-8
+Added Net: Name=26_LPC1343_F
+Added Pin To Net: NetName=26_LPC1343_G Pin=P3_LPC1343_G-8
+Added Net: Name=26_LPC1343_G
+Added Pin To Net: NetName=26_LPC1343_H Pin=P3_LPC1343_H-8
+Added Net: Name=26_LPC1343_H
+Added Pin To Net: NetName=26_LPC1343_UC Pin=P3_LPC1343_UC-8
+Added Net: Name=26_LPC1343_UC
+Added Pin To Net: NetName=27_LPC1343_B Pin=P3_LPC1343_B-9
+Added Net: Name=27_LPC1343_B
+Added Pin To Net: NetName=27_LPC1343_C Pin=P3_LPC1343_C-9
+Added Net: Name=27_LPC1343_C
+Added Pin To Net: NetName=27_LPC1343_D Pin=P3_LPC1343_D-9
+Added Net: Name=27_LPC1343_D
+Added Pin To Net: NetName=27_LPC1343_E Pin=P3_LPC1343_E-9
+Added Net: Name=27_LPC1343_E
+Added Pin To Net: NetName=27_LPC1343_F Pin=P3_LPC1343_F-9
+Added Net: Name=27_LPC1343_F
+Added Pin To Net: NetName=27_LPC1343_G Pin=P3_LPC1343_G-9
+Added Net: Name=27_LPC1343_G
+Added Pin To Net: NetName=27_LPC1343_H Pin=P3_LPC1343_H-9
+Added Net: Name=27_LPC1343_H
+Added Pin To Net: NetName=27_LPC1343_UC Pin=P3_LPC1343_UC-9
+Added Net: Name=27_LPC1343_UC
+Added Pin To Net: NetName=28_LPC1343_A Pin=P4_LPC1343_A-9
+Added Pin To Net: NetName=28_LPC1343_A Pin=P4_LPC1343_B-9
+Added Pin To Net: NetName=28_LPC1343_A Pin=P4_LPC1343_C-9
+Added Pin To Net: NetName=28_LPC1343_A Pin=P4_LPC1343_D-9
+Added Pin To Net: NetName=28_LPC1343_A Pin=P4_LPC1343_E-9
+Added Pin To Net: NetName=28_LPC1343_A Pin=P4_LPC1343_F-9
+Added Pin To Net: NetName=28_LPC1343_A Pin=P4_LPC1343_G-9
+Added Pin To Net: NetName=28_LPC1343_A Pin=P4_LPC1343_H-9
+Added Pin To Net: NetName=28_LPC1343_A Pin=P4_LPC1343_UC-9
+Added Pin To Net: NetName=28_LPC1343_A Pin=Y1-1
+Added Pin To Net: NetName=28_LPC1343_A Pin=Y1-4
+Added Net: Name=28_LPC1343_A
+Added Pin To Net: NetName=29_LPC1343_B Pin=P4_LPC1343_B-8
+Added Net: Name=29_LPC1343_B
+Added Pin To Net: NetName=29_LPC1343_C Pin=P4_LPC1343_C-8
+Added Net: Name=29_LPC1343_C
+Added Pin To Net: NetName=29_LPC1343_D Pin=P4_LPC1343_D-8
+Added Net: Name=29_LPC1343_D
+Added Pin To Net: NetName=29_LPC1343_E Pin=P4_LPC1343_E-8
+Added Net: Name=29_LPC1343_E
+Added Pin To Net: NetName=29_LPC1343_F Pin=P4_LPC1343_F-8
+Added Net: Name=29_LPC1343_F
+Added Pin To Net: NetName=29_LPC1343_G Pin=P4_LPC1343_G-8
+Added Net: Name=29_LPC1343_G
+Added Pin To Net: NetName=29_LPC1343_H Pin=P4_LPC1343_H-8
+Added Net: Name=29_LPC1343_H
+Added Pin To Net: NetName=29_LPC1343_UC Pin=P4_LPC1343_UC-8
+Added Net: Name=29_LPC1343_UC
+Added Pin To Net: NetName=30_LPC1343_B Pin=P4_LPC1343_B-7
+Added Net: Name=30_LPC1343_B
+Added Pin To Net: NetName=30_LPC1343_C Pin=P4_LPC1343_C-7
+Added Net: Name=30_LPC1343_C
+Added Pin To Net: NetName=30_LPC1343_D Pin=P4_LPC1343_D-7
+Added Net: Name=30_LPC1343_D
+Added Pin To Net: NetName=30_LPC1343_E Pin=P4_LPC1343_E-7
+Added Net: Name=30_LPC1343_E
+Added Pin To Net: NetName=30_LPC1343_F Pin=P4_LPC1343_F-7
+Added Net: Name=30_LPC1343_F
+Added Pin To Net: NetName=30_LPC1343_G Pin=P4_LPC1343_G-7
+Added Net: Name=30_LPC1343_G
+Added Pin To Net: NetName=30_LPC1343_H Pin=P4_LPC1343_H-7
+Added Net: Name=30_LPC1343_H
+Added Pin To Net: NetName=30_LPC1343_UC Pin=P4_LPC1343_UC-7
+Added Net: Name=30_LPC1343_UC
+Added Pin To Net: NetName=31_LPC1343_B Pin=P4_LPC1343_B-6
+Added Net: Name=31_LPC1343_B
+Added Pin To Net: NetName=31_LPC1343_C Pin=P4_LPC1343_C-6
+Added Net: Name=31_LPC1343_C
+Added Pin To Net: NetName=31_LPC1343_D Pin=P4_LPC1343_D-6
+Added Net: Name=31_LPC1343_D
+Added Pin To Net: NetName=31_LPC1343_E Pin=P4_LPC1343_E-6
+Added Net: Name=31_LPC1343_E
+Added Pin To Net: NetName=31_LPC1343_F Pin=P4_LPC1343_F-6
+Added Net: Name=31_LPC1343_F
+Added Pin To Net: NetName=31_LPC1343_G Pin=P4_LPC1343_G-6
+Added Net: Name=31_LPC1343_G
+Added Pin To Net: NetName=31_LPC1343_H Pin=P4_LPC1343_H-6
+Added Net: Name=31_LPC1343_H
+Added Pin To Net: NetName=31_LPC1343_UC Pin=P4_LPC1343_UC-6
+Added Net: Name=31_LPC1343_UC
+Added Pin To Net: NetName=32_LPC1343_B Pin=P4_LPC1343_B-5
+Added Net: Name=32_LPC1343_B
+Added Pin To Net: NetName=32_LPC1343_C Pin=P4_LPC1343_C-5
+Added Net: Name=32_LPC1343_C
+Added Pin To Net: NetName=32_LPC1343_D Pin=P4_LPC1343_D-5
+Added Net: Name=32_LPC1343_D
+Added Pin To Net: NetName=32_LPC1343_E Pin=P4_LPC1343_E-5
+Added Net: Name=32_LPC1343_E
+Added Pin To Net: NetName=32_LPC1343_F Pin=P4_LPC1343_F-5
+Added Net: Name=32_LPC1343_F
+Added Pin To Net: NetName=32_LPC1343_G Pin=P4_LPC1343_G-5
+Added Net: Name=32_LPC1343_G
+Added Pin To Net: NetName=32_LPC1343_H Pin=P4_LPC1343_H-5
+Added Net: Name=32_LPC1343_H
+Added Pin To Net: NetName=32_LPC1343_UC Pin=P4_LPC1343_UC-5
+Added Net: Name=32_LPC1343_UC
+Added Pin To Net: NetName=33_LPC1343_B Pin=P4_LPC1343_B-4
+Added Net: Name=33_LPC1343_B
+Added Pin To Net: NetName=33_LPC1343_C Pin=P4_LPC1343_C-4
+Added Net: Name=33_LPC1343_C
+Added Pin To Net: NetName=33_LPC1343_D Pin=P4_LPC1343_D-4
+Added Net: Name=33_LPC1343_D
+Added Pin To Net: NetName=33_LPC1343_E Pin=P4_LPC1343_E-4
+Added Net: Name=33_LPC1343_E
+Added Pin To Net: NetName=33_LPC1343_F Pin=P4_LPC1343_F-4
+Added Net: Name=33_LPC1343_F
+Added Pin To Net: NetName=33_LPC1343_G Pin=P4_LPC1343_G-4
+Added Net: Name=33_LPC1343_G
+Added Pin To Net: NetName=33_LPC1343_H Pin=P4_LPC1343_H-4
+Added Net: Name=33_LPC1343_H
+Added Pin To Net: NetName=33_LPC1343_UC Pin=P4_LPC1343_UC-4
+Added Net: Name=33_LPC1343_UC
+Added Pin To Net: NetName=34_LPC1343_B Pin=P4_LPC1343_B-3
+Added Net: Name=34_LPC1343_B
+Added Pin To Net: NetName=34_LPC1343_C Pin=P4_LPC1343_C-3
+Added Net: Name=34_LPC1343_C
+Added Pin To Net: NetName=34_LPC1343_D Pin=P4_LPC1343_D-3
+Added Net: Name=34_LPC1343_D
+Added Pin To Net: NetName=34_LPC1343_E Pin=P4_LPC1343_E-3
+Added Net: Name=34_LPC1343_E
+Added Pin To Net: NetName=34_LPC1343_F Pin=P4_LPC1343_F-3
+Added Net: Name=34_LPC1343_F
+Added Pin To Net: NetName=34_LPC1343_G Pin=P4_LPC1343_G-3
+Added Net: Name=34_LPC1343_G
+Added Pin To Net: NetName=34_LPC1343_H Pin=P4_LPC1343_H-3
+Added Net: Name=34_LPC1343_H
+Added Pin To Net: NetName=34_LPC1343_UC Pin=P4_LPC1343_UC-3
+Added Net: Name=34_LPC1343_UC
+Added Pin To Net: NetName=35_LPC1343_B Pin=P4_LPC1343_B-2
+Added Net: Name=35_LPC1343_B
+Added Pin To Net: NetName=35_LPC1343_C Pin=P4_LPC1343_C-2
+Added Net: Name=35_LPC1343_C
+Added Pin To Net: NetName=35_LPC1343_D Pin=P4_LPC1343_D-2
+Added Net: Name=35_LPC1343_D
+Added Pin To Net: NetName=35_LPC1343_E Pin=P4_LPC1343_E-2
+Added Net: Name=35_LPC1343_E
+Added Pin To Net: NetName=35_LPC1343_F Pin=P4_LPC1343_F-2
+Added Net: Name=35_LPC1343_F
+Added Pin To Net: NetName=35_LPC1343_G Pin=P4_LPC1343_G-2
+Added Net: Name=35_LPC1343_G
+Added Pin To Net: NetName=35_LPC1343_H Pin=P4_LPC1343_H-2
+Added Net: Name=35_LPC1343_H
+Added Pin To Net: NetName=35_LPC1343_UC Pin=P4_LPC1343_UC-2
+Added Net: Name=35_LPC1343_UC
+Added Pin To Net: NetName=36_LPC1343_B Pin=P4_LPC1343_B-1
+Added Net: Name=36_LPC1343_B
+Added Pin To Net: NetName=36_LPC1343_C Pin=P4_LPC1343_C-1
+Added Net: Name=36_LPC1343_C
+Added Pin To Net: NetName=36_LPC1343_D Pin=P4_LPC1343_D-1
+Added Net: Name=36_LPC1343_D
+Added Pin To Net: NetName=36_LPC1343_E Pin=P4_LPC1343_E-1
+Added Net: Name=36_LPC1343_E
+Added Pin To Net: NetName=36_LPC1343_F Pin=P4_LPC1343_F-1
+Added Net: Name=36_LPC1343_F
+Added Pin To Net: NetName=36_LPC1343_G Pin=P4_LPC1343_G-1
+Added Net: Name=36_LPC1343_G
+Added Pin To Net: NetName=36_LPC1343_H Pin=P4_LPC1343_H-1
+Added Net: Name=36_LPC1343_H
+Added Pin To Net: NetName=36_LPC1343_UC Pin=P4_LPC1343_UC-1
+Added Net: Name=36_LPC1343_UC
+Added Pin To Net: NetName=37_LPC1343_B Pin=P5_LPC1343_B-9
+Added Net: Name=37_LPC1343_B
+Added Pin To Net: NetName=37_LPC1343_C Pin=P5_LPC1343_C-9
+Added Net: Name=37_LPC1343_C
+Added Pin To Net: NetName=37_LPC1343_D Pin=P5_LPC1343_D-9
+Added Net: Name=37_LPC1343_D
+Added Pin To Net: NetName=37_LPC1343_E Pin=P5_LPC1343_E-9
+Added Net: Name=37_LPC1343_E
+Added Pin To Net: NetName=37_LPC1343_F Pin=P5_LPC1343_F-9
+Added Net: Name=37_LPC1343_F
+Added Pin To Net: NetName=37_LPC1343_G Pin=P5_LPC1343_G-9
+Added Net: Name=37_LPC1343_G
+Added Pin To Net: NetName=37_LPC1343_H Pin=P5_LPC1343_H-9
+Added Net: Name=37_LPC1343_H
+Added Pin To Net: NetName=37_LPC1343_UC Pin=P5_LPC1343_UC-9
+Added Net: Name=37_LPC1343_UC
+Added Pin To Net: NetName=38_LPC1343_B Pin=P5_LPC1343_B-8
+Added Net: Name=38_LPC1343_B
+Added Pin To Net: NetName=38_LPC1343_C Pin=P5_LPC1343_C-8
+Added Net: Name=38_LPC1343_C
+Added Pin To Net: NetName=38_LPC1343_D Pin=P5_LPC1343_D-8
+Added Net: Name=38_LPC1343_D
+Added Pin To Net: NetName=38_LPC1343_E Pin=P5_LPC1343_E-8
+Added Net: Name=38_LPC1343_E
+Added Pin To Net: NetName=38_LPC1343_F Pin=P5_LPC1343_F-8
+Added Net: Name=38_LPC1343_F
+Added Pin To Net: NetName=38_LPC1343_G Pin=P5_LPC1343_G-8
+Added Net: Name=38_LPC1343_G
+Added Pin To Net: NetName=38_LPC1343_H Pin=P5_LPC1343_H-8
+Added Net: Name=38_LPC1343_H
+Added Pin To Net: NetName=38_LPC1343_UC Pin=P5_LPC1343_UC-8
+Added Net: Name=38_LPC1343_UC
+Added Pin To Net: NetName=39_LPC1343_B Pin=P5_LPC1343_B-7
+Added Net: Name=39_LPC1343_B
+Added Pin To Net: NetName=39_LPC1343_C Pin=P5_LPC1343_C-7
+Added Net: Name=39_LPC1343_C
+Added Pin To Net: NetName=39_LPC1343_D Pin=P5_LPC1343_D-7
+Added Net: Name=39_LPC1343_D
+Added Pin To Net: NetName=39_LPC1343_E Pin=P5_LPC1343_E-7
+Added Net: Name=39_LPC1343_E
+Added Pin To Net: NetName=39_LPC1343_F Pin=P5_LPC1343_F-7
+Added Net: Name=39_LPC1343_F
+Added Pin To Net: NetName=39_LPC1343_G Pin=P5_LPC1343_G-7
+Added Net: Name=39_LPC1343_G
+Added Pin To Net: NetName=39_LPC1343_H Pin=P5_LPC1343_H-7
+Added Net: Name=39_LPC1343_H
+Added Pin To Net: NetName=39_LPC1343_UC Pin=P5_LPC1343_UC-7
+Added Net: Name=39_LPC1343_UC
+Added Pin To Net: NetName=40_LPC1343_B Pin=P5_LPC1343_B-6
+Added Net: Name=40_LPC1343_B
+Added Pin To Net: NetName=40_LPC1343_C Pin=P5_LPC1343_C-6
+Added Net: Name=40_LPC1343_C
+Added Pin To Net: NetName=40_LPC1343_D Pin=P5_LPC1343_D-6
+Added Net: Name=40_LPC1343_D
+Added Pin To Net: NetName=40_LPC1343_E Pin=P5_LPC1343_E-6
+Added Net: Name=40_LPC1343_E
+Added Pin To Net: NetName=40_LPC1343_F Pin=P5_LPC1343_F-6
+Added Net: Name=40_LPC1343_F
+Added Pin To Net: NetName=40_LPC1343_G Pin=P5_LPC1343_G-6
+Added Net: Name=40_LPC1343_G
+Added Pin To Net: NetName=40_LPC1343_H Pin=P5_LPC1343_H-6
+Added Net: Name=40_LPC1343_H
+Added Pin To Net: NetName=40_LPC1343_UC Pin=P5_LPC1343_UC-6
+Added Net: Name=40_LPC1343_UC
+Added Pin To Net: NetName=41_LPC1343_B Pin=P5_LPC1343_B-5
+Added Net: Name=41_LPC1343_B
+Added Pin To Net: NetName=41_LPC1343_C Pin=P5_LPC1343_C-5
+Added Net: Name=41_LPC1343_C
+Added Pin To Net: NetName=41_LPC1343_D Pin=P5_LPC1343_D-5
+Added Net: Name=41_LPC1343_D
+Added Pin To Net: NetName=41_LPC1343_E Pin=P5_LPC1343_E-5
+Added Net: Name=41_LPC1343_E
+Added Pin To Net: NetName=41_LPC1343_F Pin=P5_LPC1343_F-5
+Added Net: Name=41_LPC1343_F
+Added Pin To Net: NetName=41_LPC1343_G Pin=P5_LPC1343_G-5
+Added Net: Name=41_LPC1343_G
+Added Pin To Net: NetName=41_LPC1343_H Pin=P5_LPC1343_H-5
+Added Net: Name=41_LPC1343_H
+Added Pin To Net: NetName=41_LPC1343_UC Pin=P5_LPC1343_UC-5
+Added Net: Name=41_LPC1343_UC
+Added Pin To Net: NetName=42_LPC1343_B Pin=P5_LPC1343_B-4
+Added Net: Name=42_LPC1343_B
+Added Pin To Net: NetName=42_LPC1343_C Pin=P5_LPC1343_C-4
+Added Net: Name=42_LPC1343_C
+Added Pin To Net: NetName=42_LPC1343_D Pin=P5_LPC1343_D-4
+Added Net: Name=42_LPC1343_D
+Added Pin To Net: NetName=42_LPC1343_E Pin=P5_LPC1343_E-4
+Added Net: Name=42_LPC1343_E
+Added Pin To Net: NetName=42_LPC1343_F Pin=P5_LPC1343_F-4
+Added Net: Name=42_LPC1343_F
+Added Pin To Net: NetName=42_LPC1343_G Pin=P5_LPC1343_G-4
+Added Net: Name=42_LPC1343_G
+Added Pin To Net: NetName=42_LPC1343_H Pin=P5_LPC1343_H-4
+Added Net: Name=42_LPC1343_H
+Added Pin To Net: NetName=42_LPC1343_UC Pin=P5_LPC1343_UC-4
+Added Net: Name=42_LPC1343_UC
+Added Pin To Net: NetName=43_LPC1343_B Pin=P5_LPC1343_B-3
+Added Net: Name=43_LPC1343_B
+Added Pin To Net: NetName=43_LPC1343_C Pin=P5_LPC1343_C-3
+Added Net: Name=43_LPC1343_C
+Added Pin To Net: NetName=43_LPC1343_D Pin=P5_LPC1343_D-3
+Added Net: Name=43_LPC1343_D
+Added Pin To Net: NetName=43_LPC1343_E Pin=P5_LPC1343_E-3
+Added Net: Name=43_LPC1343_E
+Added Pin To Net: NetName=43_LPC1343_F Pin=P5_LPC1343_F-3
+Added Net: Name=43_LPC1343_F
+Added Pin To Net: NetName=43_LPC1343_G Pin=P5_LPC1343_G-3
+Added Net: Name=43_LPC1343_G
+Added Pin To Net: NetName=43_LPC1343_H Pin=P5_LPC1343_H-3
+Added Net: Name=43_LPC1343_H
+Added Pin To Net: NetName=43_LPC1343_UC Pin=P5_LPC1343_UC-3
+Added Net: Name=43_LPC1343_UC
+Added Pin To Net: NetName=44_LPC1343_B Pin=P5_LPC1343_B-2
+Added Net: Name=44_LPC1343_B
+Added Pin To Net: NetName=44_LPC1343_C Pin=P5_LPC1343_C-2
+Added Net: Name=44_LPC1343_C
+Added Pin To Net: NetName=44_LPC1343_D Pin=P5_LPC1343_D-2
+Added Net: Name=44_LPC1343_D
+Added Pin To Net: NetName=44_LPC1343_E Pin=P5_LPC1343_E-2
+Added Net: Name=44_LPC1343_E
+Added Pin To Net: NetName=44_LPC1343_F Pin=P5_LPC1343_F-2
+Added Net: Name=44_LPC1343_F
+Added Pin To Net: NetName=44_LPC1343_G Pin=P5_LPC1343_G-2
+Added Net: Name=44_LPC1343_G
+Added Pin To Net: NetName=44_LPC1343_H Pin=P5_LPC1343_H-2
+Added Net: Name=44_LPC1343_H
+Added Pin To Net: NetName=44_LPC1343_UC Pin=P5_LPC1343_UC-2
+Added Net: Name=44_LPC1343_UC
+Added Pin To Net: NetName=45_LPC1343_B Pin=P5_LPC1343_B-1
+Added Net: Name=45_LPC1343_B
+Added Pin To Net: NetName=45_LPC1343_C Pin=P5_LPC1343_C-1
+Added Net: Name=45_LPC1343_C
+Added Pin To Net: NetName=45_LPC1343_D Pin=P5_LPC1343_D-1
+Added Net: Name=45_LPC1343_D
+Added Pin To Net: NetName=45_LPC1343_E Pin=P5_LPC1343_E-1
+Added Net: Name=45_LPC1343_E
+Added Pin To Net: NetName=45_LPC1343_F Pin=P5_LPC1343_F-1
+Added Net: Name=45_LPC1343_F
+Added Pin To Net: NetName=45_LPC1343_G Pin=P5_LPC1343_G-1
+Added Net: Name=45_LPC1343_G
+Added Pin To Net: NetName=45_LPC1343_H Pin=P5_LPC1343_H-1
+Added Net: Name=45_LPC1343_H
+Added Pin To Net: NetName=45_LPC1343_UC Pin=P5_LPC1343_UC-1
+Added Net: Name=45_LPC1343_UC
+Added Pin To Net: NetName=46_LPC1343_B Pin=P6_LPC1343_B-9
+Added Net: Name=46_LPC1343_B
+Added Pin To Net: NetName=46_LPC1343_C Pin=P6_LPC1343_C-9
+Added Net: Name=46_LPC1343_C
+Added Pin To Net: NetName=46_LPC1343_D Pin=P6_LPC1343_D-9
+Added Net: Name=46_LPC1343_D
+Added Pin To Net: NetName=46_LPC1343_E Pin=P6_LPC1343_E-9
+Added Net: Name=46_LPC1343_E
+Added Pin To Net: NetName=46_LPC1343_F Pin=P6_LPC1343_F-9
+Added Net: Name=46_LPC1343_F
+Added Pin To Net: NetName=46_LPC1343_G Pin=P6_LPC1343_G-9
+Added Net: Name=46_LPC1343_G
+Added Pin To Net: NetName=46_LPC1343_H Pin=P6_LPC1343_H-9
+Added Net: Name=46_LPC1343_H
+Added Pin To Net: NetName=46_LPC1343_UC Pin=P6_LPC1343_UC-9
+Added Net: Name=46_LPC1343_UC
+Added Pin To Net: NetName=47_LPC1343_B Pin=P6_LPC1343_B-8
+Added Net: Name=47_LPC1343_B
+Added Pin To Net: NetName=47_LPC1343_C Pin=P6_LPC1343_C-8
+Added Net: Name=47_LPC1343_C
+Added Pin To Net: NetName=47_LPC1343_D Pin=P6_LPC1343_D-8
+Added Net: Name=47_LPC1343_D
+Added Pin To Net: NetName=47_LPC1343_E Pin=P6_LPC1343_E-8
+Added Net: Name=47_LPC1343_E
+Added Pin To Net: NetName=47_LPC1343_F Pin=P6_LPC1343_F-8
+Added Net: Name=47_LPC1343_F
+Added Pin To Net: NetName=47_LPC1343_G Pin=P6_LPC1343_G-8
+Added Net: Name=47_LPC1343_G
+Added Pin To Net: NetName=47_LPC1343_H Pin=P6_LPC1343_H-8
+Added Net: Name=47_LPC1343_H
+Added Pin To Net: NetName=47_LPC1343_UC Pin=P6_LPC1343_UC-8
+Added Net: Name=47_LPC1343_UC
+Added Pin To Net: NetName=48_LPC1343_B Pin=P6_LPC1343_B-7
+Added Net: Name=48_LPC1343_B
+Added Pin To Net: NetName=48_LPC1343_C Pin=P6_LPC1343_C-7
+Added Net: Name=48_LPC1343_C
+Added Pin To Net: NetName=48_LPC1343_D Pin=P6_LPC1343_D-7
+Added Net: Name=48_LPC1343_D
+Added Pin To Net: NetName=48_LPC1343_E Pin=P6_LPC1343_E-7
+Added Net: Name=48_LPC1343_E
+Added Pin To Net: NetName=48_LPC1343_F Pin=P6_LPC1343_F-7
+Added Net: Name=48_LPC1343_F
+Added Pin To Net: NetName=48_LPC1343_G Pin=P6_LPC1343_G-7
+Added Net: Name=48_LPC1343_G
+Added Pin To Net: NetName=48_LPC1343_H Pin=P6_LPC1343_H-7
+Added Net: Name=48_LPC1343_H
+Added Pin To Net: NetName=48_LPC1343_UC Pin=P6_LPC1343_UC-7
+Added Net: Name=48_LPC1343_UC
+Added Pin To Net: NetName=49_LPC1343_B Pin=P6_LPC1343_B-6
+Added Net: Name=49_LPC1343_B
+Added Pin To Net: NetName=49_LPC1343_C Pin=P6_LPC1343_C-6
+Added Net: Name=49_LPC1343_C
+Added Pin To Net: NetName=49_LPC1343_D Pin=P6_LPC1343_D-6
+Added Net: Name=49_LPC1343_D
+Added Pin To Net: NetName=49_LPC1343_E Pin=P6_LPC1343_E-6
+Added Net: Name=49_LPC1343_E
+Added Pin To Net: NetName=49_LPC1343_F Pin=P6_LPC1343_F-6
+Added Net: Name=49_LPC1343_F
+Added Pin To Net: NetName=49_LPC1343_G Pin=P6_LPC1343_G-6
+Added Net: Name=49_LPC1343_G
+Added Pin To Net: NetName=49_LPC1343_H Pin=P6_LPC1343_H-6
+Added Net: Name=49_LPC1343_H
+Added Pin To Net: NetName=49_LPC1343_UC Pin=P6_LPC1343_UC-6
+Added Net: Name=49_LPC1343_UC
+Added Pin To Net: NetName=50_LPC1343_B Pin=P6_LPC1343_B-5
+Added Net: Name=50_LPC1343_B
+Added Pin To Net: NetName=50_LPC1343_C Pin=P6_LPC1343_C-5
+Added Net: Name=50_LPC1343_C
+Added Pin To Net: NetName=50_LPC1343_D Pin=P6_LPC1343_D-5
+Added Net: Name=50_LPC1343_D
+Added Pin To Net: NetName=50_LPC1343_E Pin=P6_LPC1343_E-5
+Added Net: Name=50_LPC1343_E
+Added Pin To Net: NetName=50_LPC1343_F Pin=P6_LPC1343_F-5
+Added Net: Name=50_LPC1343_F
+Added Pin To Net: NetName=50_LPC1343_G Pin=P6_LPC1343_G-5
+Added Net: Name=50_LPC1343_G
+Added Pin To Net: NetName=50_LPC1343_H Pin=P6_LPC1343_H-5
+Added Net: Name=50_LPC1343_H
+Added Pin To Net: NetName=50_LPC1343_UC Pin=P6_LPC1343_UC-5
+Added Net: Name=50_LPC1343_UC
+Added Pin To Net: NetName=51_LPC1343_B Pin=P6_LPC1343_B-4
+Added Net: Name=51_LPC1343_B
+Added Pin To Net: NetName=51_LPC1343_C Pin=P6_LPC1343_C-4
+Added Net: Name=51_LPC1343_C
+Added Pin To Net: NetName=51_LPC1343_D Pin=P6_LPC1343_D-4
+Added Net: Name=51_LPC1343_D
+Added Pin To Net: NetName=51_LPC1343_E Pin=P6_LPC1343_E-4
+Added Net: Name=51_LPC1343_E
+Added Pin To Net: NetName=51_LPC1343_F Pin=P6_LPC1343_F-4
+Added Net: Name=51_LPC1343_F
+Added Pin To Net: NetName=51_LPC1343_G Pin=P6_LPC1343_G-4
+Added Net: Name=51_LPC1343_G
+Added Pin To Net: NetName=51_LPC1343_H Pin=P6_LPC1343_H-4
+Added Net: Name=51_LPC1343_H
+Added Pin To Net: NetName=51_LPC1343_UC Pin=P6_LPC1343_UC-4
+Added Net: Name=51_LPC1343_UC
+Added Pin To Net: NetName=52_LPC1343_B Pin=P6_LPC1343_B-3
+Added Net: Name=52_LPC1343_B
+Added Pin To Net: NetName=52_LPC1343_C Pin=P6_LPC1343_C-3
+Added Net: Name=52_LPC1343_C
+Added Pin To Net: NetName=52_LPC1343_D Pin=P6_LPC1343_D-3
+Added Net: Name=52_LPC1343_D
+Added Pin To Net: NetName=52_LPC1343_E Pin=P6_LPC1343_E-3
+Added Net: Name=52_LPC1343_E
+Added Pin To Net: NetName=52_LPC1343_F Pin=P6_LPC1343_F-3
+Added Net: Name=52_LPC1343_F
+Added Pin To Net: NetName=52_LPC1343_G Pin=P6_LPC1343_G-3
+Added Net: Name=52_LPC1343_G
+Added Pin To Net: NetName=52_LPC1343_H Pin=P6_LPC1343_H-3
+Added Net: Name=52_LPC1343_H
+Added Pin To Net: NetName=52_LPC1343_UC Pin=P6_LPC1343_UC-3
+Added Net: Name=52_LPC1343_UC
+Added Pin To Net: NetName=53_LPC1343_B Pin=P6_LPC1343_B-2
+Added Net: Name=53_LPC1343_B
+Added Pin To Net: NetName=53_LPC1343_C Pin=P6_LPC1343_C-2
+Added Net: Name=53_LPC1343_C
+Added Pin To Net: NetName=53_LPC1343_D Pin=P6_LPC1343_D-2
+Added Net: Name=53_LPC1343_D
+Added Pin To Net: NetName=53_LPC1343_E Pin=P6_LPC1343_E-2
+Added Net: Name=53_LPC1343_E
+Added Pin To Net: NetName=53_LPC1343_F Pin=P6_LPC1343_F-2
+Added Net: Name=53_LPC1343_F
+Added Pin To Net: NetName=53_LPC1343_G Pin=P6_LPC1343_G-2
+Added Net: Name=53_LPC1343_G
+Added Pin To Net: NetName=53_LPC1343_H Pin=P6_LPC1343_H-2
+Added Net: Name=53_LPC1343_H
+Added Pin To Net: NetName=53_LPC1343_UC Pin=P6_LPC1343_UC-2
+Added Net: Name=53_LPC1343_UC
+Added Class: Name=LPC1343_B
+Added Class: Name=LPC1343_C
+Added Class: Name=LPC1343_D
+Added Class: Name=LPC1343_E
+Added Class: Name=LPC1343_F
+Added Class: Name=LPC1343_G
+Added Class: Name=LPC1343_H
+Added Class: Name=LPC1343_UC
+Added Class: Name=LPC1343
+Added Room: Name=LPC1343_B
+Added Room: Name=LPC1343_C
+Added Room: Name=LPC1343_D
+Added Room: Name=LPC1343_E
+Added Room: Name=LPC1343_F
+Added Room: Name=LPC1343_G
+Added Room: Name=LPC1343_H
+Added Room: Name=LPC1343_UC

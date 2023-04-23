@@ -1,0 +1,32 @@
+<h1> <%= @competencia.nombre %> </h1> 
+<br>
+<b> Fecha del evento: </b> <%= @competencia.fecha.strftime("%d/%m/%Y") %> 
+<br>
+<b> Numero total de partidas: </b> <%= @partidas.count %>
+
+<br><br>
+<% if @competencia.partidas.empty? == true %>
+	<b> No existen partidas para esta competencia </b> <br>
+	<%= link_to "Agregar partida", new_competencia_partida_path(@competencia) %> <br>
+<% else %>
+	<h2> Partidas </h2>
+
+ <%= link_to "Agregar partida", new_competencia_partida_path(@competencia) %> <br><br>
+
+<table>
+	<tr>
+		<th>Numero</th>
+		<th>Estado</th>
+		<th>Ganador</th>
+		<th>Mejor tiempo</th>	
+		<th></th>
+		<th></th>
+	</tr>
+	<%= render @partidas %>
+</table>
+<% end %>
+		
+
+	<% if @partidas.count>5 %>
+		<%= link_to "Agregar partida", new_competencia_partida_path(@competencia) %> 	
+	<% end %>

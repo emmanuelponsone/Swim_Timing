@@ -1,0 +1,10 @@
+Added Component: Designator=U1(646-06)
+Added Pin To Net: NetName=NetR4_2 Pin=U1-1
+Added Pin To Net: NetName=NetC_rect1_1 Pin=U1-2
+Added Pin To Net: NetName=NetC_ref_1_1 Pin=U1-3
+Added Pin To Net: NetName=VCC Pin=U1-4
+Added Pin To Net: NetName=NetR10_2 Pin=U1-8
+Added Pin To Net: NetName=NetC_rect2_1 Pin=U1-9
+Added Pin To Net: NetName=NetC_ref_3_1 Pin=U1-10
+Added Pin To Net: NetName=GND_ISO Pin=U1-11
+Added Member To Class: ClassName=conexion Member=Component U1 LM324N

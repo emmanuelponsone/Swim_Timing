@@ -1,0 +1,12 @@
+Added Component: Designator=C_u7(C0805)
+Added Component: Designator=C_u8(C0805)
+Added Component: Designator=C_u9(C0805)
+Added Pin To Net: NetName=VCC Pin=C_u7-1
+Added Pin To Net: NetName=GND Pin=C_u7-2
+Added Pin To Net: NetName=VCC Pin=C_u8-1
+Added Pin To Net: NetName=GND Pin=C_u8-2
+Added Pin To Net: NetName=VCC Pin=C_u9-1
+Added Pin To Net: NetName=GND Pin=C_u9-2
+Added Member To Class: ClassName=AND_10_Entradas Member=Component C_u7 Cap Pol3
+Added Member To Class: ClassName=AND_10_Entradas Member=Component C_u8 Cap Pol3
+Added Member To Class: ClassName=AND_10_Entradas Member=Component C_u9 Cap Pol3

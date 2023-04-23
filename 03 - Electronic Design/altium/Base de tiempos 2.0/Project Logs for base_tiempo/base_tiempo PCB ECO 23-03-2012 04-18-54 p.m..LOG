@@ -1,0 +1,4 @@
+Added Component: Designator=C_u1(C0805)
+Added Pin To Net: NetName=VCC Pin=C_u1-1
+Added Pin To Net: NetName=GND Pin=C_u1-2
+Added Member To Class: ClassName=base_tiempo Member=Component C_u1 Cap Pol3

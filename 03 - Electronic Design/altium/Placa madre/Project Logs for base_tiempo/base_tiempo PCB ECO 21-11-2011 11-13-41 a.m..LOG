@@ -1,0 +1,7 @@
+Change Component Designator: OldDesignator=J7 NewDesignator=DISPLAY
+Added Pin To Net: NetName=48_UC Pin=DISPLAY-1
+Added Pin To Net: NetName=50_UC Pin=DISPLAY-2
+Added Pin To Net: NetName=49_UC Pin=DISPLAY-6
+Added Pin To Net: NetName=51_UC Pin=DISPLAY-7
+Added Pin To Net: NetName=GND Pin=DISPLAY-10
+Added Pin To Net: NetName=GND Pin=DISPLAY-11

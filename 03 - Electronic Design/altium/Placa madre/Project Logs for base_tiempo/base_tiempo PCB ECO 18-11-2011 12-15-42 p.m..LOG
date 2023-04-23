@@ -1,0 +1,17 @@
+Added Pin To Net: NetName=9_LPC1343_A Pin=P1_LPC1343_B-9
+Added Pin To Net: NetName=9_LPC1343_A Pin=P1_LPC1343_C-9
+Added Pin To Net: NetName=9_LPC1343_A Pin=P1_LPC1343_D-9
+Added Pin To Net: NetName=9_LPC1343_A Pin=P1_LPC1343_E-9
+Added Pin To Net: NetName=9_LPC1343_A Pin=P1_LPC1343_F-9
+Added Pin To Net: NetName=9_LPC1343_A Pin=P1_LPC1343_G-9
+Added Pin To Net: NetName=9_LPC1343_A Pin=P1_LPC1343_H-9
+Added Pin To Net: NetName=9_LPC1343_UC Pin=P2_LPC1343_A-1
+Added Pin To Net: NetName=9_LPC1343_UC Pin=P2_LPC1343_B-1
+Added Pin To Net: NetName=9_LPC1343_UC Pin=P2_LPC1343_C-1
+Added Pin To Net: NetName=9_LPC1343_UC Pin=P2_LPC1343_D-1
+Added Pin To Net: NetName=9_LPC1343_UC Pin=P2_LPC1343_E-1
+Added Pin To Net: NetName=9_LPC1343_UC Pin=P2_LPC1343_F-1
+Added Pin To Net: NetName=9_LPC1343_UC Pin=P2_LPC1343_G-1
+Added Pin To Net: NetName=9_LPC1343_UC Pin=P2_LPC1343_H-1
+Added Pin To Net: NetName=9_LPC1343_A Pin=P2_LPC1343_UC-1
+Added Member To Class: ClassName=placa_madre Member=Component Lado B-Linea  5-8 D Connector 9

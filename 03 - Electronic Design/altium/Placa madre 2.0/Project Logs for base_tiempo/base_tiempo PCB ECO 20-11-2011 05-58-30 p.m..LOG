@@ -1,0 +1,2 @@
+Removed Pin From Net: NetName=VCC Pin=C_Osc-1
+Added Pin To Net: NetName=28_UC Pin=C_Osc-1

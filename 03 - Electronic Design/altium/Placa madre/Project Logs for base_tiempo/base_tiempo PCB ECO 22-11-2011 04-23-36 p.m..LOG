@@ -1,0 +1,17 @@
+Removed Pin From Net: NetName=GND Pin=P_BOTON-1
+Removed Pin From Net: NetName=14_UC Pin=P_BOTON-2
+Removed Pin From Net: NetName=GND Pin=P_BOTON-3
+Removed Pin From Net: NetName=GND Pin=P_BOTON-4
+Removed Pin From Net: NetName=GND Pin=P_BOTON-5
+Removed Pin From Net: NetName=GND Pin=P_BOTON-7
+Removed Pin From Net: NetName=GND Pin=P_BOTON-9
+Removed Pin From Net: NetName=VCC_BOTON Pin=P_BOTON-10
+Removed Member From Class: ClassName=placa_madre Member=P_BOTON
+Added Component: Designator=BOTON(HDR2X3_CEN)
+Added Pin To Net: NetName=GND Pin=BOTON-1
+Added Pin To Net: NetName=GND Pin=BOTON-2
+Added Pin To Net: NetName=GND Pin=BOTON-3
+Added Pin To Net: NetName=14_UC Pin=BOTON-4
+Added Pin To Net: NetName=GND Pin=BOTON-5
+Added Pin To Net: NetName=VCC_BOTON Pin=BOTON-6
+Added Member To Class: ClassName=placa_madre Member=Component BOTON Header 3X2A

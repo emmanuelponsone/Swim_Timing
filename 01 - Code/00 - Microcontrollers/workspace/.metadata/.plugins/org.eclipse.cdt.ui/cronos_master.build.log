@@ -1,0 +1,129 @@
+
+**** Build of configuration Debug for project cronos_master ****
+
+make all 
+Building file: ../src/cdcuser.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_CMSIS=CMSISv1p30_LPC13xx -I"D:\Archivos\DropBox\proyectofinal\codigo\workspace\CMSISv1p30_LPC13xx\inc" -I"D:\Archivos\DropBox\proyectofinal\codigo\workspace\cronos_master\headers" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -MMD -MP -MF"src/cdcuser.d" -MT"src/cdcuser.d" -o"src/cdcuser.o" "../src/cdcuser.c"
+../src/cdcuser.c: In function 'CDC_Init':
+../src/cdcuser.c:126:3: warning: implicit declaration of function 'ser_OpenPort'
+../src/cdcuser.c:127:3: warning: implicit declaration of function 'ser_InitPort'
+../src/cdcuser.c: In function 'CDC_SetLineCoding':
+../src/cdcuser.c:219:3: warning: implicit declaration of function 'ser_ClosePort'
+../src/cdcuser.c: In function 'CDC_BulkIn':
+../src/cdcuser.c:285:3: warning: implicit declaration of function 'ser_AvailChar'
+../src/cdcuser.c:289:3: warning: implicit declaration of function 'ser_Read'
+../src/cdcuser.c: In function 'CDC_GetSerialState':
+../src/cdcuser.c:329:3: warning: implicit declaration of function 'ser_LineState'
+Finished building: ../src/cdcuser.c
+ 
+Building file: ../src/cr_startup_lpc13.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_CMSIS=CMSISv1p30_LPC13xx -I"D:\Archivos\DropBox\proyectofinal\codigo\workspace\CMSISv1p30_LPC13xx\inc" -I"D:\Archivos\DropBox\proyectofinal\codigo\workspace\cronos_master\headers" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -MMD -MP -MF"src/cr_startup_lpc13.d" -MT"src/cr_startup_lpc13.d" -o"src/cr_startup_lpc13.o" "../src/cr_startup_lpc13.c"
+Finished building: ../src/cr_startup_lpc13.c
+ 
+Building file: ../src/cronos_master.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_CMSIS=CMSISv1p30_LPC13xx -I"D:\Archivos\DropBox\proyectofinal\codigo\workspace\CMSISv1p30_LPC13xx\inc" -I"D:\Archivos\DropBox\proyectofinal\codigo\workspace\cronos_master\headers" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -MMD -MP -MF"src/cronos_master.d" -MT"src/cronos_master.d" -o"src/cronos_master.o" "../src/cronos_master.c"
+../src/cr_startup_lpc13.c:110:10: warning: taking address of expression of type 'void'
+../src/cronos_master.c: In function 'Actualizar':
+../src/cronos_master.c:125:1: warning: implicit declaration of function 'delay'
+../src/cronos_master.c:128:2: warning: pointer targets in passing argument 1 of 'strcpy' differ in signedness
+d:\instalacion programas\lpcxpresso_4.1.5_219\lpcxpresso\tools\bin\../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/include/redlib/string.h:45:14: note: expected 'char * __restrict__' but argument is of type 'unsigned char *'
+../src/cronos_master.c:223:3: warning: pointer targets in passing argument 1 of 'strcpy' differ in signedness
+d:\instalacion programas\lpcxpresso_4.1.5_219\lpcxpresso\tools\bin\../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/include/redlib/string.h:45:14: note: expected 'char * __restrict__' but argument is of type 'unsigned char *'
+../src/cronos_master.c:313:3: warning: pointer targets in passing argument 1 of 'strcpy' differ in signedness
+d:\instalacion programas\lpcxpresso_4.1.5_219\lpcxpresso\tools\bin\../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/include/redlib/string.h:45:14: note: expected 'char * __restrict__' but argument is of type 'unsigned char *'
+../src/cronos_master.c:403:3: warning: pointer targets in passing argument 1 of 'strcpy' differ in signedness
+d:\instalacion programas\lpcxpresso_4.1.5_219\lpcxpresso\tools\bin\../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/include/redlib/string.h:45:14: note: expected 'char * __restrict__' but argument is of type 'unsigned char *'
+../src/cronos_master.c:494:3: warning: pointer targets in passing argument 1 of 'strcpy' differ in signedness
+d:\instalacion programas\lpcxpresso_4.1.5_219\lpcxpresso\tools\bin\../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/include/redlib/string.h:45:14: note: expected 'char * __restrict__' but argument is of type 'unsigned char *'
+../src/cronos_master.c:587:3: warning: pointer targets in passing argument 1 of 'strcpy' differ in signedness
+d:\instalacion programas\lpcxpresso_4.1.5_219\lpcxpresso\tools\bin\../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/include/redlib/string.h:45:14: note: expected 'char * __restrict__' but argument is of type 'unsigned char *'
+../src/cronos_master.c:678:3: warning: pointer targets in passing argument 1 of 'strcpy' differ in signedness
+d:\instalacion programas\lpcxpresso_4.1.5_219\lpcxpresso\tools\bin\../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/include/redlib/string.h:45:14: note: expected 'char * __restrict__' but argument is of type 'unsigned char *'
+../src/cronos_master.c:770:2: warning: pointer targets in passing argument 1 of 'strcpy' differ in signedness
+d:\instalacion programas\lpcxpresso_4.1.5_219\lpcxpresso\tools\bin\../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/include/redlib/string.h:45:14: note: expected 'char * __restrict__' but argument is of type 'unsigned char *'
+../src/cronos_master.c:108:3: warning: label 'http' defined but not used
+../src/cronos_master.c: In function 'Enviar_Datos_USB':
+../src/cronos_master.c:847:4: warning: implicit declaration of function 'Lee_USB'
+../src/cronos_master.c: At top level:
+../src/cronos_master.c:856:6: warning: conflicting types for 'Lee_USB'
+../src/cronos_master.c:847:4: note: previous implicit declaration of 'Lee_USB' was here
+../src/cronos_master.c: In function 'main':
+../src/cronos_master.c:950:1: warning: pointer targets in passing argument 1 of 'strcpy' differ in signedness
+d:\instalacion programas\lpcxpresso_4.1.5_219\lpcxpresso\tools\bin\../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/include/redlib/string.h:45:14: note: expected 'char * __restrict__' but argument is of type 'unsigned char *'
+../src/cronos_master.c:968:2: warning: pointer targets in passing argument 1 of 'strcpy' differ in signedness
+d:\instalacion programas\lpcxpresso_4.1.5_219\lpcxpresso\tools\bin\../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/include/redlib/string.h:45:14: note: expected 'char * __restrict__' but argument is of type 'unsigned char *'
+../src/cronos_master.c:975:3: warning: pointer targets in passing argument 1 of 'strcpy' differ in signedness
+d:\instalacion programas\lpcxpresso_4.1.5_219\lpcxpresso\tools\bin\../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/include/redlib/string.h:45:14: note: expected 'char * __restrict__' but argument is of type 'unsigned char *'
+../src/cronos_master.c:979:3: warning: pointer targets in passing argument 1 of 'strcpy' differ in signedness
+d:\instalacion programas\lpcxpresso_4.1.5_219\lpcxpresso\tools\bin\../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/include/redlib/string.h:45:14: note: expected 'char * __restrict__' but argument is of type 'unsigned char *'
+../src/cronos_master.c:983:3: warning: pointer targets in passing argument 1 of 'strcpy' differ in signedness
+d:\instalacion programas\lpcxpresso_4.1.5_219\lpcxpresso\tools\bin\../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/include/redlib/string.h:45:14: note: expected 'char * __restrict__' but argument is of type 'unsigned char *'
+Finished building: ../src/cronos_master.c
+../src/cronos_master.c:925:5: warning: unused variable 'm'
+ 
+Building file: ../src/funciones.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_CMSIS=CMSISv1p30_LPC13xx -I"D:\Archivos\DropBox\proyectofinal\codigo\workspace\CMSISv1p30_LPC13xx\inc" -I"D:\Archivos\DropBox\proyectofinal\codigo\workspace\cronos_master\headers" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -MMD -MP -MF"src/funciones.d" -MT"src/funciones.d" -o"src/funciones.o" "../src/funciones.c"
+Finished building: ../src/funciones.c
+ 
+Building file: ../src/gpio.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_CMSIS=CMSISv1p30_LPC13xx -I"D:\Archivos\DropBox\proyectofinal\codigo\workspace\CMSISv1p30_LPC13xx\inc" -I"D:\Archivos\DropBox\proyectofinal\codigo\workspace\cronos_master\headers" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -MMD -MP -MF"src/gpio.d" -MT"src/gpio.d" -o"src/gpio.o" "../src/gpio.c"
+Finished building: ../src/gpio.c
+ 
+Building file: ../src/lpcxpresso_gpio_int.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_CMSIS=CMSISv1p30_LPC13xx -I"D:\Archivos\DropBox\proyectofinal\codigo\workspace\CMSISv1p30_LPC13xx\inc" -I"D:\Archivos\DropBox\proyectofinal\codigo\workspace\cronos_master\headers" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -MMD -MP -MF"src/lpcxpresso_gpio_int.d" -MT"src/lpcxpresso_gpio_int.d" -o"src/lpcxpresso_gpio_int.o" "../src/lpcxpresso_gpio_int.c"
+../src/lpcxpresso_gpio_int.c: In function 'PIOINT2_IRQHandler':
+../src/lpcxpresso_gpio_int.c:81:5: warning: implicit declaration of function 'delay'
+Finished building: ../src/lpcxpresso_gpio_int.c
+ 
+Building file: ../src/serial.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_CMSIS=CMSISv1p30_LPC13xx -I"D:\Archivos\DropBox\proyectofinal\codigo\workspace\CMSISv1p30_LPC13xx\inc" -I"D:\Archivos\DropBox\proyectofinal\codigo\workspace\cronos_master\headers" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -MMD -MP -MF"src/serial.d" -MT"src/serial.d" -o"src/serial.o" "../src/serial.c"
+Finished building: ../src/serial.c
+ 
+Building file: ../src/timer32.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_CMSIS=CMSISv1p30_LPC13xx -I"D:\Archivos\DropBox\proyectofinal\codigo\workspace\CMSISv1p30_LPC13xx\inc" -I"D:\Archivos\DropBox\proyectofinal\codigo\workspace\cronos_master\headers" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -MMD -MP -MF"src/timer32.d" -MT"src/timer32.d" -o"src/timer32.o" "../src/timer32.c"
+Finished building: ../src/timer32.c
+ 
+Building file: ../src/uart.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_CMSIS=CMSISv1p30_LPC13xx -I"D:\Archivos\DropBox\proyectofinal\codigo\workspace\CMSISv1p30_LPC13xx\inc" -I"D:\Archivos\DropBox\proyectofinal\codigo\workspace\cronos_master\headers" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -MMD -MP -MF"src/uart.d" -MT"src/uart.d" -o"src/uart.o" "../src/uart.c"
+Finished building: ../src/uart.c
+ 
+Building file: ../src/usbcore.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_CMSIS=CMSISv1p30_LPC13xx -I"D:\Archivos\DropBox\proyectofinal\codigo\workspace\CMSISv1p30_LPC13xx\inc" -I"D:\Archivos\DropBox\proyectofinal\codigo\workspace\cronos_master\headers" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -MMD -MP -MF"src/usbcore.d" -MT"src/usbcore.d" -o"src/usbcore.o" "../src/usbcore.c"
+Finished building: ../src/usbcore.c
+ 
+Building file: ../src/usbdesc.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_CMSIS=CMSISv1p30_LPC13xx -I"D:\Archivos\DropBox\proyectofinal\codigo\workspace\CMSISv1p30_LPC13xx\inc" -I"D:\Archivos\DropBox\proyectofinal\codigo\workspace\cronos_master\headers" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -MMD -MP -MF"src/usbdesc.d" -MT"src/usbdesc.d" -o"src/usbdesc.o" "../src/usbdesc.c"
+Finished building: ../src/usbdesc.c
+ 
+Building file: ../src/usbhw.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_CMSIS=CMSISv1p30_LPC13xx -I"D:\Archivos\DropBox\proyectofinal\codigo\workspace\CMSISv1p30_LPC13xx\inc" -I"D:\Archivos\DropBox\proyectofinal\codigo\workspace\cronos_master\headers" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -MMD -MP -MF"src/usbhw.d" -MT"src/usbhw.d" -o"src/usbhw.o" "../src/usbhw.c"
+Finished building: ../src/usbhw.c
+ 
+Building file: ../src/usbuser.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_CMSIS=CMSISv1p30_LPC13xx -I"D:\Archivos\DropBox\proyectofinal\codigo\workspace\CMSISv1p30_LPC13xx\inc" -I"D:\Archivos\DropBox\proyectofinal\codigo\workspace\cronos_master\headers" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -MMD -MP -MF"src/usbuser.d" -MT"src/usbuser.d" -o"src/usbuser.o" "../src/usbuser.c"
+Finished building: ../src/usbuser.c
+ 
+Building target: cronos_master.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"D:\Archivos\DropBox\proyectofinal\codigo\workspace\CMSISv1p30_LPC13xx\Debug" -Xlinker -Map="cronos_master.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "cronos_master_Debug.ld" -o"cronos_master.axf"  ./src/cdcuser.o ./src/cr_startup_lpc13.o ./src/cronos_master.o ./src/funciones.o ./src/gpio.o ./src/lpcxpresso_gpio_int.o ./src/serial.o ./src/timer32.o ./src/uart.o ./src/usbcore.o ./src/usbdesc.o ./src/usbhw.o ./src/usbuser.o   -lCMSISv1p30_LPC13xx
+Finished building target: cronos_master.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "cronos_master.axf"; # arm-none-eabi-objcopy -O binary "cronos_master.axf" "cronos_master.bin" ; checksum -p LPC1343 -d "cronos_master.bin";
+   text	   data	    bss	    dec	    hex	filename
+  27836	     16	    960	  28812	   708c	cronos_master.axf
+ 

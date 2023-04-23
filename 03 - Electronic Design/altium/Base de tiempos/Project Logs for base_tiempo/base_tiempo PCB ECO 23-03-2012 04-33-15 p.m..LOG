@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=VCC Pin=5V-1
+Removed Pin From Net: NetName=VCC Pin=C_Osc-1
+Removed Pin From Net: NetName=RST Pin=J10-1
+Removed Pin From Net: NetName=GND Pin=J10-2
+Removed Pin From Net: NetName=GND Pin=J10-3
+Removed Pin From Net: NetName=GND Pin=J10-4
+Removed Pin From Net: NetName=GND Pin=J10-5
+Removed Member From Class: ClassName=base_tiempo Member=J10
+Added Pin To Net: NetName=3.3V Pin=5V-1
+Added Pin To Net: NetName=3.3V Pin=C_Osc-1

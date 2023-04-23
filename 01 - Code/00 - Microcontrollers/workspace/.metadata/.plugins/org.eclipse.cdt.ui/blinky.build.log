@@ -1,0 +1,36 @@
+
+**** Build of configuration Debug for project blinky ****
+
+make all 
+Building file: ../src/blinky_main.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__USE_CMSIS=CMSISv1p30_LPC13xx -D__CODE_RED -D__REDLIB__ -I"/home/kerlos/Dropbox/proyectofinal/codigo/workspace/CMSISv1p30_LPC13xx/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -mcpu=cortex-m3 -mthumb -MMD -MP -MF"src/blinky_main.d" -MT"src/blinky_main.d" -o"src/blinky_main.o" "../src/blinky_main.c"
+../src/cr_startup_lpc13.c:118:10: warning: taking address of expression of type 'void'
+Finished building: ../src/blinky_main.c
+ 
+Building file: ../src/clkconfig.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__USE_CMSIS=CMSISv1p30_LPC13xx -D__CODE_RED -D__REDLIB__ -I"/home/kerlos/Dropbox/proyectofinal/codigo/workspace/CMSISv1p30_LPC13xx/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -mcpu=cortex-m3 -mthumb -MMD -MP -MF"src/clkconfig.d" -MT"src/clkconfig.d" -o"src/clkconfig.o" "../src/clkconfig.c"
+/usr/local/lpcxpresso_4.1.0_164/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/bin/ld: cannot find -lCMSISv1p30_LPC13xx
+Finished building: ../src/clkconfig.c
+ 
+Building file: ../src/cr_startup_lpc13.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__USE_CMSIS=CMSISv1p30_LPC13xx -D__CODE_RED -D__REDLIB__ -I"/home/kerlos/Dropbox/proyectofinal/codigo/workspace/CMSISv1p30_LPC13xx/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -mcpu=cortex-m3 -mthumb -MMD -MP -MF"src/cr_startup_lpc13.d" -MT"src/cr_startup_lpc13.d" -o"src/cr_startup_lpc13.o" "../src/cr_startup_lpc13.c"
+collect2: ld returned 1 exit status
+make: *** [blinky.axf] Error 1
+Finished building: ../src/cr_startup_lpc13.c
+ 
+Building file: ../src/gpio.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__USE_CMSIS=CMSISv1p30_LPC13xx -D__CODE_RED -D__REDLIB__ -I"/home/kerlos/Dropbox/proyectofinal/codigo/workspace/CMSISv1p30_LPC13xx/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -mcpu=cortex-m3 -mthumb -MMD -MP -MF"src/gpio.d" -MT"src/gpio.d" -o"src/gpio.o" "../src/gpio.c"
+Finished building: ../src/gpio.c
+ 
+Building file: ../src/timer32.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__USE_CMSIS=CMSISv1p30_LPC13xx -D__CODE_RED -D__REDLIB__ -I"/home/kerlos/Dropbox/proyectofinal/codigo/workspace/CMSISv1p30_LPC13xx/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -mcpu=cortex-m3 -mthumb -MMD -MP -MF"src/timer32.d" -MT"src/timer32.d" -o"src/timer32.o" "../src/timer32.c"
+Finished building: ../src/timer32.c
+ 
+Building target: blinky.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"/home/kerlos/Dropbox/proyectofinal/codigo/workspace/CMSISv1p30_LPC13xx/Debug" -Xlinker --gc-sections -Xlinker -Map=blinky.map -mcpu=cortex-m3 -mthumb -T "lpcxpresso1343_blinky_Debug.ld" -o"blinky.axf"  ./src/blinky_main.o ./src/clkconfig.o ./src/cr_startup_lpc13.o ./src/gpio.o ./src/timer32.o   -lCMSISv1p30_LPC13xx

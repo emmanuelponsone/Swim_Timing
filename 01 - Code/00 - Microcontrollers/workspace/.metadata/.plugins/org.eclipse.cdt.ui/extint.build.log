@@ -1,0 +1,31 @@
+
+**** Build of configuration Debug for project extint ****
+
+make all 
+Building file: ../src/cr_startup_lpc13.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__USE_CMSIS=CMSISv1p30_LPC13xx -D__CODE_RED -D__REDLIB__ -I"/home/kerlos/Dropbox/proyectofinal/codigo/workspace/CMSISv1p30_LPC13xx/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -mcpu=cortex-m3 -mthumb -MMD -MP -MF"src/cr_startup_lpc13.d" -MT"src/cr_startup_lpc13.d" -o"src/cr_startup_lpc13.o" "../src/cr_startup_lpc13.c"
+../src/cr_startup_lpc13.c:118:10: warning: taking address of expression of type 'void'
+Finished building: ../src/cr_startup_lpc13.c
+ 
+Building file: ../src/extint_main.c
+/usr/local/lpcxpresso_4.1.0_164/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/bin/ld: cannot find -lCMSISv1p30_LPC13xx
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__USE_CMSIS=CMSISv1p30_LPC13xx -D__CODE_RED -D__REDLIB__ -I"/home/kerlos/Dropbox/proyectofinal/codigo/workspace/CMSISv1p30_LPC13xx/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -mcpu=cortex-m3 -mthumb -MMD -MP -MF"src/extint_main.d" -MT"src/extint_main.d" -o"src/extint_main.o" "../src/extint_main.c"
+collect2: ld returned 1 exit status
+make: *** [extint.axf] Error 1
+Finished building: ../src/extint_main.c
+ 
+Building file: ../src/gpio.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__USE_CMSIS=CMSISv1p30_LPC13xx -D__CODE_RED -D__REDLIB__ -I"/home/kerlos/Dropbox/proyectofinal/codigo/workspace/CMSISv1p30_LPC13xx/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -mcpu=cortex-m3 -mthumb -MMD -MP -MF"src/gpio.d" -MT"src/gpio.d" -o"src/gpio.o" "../src/gpio.c"
+Finished building: ../src/gpio.c
+ 
+Building file: ../src/lpcxpresso_gpio_int.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__USE_CMSIS=CMSISv1p30_LPC13xx -D__CODE_RED -D__REDLIB__ -I"/home/kerlos/Dropbox/proyectofinal/codigo/workspace/CMSISv1p30_LPC13xx/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -mcpu=cortex-m3 -mthumb -MMD -MP -MF"src/lpcxpresso_gpio_int.d" -MT"src/lpcxpresso_gpio_int.d" -o"src/lpcxpresso_gpio_int.o" "../src/lpcxpresso_gpio_int.c"
+Finished building: ../src/lpcxpresso_gpio_int.c
+ 
+Building target: extint.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"/home/kerlos/Dropbox/proyectofinal/codigo/workspace/CMSISv1p30_LPC13xx/Debug" -Xlinker --gc-sections -Xlinker -Map=extint.map -mcpu=cortex-m3 -mthumb -T "lpcxpresso1343_extint_Debug.ld" -o"extint.axf"  ./src/cr_startup_lpc13.o ./src/extint_main.o ./src/gpio.o ./src/lpcxpresso_gpio_int.o   -lCMSISv1p30_LPC13xx

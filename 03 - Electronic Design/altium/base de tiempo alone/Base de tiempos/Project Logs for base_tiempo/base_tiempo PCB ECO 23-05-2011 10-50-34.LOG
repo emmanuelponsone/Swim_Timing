@@ -1,0 +1,8 @@
+Removed Member From Class: ClassName=base_tiempo Member=U3
+Added Pin To Net: NetName=VCC Pin=U1-10
+Added Pin To Net: NetName=VCC Pin=U1-11
+Change Net Name : Old Net Name=Q0 New Net Name=B_0
+Change Net Name : Old Net Name=Q1 New Net Name=B_1
+Change Net Name : Old Net Name=Q2 New Net Name=B_2
+Change Net Name : Old Net Name=Q3 New Net Name=B_3
+Change Net Name : Old Net Name=Q4 New Net Name=B_4

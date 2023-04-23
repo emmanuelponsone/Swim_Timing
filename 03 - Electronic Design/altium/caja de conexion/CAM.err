@@ -1,0 +1,32 @@
+28 Mar 2012 02:54:50 AM - <0> - Report created.
+28 Mar 2012 02:54:50 AM - <2> - Initialize posting log file
+28 Mar 2012 02:54:50 AM - <2> - Using MP run version 11.00 and post components version 10.00
+28 Mar 2012 02:54:50 AM - <2> - Initiate opening the post processor file(s).
+28 Mar 2012 02:54:50 AM - <2> - Post processor file name: C:\MCAMX\MILL\POSTS\MPFAN.PST
+28 Mar 2012 02:54:50 AM - <2> - The post processor file has been successfully opened.
+28 Mar 2012 02:54:50 AM - <2> - Post version information (input):
+28 Mar 2012 02:54:50 AM - <2> - UPDATEPOST Version 11. was used to modify this file.
+28 Mar 2012 02:54:50 AM - <2> - The file was modified by this product on 13 Jul 05 10:05:27
+28 Mar 2012 02:54:50 AM - <2> - The post was written to run with Mastercam Version 11.
+28 Mar 2012 02:54:50 AM - <2> - The post product type is Mill.
+28 Mar 2012 02:54:50 AM - <2> - Initialization of pre-defined post variables, strings, postblocks was successful.
+28 Mar 2012 02:54:50 AM - <2> - Search for defined post variables, strings, postblocks was successful.
+28 Mar 2012 02:54:50 AM - <2> - CONTROL DEFINITION - - Post variable 'err_file$' was re-initialized from 0. to 1.
+28 Mar 2012 02:54:50 AM - <2> - CONTROL DEFINITION - - Post variable 'dec_seq_right$' was re-initialized from 3. to 0.
+28 Mar 2012 02:54:50 AM - <2> - CONTROL DEFINITION - - Post variable 'omitseq$' was re-initialized from 1. to 0.
+28 Mar 2012 02:54:50 AM - <2> - CONTROL DEFINITION - - Post variable 'sub_seq_typ$' was re-initialized from 0. to 1.
+28 Mar 2012 02:54:50 AM - <2> - CONTROL DEFINITION - - Post variable 'tplanemode$' was re-initialized from 2. to 0.
+28 Mar 2012 02:54:50 AM - <2> - CONTROL DEFINITION - - Post variable 'arctype$' was re-initialized from 2. to 5.
+28 Mar 2012 02:54:50 AM - <2> - CONTROL DEFINITION - - Post variable 'arctypexz$' was re-initialized from 2. to 5.
+28 Mar 2012 02:54:50 AM - <2> - CONTROL DEFINITION - - Post variable 'arctypeyz$' was re-initialized from 2. to 5.
+28 Mar 2012 02:54:50 AM - <2> - CONTROL DEFINITION - - Post variable 'larctype$' was re-initialized from 2. to 5.
+28 Mar 2012 02:54:50 AM - <2> - CONTROL DEFINITION - - Post variable 'larctypexz$' was re-initialized from 2. to 5.
+28 Mar 2012 02:54:50 AM - <2> - CONTROL DEFINITION - - Post variable 'larctypeyz$' was re-initialized from 2. to 5.
+28 Mar 2012 02:54:50 AM - <2> - CONTROL DEFINITION - - Post variable 'arccheck$' was re-initialized from 1. to 111.
+28 Mar 2012 02:54:50 AM - <2> - CONTROL DEFINITION - - Post variable 'larccheck$' was re-initialized from 1. to 111.
+28 Mar 2012 02:54:50 AM - <2> - CONTROL DEFINITION - - Post variable 'rotfeed4$' was re-initialized from 2. to 1.
+28 Mar 2012 02:54:50 AM - <2> - CONTROL DEFINITION - - Post variable 'rotfeed5$' was re-initialized from 3. to 1.
+28 Mar 2012 02:54:50 AM - <2> - CONTROL DEFINITION - - Post variable 'lrotfeed4$' was re-initialized from 2. to 1.
+28 Mar 2012 02:54:50 AM - <2> - CONTROL DEFINITION - - Post variable 'lrotfeed5$' was re-initialized from 0. to 1.
+28 Mar 2012 02:54:50 AM - <2> - CONTROL DEFINITION - - Post variable 'peckacel$' was re-initialized from 0. to 1.
+28 Mar 2012 02:54:50 AM - <2> - Successful completion of posting process!

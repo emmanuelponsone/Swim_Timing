@@ -1,0 +1,17 @@
+Change Net Name : Old Net Name=PM1+ New Net Name=PM1_P
+Change Net Name : Old Net Name=PM1- New Net Name=PM1_N
+Change Net Name : Old Net Name=PM2+ New Net Name=PM2_P
+Change Net Name : Old Net Name=PM2- New Net Name=PM2_N
+Change Net Name : Old Net Name=PM3+ New Net Name=PM3_P
+Change Net Name : Old Net Name=PM3- New Net Name=PM3_N
+Change Net Name : Old Net Name=PM4+ New Net Name=PM4_P
+Change Net Name : Old Net Name=PM4- New Net Name=PM4_N
+Change Net Name : Old Net Name=PT1+ New Net Name=PT1_P
+Change Net Name : Old Net Name=PT1- New Net Name=PT1_N
+Change Net Name : Old Net Name=PT2+ New Net Name=PT2_P
+Change Net Name : Old Net Name=PT2- New Net Name=PT2_N
+Change Net Name : Old Net Name=PT3+ New Net Name=PT3_P
+Change Net Name : Old Net Name=PT3- New Net Name=PT3_N
+Change Net Name : Old Net Name=PT4+ New Net Name=PT4_P
+Change Net Name : Old Net Name=PT4- New Net Name=PT4_N
+Added Differential Pair: Name=PM2

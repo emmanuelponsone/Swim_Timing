@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;cronos_master&apos;" deleteContents="false" description="Delete resource &apos;cronos_master&apos;" element1="/cronos_master" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1333114694772"/>
+</session>

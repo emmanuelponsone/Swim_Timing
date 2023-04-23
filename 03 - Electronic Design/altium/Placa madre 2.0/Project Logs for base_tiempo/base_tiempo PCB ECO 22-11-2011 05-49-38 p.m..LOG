@@ -1,0 +1,36 @@
+Added Component: Designator=CAL1_UC(C0805)
+Added Component: Designator=CAL1_UI_A(C0805)
+Added Component: Designator=CAL1_UI_B(C0805)
+Added Component: Designator=CAL1_UI_C(C0805)
+Added Component: Designator=CAL1_UI_D(C0805)
+Added Component: Designator=CAL1_UI_E(C0805)
+Added Component: Designator=CAL1_UI_F(C0805)
+Added Component: Designator=CAL1_UI_G(C0805)
+Added Component: Designator=CAL1_UI_H(C0805)
+Added Pin To Net: NetName=+3.3V Pin=CAL1_UC-1
+Added Pin To Net: NetName=GND Pin=CAL1_UC-2
+Added Pin To Net: NetName=+3.3V Pin=CAL1_UI_A-1
+Added Pin To Net: NetName=GND Pin=CAL1_UI_A-2
+Added Pin To Net: NetName=+3.3V Pin=CAL1_UI_B-1
+Added Pin To Net: NetName=GND Pin=CAL1_UI_B-2
+Added Pin To Net: NetName=+3.3V Pin=CAL1_UI_C-1
+Added Pin To Net: NetName=GND Pin=CAL1_UI_C-2
+Added Pin To Net: NetName=+3.3V Pin=CAL1_UI_D-1
+Added Pin To Net: NetName=GND Pin=CAL1_UI_D-2
+Added Pin To Net: NetName=+3.3V Pin=CAL1_UI_E-1
+Added Pin To Net: NetName=GND Pin=CAL1_UI_E-2
+Added Pin To Net: NetName=+3.3V Pin=CAL1_UI_F-1
+Added Pin To Net: NetName=GND Pin=CAL1_UI_F-2
+Added Pin To Net: NetName=+3.3V Pin=CAL1_UI_G-1
+Added Pin To Net: NetName=GND Pin=CAL1_UI_G-2
+Added Pin To Net: NetName=+3.3V Pin=CAL1_UI_H-1
+Added Pin To Net: NetName=GND Pin=CAL1_UI_H-2
+Added Member To Class: ClassName=UC Member=Component CAL1_UC (CAL1) Cap Pol3
+Added Member To Class: ClassName=UI_A Member=Component CAL1_UI_A (CAL1) Cap Pol3
+Added Member To Class: ClassName=UI_B Member=Component CAL1_UI_B (CAL1) Cap Pol3
+Added Member To Class: ClassName=UI_C Member=Component CAL1_UI_C (CAL1) Cap Pol3
+Added Member To Class: ClassName=UI_D Member=Component CAL1_UI_D (CAL1) Cap Pol3
+Added Member To Class: ClassName=UI_E Member=Component CAL1_UI_E (CAL1) Cap Pol3
+Added Member To Class: ClassName=UI_F Member=Component CAL1_UI_F (CAL1) Cap Pol3
+Added Member To Class: ClassName=UI_G Member=Component CAL1_UI_G (CAL1) Cap Pol3
+Added Member To Class: ClassName=UI_H Member=Component CAL1_UI_H (CAL1) Cap Pol3
